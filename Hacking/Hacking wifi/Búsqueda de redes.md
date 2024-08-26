@@ -1,4 +1,4 @@
-Para buscar las redes debemos activar previamente el [[Modo monitor de la antena]] para realizar este escaneo de redes, el cual se hace de la siguiente manera
+Para buscar las redes debemos activar previamente el [Modo monitor de la antena](/Hacking/Hacking%20wifi/Modo%20monitor%20de%20la%20antena) para realizar este escaneo de redes, el cual se hace de la siguiente manera
 
 	sudo airodump-ng {INTERFAZ_DE_RED}
 

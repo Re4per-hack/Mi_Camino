@@ -4,7 +4,7 @@ El comando Sudo es una maravilla, nos permite a los usuarios normales ejecutar c
 sudo -l
 ```
 
-Esta opcion lo que hace es mostrar los comandos que un usuario normal puede ejecutar como root sin necesidad de una contraseña, o solo usando la contraseña del propio usuario, usualmente la vulnerabilidad se encuentra en scripts o aplicaciones personalizadas a las alguno usuarios que no deberian pueden ejecutarlas como root y esto noes puede ayudar a escapar de nuestra shell, ejecutar una reverse shell como root, etc, el punto es que no siempre es asi, muchas veces hay apicaciones predeterminadas de Unix que están definidas con esta configuración de sudo, y para explotar esta vulnerabilidad en casos como estos podemos hacer uso de la pagina GTOFBins ubicada en la seccion de paginas interesantes: [[Privilegie Scalation - Linux#Explotación]] 
+Esta opcion lo que hace es mostrar los comandos que un usuario normal puede ejecutar como root sin necesidad de una contraseña, o solo usando la contraseña del propio usuario, usualmente la vulnerabilidad se encuentra en scripts o aplicaciones personalizadas a las alguno usuarios que no deberian pueden ejecutarlas como root y esto noes puede ayudar a escapar de nuestra shell, ejecutar una reverse shell como root, etc, el punto es que no siempre es asi, muchas veces hay apicaciones predeterminadas de Unix que están definidas con esta configuración de sudo, y para explotar esta vulnerabilidad en casos como estos podemos hacer uso de la pagina GTOFBins ubicada en la seccion de paginas interesantes: [Privilegie Scalation - Linux](/Hacking/Paginas%20de%20interés/Privilegie%20Scalation%20-%20Linux)
 
 Ahora voy a usar de ejemplo una maquina altamente vulnerable de THM (Try Hack Me) llamada Linux PrevEsc Arena
 
@@ -28,4 +28,4 @@ root                                                                            
 
 Como pueden ver pudimos realizar una escalada de privilegios exitosamente, y esto lo podemos repetir con la mayoria de los comandos que vimos con sudo -l
 
-¿La mayoria?, si, la mayoria, porque los comandos que no se pueden con el metodo visto aqui, como puede ser apache2 o wget, lo veremos en [[Explotando visualizacion de archivos privilegiados con sudo]]
+¿La mayoria?, si, la mayoria, porque los comandos que no se pueden con el metodo visto aqui, como puede ser apache2 o wget, lo veremos en [Explotando visualizacion de archivos privilegiados con sudo](/Hacking/Privilege-escalation/Linux/Explotación/Explotando%20visualizacion%20de%20archivos%20privilegiados%20con%20sudo)

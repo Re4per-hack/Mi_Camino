@@ -1,4 +1,4 @@
-Cuando estamos por un sistema y ejecutamos la enumeracion que enseño en: [[Buscando nombres de archivo que contengan palabras clave]], sí tenemos la suerte de encontrarnos con contraseñas ssh privadas eso nos sera extremadamente util, y ya te mostraré porque:
+Cuando estamos por un sistema y ejecutamos la enumeracion que enseño en: [Buscando nombres de archivo que contengan palabras clave](/Hacking/Privilege-escalation/Linux/Enumeracion/Enumeracion%20de%20Contraseñas/Buscando%20nombres%20de%20archivo%20que%20contengan%20palabras%20clave), sí tenemos la suerte de encontrarnos con contraseñas ssh privadas eso nos sera extremadamente util, y ya te mostraré porque:
 
 
 Esto es sumamente util porque si esta maquina tiene el servicio ssh abierto (lo cual es lo mas probable) significa que podremos identificarnos con esta clave, ¿Pero como?:
