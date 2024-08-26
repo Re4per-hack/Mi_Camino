@@ -1,0 +1,1 @@
+No estudié ya que perdi mis audifonos y estaba triste

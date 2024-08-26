@@ -1,6 +1,13 @@
 El comando "history" muestra todo el historial de comandos que el usuario ha ejecutado, si, DEL USUARIO, mas no de la sesión como tal, esto nos puede ayudar a conseguir contraseñas o datos delicados de diferentes usarios en el sistema, o simplemente de la elevacion de privilegios de un usuario que lo haya hecho anteriormente, un gran ejemplo de esto es cuando se accede a una base de datos de la siguiente forma: 
 
-	mysql -uroot -ppassword123
+
+```bash
+$> history
+
+respuesta:
+mysql -uroot -ppassword123
+```
+
 
 Aqui se muestra una contraseña, la cual si se repite mas de una vez se puede usar con otros usuarios del sistema
 

@@ -1,0 +1,1 @@
+Termino el entorno de hacking y refino el script target, hago unas alteraciones en el entorno cambiando gnome-terminal a kitty
