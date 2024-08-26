@@ -1,0 +1,3 @@
+Si te preguntas porque necesitaríamos algo tan especifico es simple, muchas veces, al entrar en una maquina, hay algún repositorio instalado, y este repositorio puede contener versiones viejas que contengan alguna contraseña en el código, comentario u otro dato que pueda ser de utilidad, ya que estos repositorios no se pueden ver a simple vista es necesario hacer uso del comando Git, cuyos parámetros veremos ahora mismo: 
+
+Para empezar, con "Git" me refiero a el comando para interactuar con repositorios de GitHub
