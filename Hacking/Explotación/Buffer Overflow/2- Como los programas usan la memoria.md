@@ -1,6 +1,6 @@
 Esto puede variar de lenguaje en lenguaje, pero como se está hablando de Buffers Overflows, pues voy a centrarme mas en C, que es donde habitualmente se presentan, voy a hacer que todo esto sea lo mas entendible que se pueda, empezare hablando de la memoria fisica, la RAM como tal, ya que el programa no la necesita toda, y hay otros programas, incluidos los del propio sistema operativo, estos necesitan también de la RAM, que como explique antes, es la encargada de estos procesos en ejecución, bueno, prosigo, la manera que tiene el kernel/sistema operativo, para comunicar a los programas con la RAM es asignando partes de la memoria, y estas partes varían según el tamaño y necesidades del programa, pero la estructura casi siempre es la misma: 
 
-![[Buffer_Overflow1.png.png]]
+![[Buffer_Overflow1.png]]
 
 Vamos a empezar a ver de abajo hacia arriba: 
 
@@ -24,7 +24,7 @@ Aqui se guardan los datos que van cambiando conforme se ejecuta el programa en c
 
 Como se puede ver en la imagen, hay un espacio vacío entre el Heap y el Stack, pues ese espacio es el cual usaran estos dos para guardar sus datos, y mientras que el Heap crece de manera esperada, "Hacia arriba" o direcciones de memoria mas altas, el Stack es diferente, ya que crece "Hacia abajo" o direcciones de memoria mas bajas, esto hace que todo el comportamiento de la pila sea al revés. 
 
-Para buffer Overflow se puede explotar tanto el Heap como el Stack, pero hablare solo del stack ya que es por lejos el mas común y extendido a lo largo del mundo, para seguir visita la sección [[3- Introduccion al Stack]] 
+Para buffer Overflow se puede explotar tanto el Heap como el Stack, pero hablare solo del stack ya que es por lejos el mas común y extendido a lo largo del mundo, para seguir visita la sección [3-Introduccion al Stack](3-%20Introduccion%20al%20Stack.md) 
 
 
 

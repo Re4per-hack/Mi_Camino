@@ -1,9 +1,9 @@
 A continuación adjuntare un par de imagenes y un codigo que me ayudaran a explicar como funciona una explotación Buffer Overflow, no tienen que entenderlas de a primeras.
 
-![[Buffer_Overflow3.png.png]]
+![[Buffer_Overflow3.png]]
 (Creditos a: avietworks.com)
 
-![[Buffer_Overflow4.png.png]] 
+![[Buffer_Overflow4.png]] 
 (Creditos a: imperva.com)
 
 
@@ -60,4 +60,4 @@ Digamos que somos un usuario malintencionado y a propósito lanzamos una cantida
 El momento del desbordamiento realmente ocurre cuando usamos la función strcpy(), ya que esos 100 bytes se meten en un buffer que no tiene suficiente espacio, y esto es un problema, porque esos datos sobrantes sobrescriben tanto el EBP como el EIP, haciendo que el valor de EBP sea "41414141" y el del Return Address "41414141", esto es porque el código hexadecimal de la "A" es 41, como ya habia explicado, el Return Address guarda la direccion a la que posteriormente el EIP va a apuntar, esto quiere decir que sobreescribir el Return Address es proporcional a sobreescribir el EIP (por lo tanto de ahora en adelante me referire al Return Address como EIP) el cual señala la dirección en la que estará la siguiente instrucción que seguirá el procesador, y como en la direccion de memoria 0x41414141 no hay nada pues ocurre una denegación de servicio, esta denegación tambien ocurre si tan solo sobre escribimos el EBP ya que marca como base "0x41414141" lo cual tampoco existe 
 
 
-Ahora, a pesar de que ya explique como y porque surge una Denegación de servicio, quiero dejarlo bien claro, y lo explicaré en [[5- DoS con Buffer Overflow]]
+Ahora, a pesar de que ya explique como y porque surge una Denegación de servicio, quiero dejarlo bien claro, y lo explicaré en [5- DoS con Buffer Overflow](5-%20DoS%20con%20Buffer%20Overflow.md)

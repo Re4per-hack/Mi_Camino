@@ -1,6 +1,6 @@
 El Stack, o pila, se divide en varias zonas, explicadas con la siguiente imagen: 
 
-![[Buffer_Overflow2.png.png]]
+![[Buffer_Overflow2.png]]
 (Creditos a: payatu.com)
 
 Como expliqué anteriormente, el Stack crece hacia abajo, por eso en la imagen aparecen invertidas las direcciones de memoria, porque está "de cabeza", esto puede ser confuso al principio pero poco a poco se entenderá mejor, iré al grano, nuestro objetivo es el Return Address.
@@ -39,7 +39,7 @@ Podemos verlo como el top de el Buffer.
 El EBP es la base del marco de la pila, lo podemos ver como la base del Buffer.
 
 
-Ya con estos conceptos aprendidos vamos a hablar de [[4- Como funciona una explotación Buffer Overflow]]
+Ya con estos conceptos aprendidos vamos a hablar de [4-Como funciona una explotación Buffer Overflow](4-%20Como%20funciona%20una%20explotación%20Buffer%20Overflow.md)
 
 
 
