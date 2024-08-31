@@ -1,1 +1,0 @@
-Borré todo lo de ayer XD SAJOKLSA, reinstalo el sistema kali para una personalizacion manual, creo el script target para el entorno, configuracion y mejora de paletas, script target queda al 60% pero funcionaly actualizo el obsidian

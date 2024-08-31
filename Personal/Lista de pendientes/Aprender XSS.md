@@ -1,1 +1,0 @@
-Aprender como y cuando explotar vulnerabilidades

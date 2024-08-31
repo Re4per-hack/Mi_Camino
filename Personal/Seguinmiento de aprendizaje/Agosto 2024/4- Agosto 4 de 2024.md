@@ -1,3 +1,0 @@
-Sigo configurando el entorno, tuve problemas con nvim pero al final pude solucionarlo, tanto para el usuario reaper como el usuario root, perdi el acceso a mi git hub, por lo tanto toca iniciar el repositorio de nuevo para tener todo guardado e ir retocando todo, hoy para terminar me voy a centrar en limpiar tanto el entorno en linux como en window spara tener todo limpio, ademas de hacer un punto de guardado del entorno en linux voy a pasarlo a una usb de 64 gb por si acaso,  tambien hice una cuenta nueva de github la cual personalizare con su respectiva foto y subire cosas despues.
-
-Tambien conseguí crackear burpsuite professional

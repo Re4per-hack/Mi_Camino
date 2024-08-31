@@ -1,1 +1,0 @@
-Hoy instale el entorno de hacking con un script, me hace falta darle los detalles para que quede mejor 

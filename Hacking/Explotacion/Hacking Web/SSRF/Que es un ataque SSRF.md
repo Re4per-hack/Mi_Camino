@@ -1,1 +1,0 @@
-Algunas paginas web de alguna forma u otra interactuan con urls desde el Back-end, un ataque SSRF permite usar estas llamadas de url para explotar otras vulnerabilidades o acceder a paginas en la red privada del servidor el cual estamos vulnerando 
