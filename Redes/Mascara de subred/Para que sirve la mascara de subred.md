@@ -19,7 +19,7 @@ Entonces, que significa esto, bueno, pues vamos a dividirlo y vamos a identifica
     1       2        3         4
 11111111.11111111.11111111.00000000
 
-Bien, ahora,  miremos las ultimas dos secciones, veremos que cada seccion representa un numero decimal diferente, en caso de la seccion 3 representa el 255 y en el de la seccion 4 el "0", y que significa esto?, bueno, pues significa que en la ultima seccion de la IP con la que usemos esta mascara podremos usar todos los caracteres que queramos, ya qeu esos son los numeros conocidos como "Numeros hosts" es decir, el rango de IPs disponibles para distribuir a los usuarios va desde 192.168.13.0 hasta 192.168.13.255, todas las IPs que esten en este rango se podran conectar entre si.
+Bien, ahora,  miremos las ultimas dos secciones, veremos que cada sección representa un numero decimal diferente, en caso de la sección 3 representa el 255 y en el de la sección 4 el "0", y que significa esto?, bueno, pues significa que en la ultima seccion de la IP con la que usemos esta mascara podremos usar todos los caracteres que queramos, ya que esos son los números conocidos como "Números hosts" es decir, el rango de IPs disponibles para distribuir a los usuarios va desde 192.168.13.0 hasta 192.168.13.255, todas las IPs que estén en este rango se podrán conectar entre si.
 
 En resumen, esos "0" que estan libres, son "0" que podemos usar para distribuir en host.
 

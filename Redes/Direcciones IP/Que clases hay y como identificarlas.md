@@ -13,7 +13,7 @@ eoss numeros al lado de las clases son los primeros numeros d euna direccion IP 
 Esta IP es de clase C porque sus dos primeros numeros son "11"
 
 
-Normalmente la mascara de subred (de la cual hablo en [[Para que sirve la mascara de subred]]) se distribuye asi para cada clase:
+Normalmente la mascara de subred (de la cual hablo en [[Para que sirve la mascara de subred]] se distribuye asi para cada clase:
 
 - Clase A: 255.0.0.0
 - Clase B: 255.255.0.0
