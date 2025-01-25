@@ -3,28 +3,20 @@
   "search": "",
   "showTags": false,
   "showAttachments": false,
-  "hideUnresolved": false,
+  "hideUnresolved": true,
   "showOrphans": true,
   "collapse-color-groups": false,
-  "colorGroups": [
-    {
-      "query": "path:Hacking/Privilege-escalation  ",
-      "color": {
-        "a": 1,
-        "rgb": 14048348
-      }
-    }
-  ],
+  "colorGroups": [],
   "collapse-display": false,
   "showArrow": true,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1.00155925155925,
-  "lineSizeMultiplier": 1,
-  "collapse-forces": true,
+  "textFadeMultiplier": 2.6,
+  "nodeSizeMultiplier": 1.5546875,
+  "lineSizeMultiplier": 4.74479166666667,
+  "collapse-forces": false,
   "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
+  "repelStrength": 6.45833333333333,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.3944896856450807,
-  "close": true
+  "scale": 0.2813798130282783,
+  "close": false
 }

@@ -23,7 +23,7 @@ sudo apt install bspwm
 
 mkdir ~/.config/bspwm
 mkdir ~/.config/sxhkd
-cd /home/s4vitar/Descargas/bspwm/
+cd /home/{USUARIO}/Descargas/bspwm/
 cp examples/bspwmrc ~/.config/bspwm/
 chmod +x ~/.config/bspwm/bspwmrc 
 cp examples/background_shell/sxhkdrc ~/.config/sxhkd/
@@ -190,7 +190,7 @@ sudo apt install cmake cmake-data pkg-config python3-sphinx libcairo2-dev libxcb
 
 Para instalar la polybar hacemos lo siguiente:
 
-cd /home/s4vitar/Descargas/
+cd /home/{USUARIO}/Descargas/
 git clone --recursive https://github.com/polybar/polybar
 cd polybar/
 mkdir build
@@ -221,7 +221,7 @@ sudo apt install rofi
 
 9. En este punto, reiniciamos el equipo y seleccionamos bspwm (Probamos que los shortcuts estén funcionando correctamente).
 
-10. Configuramos un poco la terminal e instalamos las Hack Nerd Fonts, además del Firefox (hay que descargarse la última versión, también instalaremos firejail con 'apt install firejail' con el objetivo de lanzar firefox bajo este contexto enjaulado con sxhkd). [Las fuentes de Hack Nerd Fonts deben ir descomprimidas en /usr/local/share/fonts/, una vez hecho hay que ejecutar el comando 'fc-cache -v']
+10. Configuramos un poco la terminal e instalamos las Hack Nerd Fonts, además del Firefox. [Las fuentes de Hack Nerd Fonts deben ir descomprimidas en /usr/local/share/fonts/, una vez hecho hay que ejecutar el comando 'fc-cache -v']
 
 11. Instalamos el addon 'FoxyProxy' para Firefox.
 
@@ -231,7 +231,7 @@ sudo apt install rofi
 
 14. Cargamos en el archivo bspwmrc justo al final la siguiente línea:
 
-feh --bg-fill /home/s4vitar/Desktop/S4vitar/Images/fondo.jpg
+feh --bg-fill /home/{Usuario}/Desktop/Images/fondo.jpg
 
 15. Para configurar nuestra Polybar, clonaremos primeramente en 'Descargas' el siguiente repositorio:
 
@@ -346,9 +346,9 @@ Comentamos la siguiente línea:
 
 Para evitar un pequeño problema de permisos a la hora de desde el usuario root migrar con 'su' al usuario con bajos privilegios, ejecutamos los siguientes comandos:
 
-chown s4vitar:s4vitar /root
-chown s4vitar:s4vitar /root/.cache -R
-chown s4vitar:s4vitar /root/.local -R
+chown {USUARIO}:{USUARIO} /root
+chown {USUARIO}:{USUARIO} /root/.cache -R
+chown {USUARIO}:{USUARIO} /root/.local -R
 
 25. Instalamos bat, lsd, fzf y ranger
 

@@ -8,35 +8,91 @@
         "type": "tabs",
         "children": [
           {
-            "id": "025b283e1f60a4a1",
+            "id": "c74da8d740ef7e30",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hacking/Explotación/Active Directory/SMB Relay/2- SMB Relay Attack Avanzado.md",
+                "file": "Hacking/Explotación/Active Directory/NULL Session por RPC Client.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2- SMB Relay Attack Avanzado"
+              "title": "NULL Session por RPC Client"
             }
           },
           {
-            "id": "9a7e2d1107fb66cd",
+            "id": "e2379a7133bf5d95",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Información Acortada/Active Directory/5- Explotación con credenciales.md",
+                "file": "Shells/Bash/Scripting/2- Condicionales.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5- Explotación con credenciales"
+              "title": "2- Condicionales"
+            }
+          },
+          {
+            "id": "20e7a870f748c1e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hacking/Herramientas/grep.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "grep"
+            }
+          },
+          {
+            "id": "94eedded9172aee3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hacking/Herramientas/grep.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "grep"
+            }
+          },
+          {
+            "id": "fd790b776cc4d559",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hacking/Herramientas/awk.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "awk"
+            }
+          },
+          {
+            "id": "446b1a96226344e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Entorno/Entorno Hacking Linux.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Entorno Hacking Linux"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -46,7 +102,7 @@
     "type": "split",
     "children": [
       {
-        "id": "ce2148f751cd6a38",
+        "id": "9c853726c9105e2b",
         "type": "tabs",
         "children": [
           {
@@ -59,6 +115,16 @@
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
+            }
+          },
+          {
+            "id": "923812824f841ef4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           },
           {
@@ -76,16 +142,6 @@
               },
               "icon": "lucide-search",
               "title": "Search"
-            }
-          },
-          {
-            "id": "923812824f841ef4",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
             }
           }
         ]
@@ -178,53 +234,55 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9a7e2d1107fb66cd",
+  "active": "26e6f2f5578fd61f",
   "lastOpenFiles": [
-    "Información Acortada/Active Directory/4- PassTheHash attack.md",
-    "Información Acortada/Active Directory/3- NTLM Relay Attack IPv6.md",
-    "Información Acortada/Active Directory/2- NTLM Relay Attack IPv4.md",
-    "Hacking/Explotación/Active Directory/SMB Relay/2- SMB Relay Attack Avanzado.md",
-    "Imagenes/SMB Relay 3.png",
-    "Imagenes/SMB Relay 2.png",
-    "Imagenes/SMB Relay 3.png.~tmp",
-    "Pasted image 20241212182209.png.~tmp",
-    "Hacking/Explotación/Active Directory/1- Que es Active Directory.md",
-    "Hacking/Explotación/Active Directory/Que Hacer con la SAM dumpeada.md",
-    "Hacking/Explotación/Active Directory/Que hacer con los Hashes NTLMv2.md",
-    "Hacking/Explotación/Active Directory/Sondeo de equipos en el Active Directory.md",
-    "Hacking/Explotación/Active Directory/Comandos active directory.md",
-    "Hacking/Explotación/Active Directory/Untitled",
-    "Hacking/Explotación/Active Directory/SMB Relay/1- SMB Relay Attack Simple.md",
-    "Redes/Mascara de subred/Para que sirve la mascara de subred.md",
-    "Para.md",
-    "Redes/Direcciones IP/Que clases hay y como identificarlas.md",
-    "Hacking/Explotación/Active Directory/SMB Relay",
-    "Personal/Seguinmiento de aprendizaje/3- Diciembre 2024/39- Diciembre 5 de 2024.md",
-    "Personal/Seguinmiento de aprendizaje/3- Diciembre 2024/40- Diciembre 7 de 2024.md",
-    "Personal/Seguinmiento de aprendizaje/2- Septiembre 2024/33- Septiembre 2 de 2024.md",
-    "Personal/Seguinmiento de aprendizaje/1- Agosto 2024/20- Agosto 20 de 2024.md",
-    "Personal/Seguinmiento de aprendizaje/1- Agosto 2024/17- Agosto 17 de 2024.md",
-    "Personal/Seguinmiento de aprendizaje/1- Agosto 2024/14- Agosto 14 de 2024.md",
-    "Personal/Seguinmiento de aprendizaje/1- Agosto 2024/11- Agosto 11 de 2024.md",
-    "Personal/Seguinmiento de aprendizaje/1- Agosto 2024/6- Agosto 6 de 2024.md",
-    "Personal/Seguinmiento de aprendizaje/2- Septiembre 2024/38- Septiembre 7 de 2024.md",
-    "Personal/Seguinmiento de aprendizaje/3- Diciembre 2024",
-    "Temario Clases Tatiana.md",
-    "Tareas.md",
-    "Sin título.md",
-    "Extrayendo archivos del servidor.md",
-    "Imagenes/SMB Relay 1.png",
-    "Imagenes/LFI14.png",
-    "Imagenes/NTLM Relay 1.png.~tmp",
-    "Imagenes/Privilege_scalation1.png",
-    "Hacking/Explotación/Active Directory/SMB Relay",
-    "EEX1Dsuq (1).sh",
-    "Entorno",
-    "Imagenes/imagen6.png",
-    "Lenguajes/Kotlin",
+    "Hacking/Herramientas/openssl.md",
+    "Hacking/Herramientas/diff.md",
+    "Hacking/Herramientas/ssh.md",
+    "Hacking/Herramientas/Strings.md",
+    "Hacking/Herramientas/lsof.md",
+    "Hacking/Herramientas/file.md",
+    "Hacking/Herramientas/Untitled.md",
+    "Hacking/Explotación/Hacking Web/SQLI (SQL Injection)/Hoja de trucos SQLi.md",
+    "Hacking/Explotación/Hacking Web/SQLI (SQL Injection)/3- Ataques UNION.md",
+    "Personal/Contraseñas.md",
+    "Hacking/Hacking wifi/Modo monitor de la antena.md",
+    "Hacking/Hacking wifi/Búsqueda de redes.md",
+    "Hacking/Explotación/Hacking Web/SQLI (SQL Injection)/1- Extracción de información oculta y logearse sin contraseña.md",
+    "Hacking/Herramientas/HashCat.md",
+    "Hacking/Herramientas/find.md",
+    "Hacking/Herramientas/cut.md",
+    "Hacking/Herramientas/base64.md",
     "Imagenes/image 1.png",
-    "Imagenes/imagen5.png",
-    "Imagenes/imagen4.png",
-    "Imagenes/imagen3.png"
+    "Imagenes/HTTPS1.png",
+    "Imagenes/Captura_privilege_scalation-explo1.png",
+    "Imagenes/Buffer_Overflow3.png",
+    "Información Acortada/Active Directory/2- NTLM Relay Attack IPv4.md",
+    "Hacking/Explotación/Buffer Overflow/5- DoS con Buffer Overflow.md",
+    "2025-01-20.md",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "Hacking/Explotación/Buffer Overflow/2- Como los programas usan la memoria.md",
+    "Hacking/Explotación/Buffer Overflow/4- Como funciona una explotación Buffer Overflow.md",
+    "Hacking/Explotación/Buffer Overflow/3- Introduccion al Stack.md",
+    "Hacking/Explotación/Buffer Overflow/1- Que es un Buffer OverFlow.md",
+    "Lenguajes/Python/Desencriptado en python.md",
+    "Hacking/Hashes/Hashes Salted.md",
+    "Shells/Bash/Scripting/Programacion",
+    "Shells/Bash/Scripting/Manejo de archivos y directorios",
+    "Hacking/Explotación/Active Directory/4- RPC Client",
+    "Hacking/Explotación/Active Directory/1- Reconocimiento",
+    "Hacking/Explotación/Active Directory/3- Al conseguir hashes o credenciales",
+    "Imagenes/Pasted image 20250108215700.png",
+    "Shells/Bash/Scripting",
+    "Shells/Bash",
+    "Shells",
+    "Sistemas Operativos/Linux/Scripting",
+    "Sistemas Operativos/Linux/Scripting",
+    "Imagenes/SMB Relay 6.png",
+    "Imagenes/SMB Relay 5.png",
+    "Imagenes/SMB Relay 4.png",
+    "Pasted image 20241230204235.png",
+    "Imagenes/SMB Relay 3.png"
   ]
 }
