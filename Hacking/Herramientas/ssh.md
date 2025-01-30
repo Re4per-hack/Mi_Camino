@@ -23,3 +23,14 @@ Esto nos creará una clave publica y una privada en la carpeta .ssh que está, l
 ```ruby
 ~/.ssh/
 ```
+
+
+
+## Ejecutar comandos con ssh
+
+SSH ademas de permitirnos establecer conexiones en maquinas remotas, tambien podemos hacer uso de esta herrmaienta para ejecutar comandos de manera remota, apra esto basta con especificar el comando a ejecutar al final de la llamada ssh: 
+
+
+```shell
+
+```

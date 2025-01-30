@@ -100,3 +100,19 @@ Margarita - 30 años
 Steven - 20 años
 Eddy - 17 años
 ```
+
+En este caso digamos que no queremos mostrar las personas con 17 años:
+
+```shell
+grep -v "17 años" nombres.txt
+```
+
+El resultado seria el siguiente: 
+
+```
+Pablo - 13 años
+Margarita - 30 años
+Steven - 20 años
+```
+
+

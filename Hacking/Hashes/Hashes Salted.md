@@ -43,7 +43,7 @@ Esto tiene varias razones, pero mencionare las mas importantes:
 
 # Desencriptación
 
-En el caso de la Desencriptación, se recomienda altamente saber el salt del hash, puedes hacer fácilmente con un codigo en python, pero no me pondré muy técnico aquí ya que no es nada complicado y lo explico en la seccion  [Desencriptado en python](/Lenguajes/Python/Desencriptado%20en%20python), pero en resumen solo basta con sumar el salt, antes o después de una palabra de un wordlist, encriptarlo y compararlo, si no funciona pues se repite el proceso pero con la siguiente linea del wordlist. 
+En el caso de la Desencriptación, se recomienda altamente saber el salt del hash, puedes hacer fácilmente con un codigo en python, pero no me pondré muy técnico aquí ya que no es nada complicado y lo explico en la seccion  [Requests](Requests.md), pero en resumen solo basta con sumar el salt, antes o después de una palabra de un wordlist, encriptarlo y compararlo, si no funciona pues se repite el proceso pero con la siguiente linea del wordlist. 
 
 ## HashCat
 
