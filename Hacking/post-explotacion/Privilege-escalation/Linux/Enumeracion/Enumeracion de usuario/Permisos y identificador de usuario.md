@@ -4,7 +4,7 @@
 
 - En cambio si queremos listar todos los usuarios podemos usar el archivo /etc/passwd de la siguiente manera:
 
-	cat /etc/passwd | cut -d : -f 1
+	cat /etc/passwd | cut -d ":" -f 1
 
 - El comando "cut" determina un delimitador y a partir de este podemos elegir secciones del texto que nos sean utiles, en este caso es ":" y se elige la primera seccion (recomiento ver como es el archivo "/etc/passwd" para entenderlo mejor y experimentar con este comando)
 

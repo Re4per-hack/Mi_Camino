@@ -1,11 +1,8 @@
-
-
 ## Comandos msfvenom
 
 ```bash
 /usr/share/metasploit-framework/exploit/pattern_create.rb -p -l {}
 ```
-
 
 ```bash
 /usr/share/metasploit-framework/exploit/pattern_create.rb -l {longitud}

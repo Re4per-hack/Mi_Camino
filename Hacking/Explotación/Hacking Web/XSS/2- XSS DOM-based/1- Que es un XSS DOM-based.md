@@ -1,0 +1,1 @@
+DOM es la forma en la que los documentos HTML se componen en forma de árbol, en estos casos hay código JavaScript que es ejecutado y reemplaza algunas partes del documento HTML, haciendo que se ejecute código.

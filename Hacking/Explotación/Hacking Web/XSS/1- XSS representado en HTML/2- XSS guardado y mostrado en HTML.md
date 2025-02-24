@@ -1,0 +1,1 @@
+Este caso es igual que el anterior, solo que en este caso es guardado y mostrado a todos los usuarios que accedan a ese apartado, un ejemplo de esto puede ser el comentario de una publicación.
