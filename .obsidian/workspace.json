@@ -41,16 +41,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lenguajes/Python/Librerias/String.md",
+                "file": "Hacking/Explotación/Hacking Web/XSS/2- XSS DOM-based/3- XSS DOM-based por innerHTML.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "String"
+              "title": "3- XSS DOM-based por innerHTML"
+            }
+          },
+          {
+            "id": "7eceffca73bbf329",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hacking/Explotación/Hacking Web/XSS/2- XSS DOM-based/5- XSS DOM-based con jQuery anchor y el atributo href.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "5- XSS DOM-based con jQuery anchor y el atributo href"
+            }
+          },
+          {
+            "id": "b8673d4959bca15b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sistemas Operativos/Linux/Permisos en Linux.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Permisos en Linux"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -193,55 +221,55 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "de3b2b843e123217",
+  "active": "b8673d4959bca15b",
   "lastOpenFiles": [
-    "Lenguajes/Python/Librerias/Requests.md",
-    "Lenguajes/Python/Programación/Diccionarios.md",
-    "Lenguajes/Python/Desencriptado en python.md",
-    "Información Acortada/Buffer Overflow/Comandos Over Flow.md",
-    "Hacking/Explotación/Hacking Web/XSS/2- XSS DOM-based/2- XSS DOM-based por document.write.md",
-    "Hacking/Explotación/Hacking Web/XSS/2- XSS DOM-based/1- Que es un XSS DOM-based.md",
-    "Hacking/Explotación/Buffer Overflow/4- Como funciona una explotación Buffer Overflow.md",
-    "Hacking/Explotación/Buffer Overflow/3- Introduccion al Stack.md",
-    "Hacking/Explotación/Buffer Overflow/2- Como los programas usan la memoria.md",
-    "Hacking/Explotación/Buffer Overflow/1- Que es un Buffer OverFlow.md",
-    "Hacking/Explotación/Buffer Overflow/5- DoS con Buffer Overflow.md",
-    "Hacking/Explotación/Hacking Web/XSS/1- XSS representado en HTML/2- XSS guardado y mostrado en HTML.md",
-    "Untitled.md",
-    "Hacking/Explotación/Hacking Web/XSS/2- XSS DOM-based",
-    "Hacking/Explotación/Hacking Web/XSS/1- XSS representado en HTML/1- XSS reflejado en HTML.md",
-    "Hacking/Hacking wifi/4- Búsqueda de redes.md",
-    "Hacking/Explotación/Hacking Web/XSS/1- XSS representado en HTML",
+    "Sistemas Operativos/Linux/3- Redireccion en bash.md",
+    "Sistemas Operativos/Linux/2- Salidas de datos.md",
+    "Sistemas Operativos/Linux/2- Manejo de texto.md",
+    "Sistemas Operativos/Linux/3- Expresiones regulares.md",
+    "Errores/SSH/No matching host key type found.md",
+    "Errores/FTP/Entering Extended Passive Mode.md",
+    "Hacking/CVEs/CVE-2019/CVE-2019-18634.md",
+    "Hacking/CVEs/CVE-2019/CVE-2019-14287.md",
+    "Hacking/CVEs/CVE-2019/CVE-2019-9053.md",
+    "Hacking/CVEs/CVE-2016/Dirty Cow (CVE-2016-5195).md",
+    "Shells/Bash/Scripting/Programacion/4- Argumentos.md",
+    "Shells/Bash/Scripting/Programacion/1- Variables.md",
+    "Shells/Bash/Scripting/Programacion/2- Condicionales.md",
+    "Shells/Bash/Scripting/Programacion/3- Bucles.md",
+    "Redes/Mascara de subred/Para que sirve la mascara de subred.md",
+    "Redes/Direcciones IP/Que clases hay y como identificarlas.md",
+    "Protocolos/FTP/Iniciar Servidor FTP en linux.md",
+    "Protocolos/FTP/Navegación basica.md",
+    "Sistemas Operativos/Linux/1- Permisos en Linux.md",
+    "Sistemas Operativos/Linux/Permisos en Linux.md",
+    "Imagenes/LFI5.png",
+    "Hacking/Explotación/Hacking Web/HTTP Smuggling/Que es y en qué consiste HTTP Smuggling.md",
+    "Hacking/Explotación/Hacking Web/LFI (Local File Inclusion)/Rutas_para_LFI.md",
+    "Hacking/Explotación/Hacking Web/LFI (Local File Inclusion)/PHP_Wrappers.md",
+    "Hacking/Explotación/Hacking Web/LFI (Local File Inclusion)/Hoja de funciones LFI.md",
+    "Hacking/Explotación/Hacking Web/LFI (Local File Inclusion)/Explotación_LFI_Hoja_de_funciones_LFI.md",
+    "Hacking/Explotación/Hacking Web/LFI (Local File Inclusion)/Algunos_de_los_filtros_en_codigo_para_evitar_LFI_como_vulnerarlos.md",
+    "Imagenes/Pasted image 20250108215700.png",
+    "Imagenes/Buffer_Overflow4.png",
+    "Imagenes/Captura_privilege_scalation-explo1.png",
+    "Imagenes/Privilege_scalation1.png",
+    "Imagenes/SMB Relay 6.png",
+    "Hacking/Explotación/Hacking Web/XSS/2- XSS DOM-based/jQuery",
     "Untitled",
-    "Hacking/Explotación/Hacking Web/XSS/Untitled.md",
+    "jQuery",
+    "Hacking/Explotación/Hacking Web/XSS/2- XSS DOM-based",
+    "Hacking/Explotación/Hacking Web/XSS/1- XSS representado en HTML",
     "Hacking/Explotación/Hacking Web/XSS",
-    "Hacking/Explotación/Hacking Web/Untitled.md",
-    "Hacking/Herramientas/git.md",
-    "Hacking/Herramientas/Untitled.md",
-    "README.md",
-    "Hacking/post-explotacion/Privilege-escalation/Linux/Enumeracion/Enumeracion de usuario/Permisos y identificador de usuario.md",
-    "Hacking/post-explotacion/Privilege-escalation/Linux/Enumeracion/Enumeracion de usuario/Registros de contraseñas de cada usuario.md",
-    "Hacking/post-explotacion/Privilege-escalation/Linux/Enumeracion/Enumeracion de usuario/Historial de los usuarios.md",
-    "Hacking/post-explotacion/Privilege-escalation/Linux/Enumeracion/Enumeracion de usuario/Archivo con las variables de entorno de linux.md",
-    "Hacking/Explotación/Hacking Web/LFI (Local File Inclusion)/3- Filtros contra Path-Traversal.md",
-    "Hacking/Explotación/Hacking Web/LFI (Local File Inclusion)/2- Detectando vulnerabilidades LFI y exponiendo datos privilegiados del servidor.md",
     "Lenguajes/Python/Programación",
     "Lenguajes/Python/Librerias",
     "Imagenes/image 1.png",
     "Imagenes/HTTPS1.png",
-    "Imagenes/Captura_privilege_scalation-explo1.png",
     "Imagenes/Buffer_Overflow3.png",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "Shells/Bash/Scripting/Programacion",
     "Shells/Bash/Scripting/Manejo de archivos y directorios",
-    "Hacking/Explotación/Active Directory/4- RPC Client",
-    "Hacking/Explotación/Active Directory/1- Reconocimiento",
-    "Imagenes/Pasted image 20250108215700.png",
-    "Imagenes/SMB Relay 6.png",
-    "Imagenes/SMB Relay 5.png",
-    "Imagenes/SMB Relay 4.png",
-    "Pasted image 20241230204235.png",
-    "Imagenes/SMB Relay 3.png"
+    "Imagenes/SMB Relay 5.png"
   ]
 }

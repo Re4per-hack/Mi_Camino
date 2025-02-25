@@ -1,0 +1,1 @@
+jQuery es una libreria de JavaScript que permite interactuar de forma mas simple con documentos HTML y la estructura DOM
