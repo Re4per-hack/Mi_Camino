@@ -52,11 +52,14 @@ url = "https://youtube.com"
 
 cookie = {
 	"Nombre_coockie":"valor_Cookie",
-	"Nombre_Cookie2":"valor_Cookie2"
-		  
+	"Nombre_Cookie2":"valor_Cookie2" 
 }
 
 respuesta = requests.get(url, cookies = cookie)
 
 # ETC...
 ```
+
+
+
+

