@@ -1,0 +1,1 @@
+Para entender esto Neo4j es la base de datos como tal y cypher es el lenguaje de querys que esta usa, esta base de datos se compone de nodos, etiquetas y relaciones
