@@ -7,7 +7,7 @@ A continuación están los comandos necesarios para la sanitización la TTY (arr
 
 # Si surge algún error
 
-- EXPORT=xterm
+- export TERM=xterm
 
 
 

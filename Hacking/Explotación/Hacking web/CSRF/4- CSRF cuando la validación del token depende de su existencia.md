@@ -1,0 +1,1 @@
+Esto ocurre cuando se está presentando el token CSRF pero al ser quitado de la petición no es validado el exploit es el mismo que en [[2- Cuando no hay protecciones CSRF]] 

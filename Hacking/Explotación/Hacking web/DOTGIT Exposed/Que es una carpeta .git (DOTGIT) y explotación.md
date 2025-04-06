@@ -4,3 +4,9 @@ como se puede leer en el titulo de esta vulnerabilidad, esto ocurre cuando hay u
 wget --mirror -I .git http://example.com/.git
 ```
 
+Ahora hay restablecer los archivos usando el siguiente comando (): 
+
+```shell
+sudo git restore . 
+```
+

@@ -55,16 +55,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hacking/Herramientas/hashid.md",
+                "file": "Hacking/Explotación/Hacking web/CSRF/7- SameSite Cookie.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "hashid"
+              "title": "7- SameSite Cookie"
+            }
+          },
+          {
+            "id": "3725adf4455d057b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hacking/Explotación/Hacking web/CSRF/6- Cuando el CSRF token está ligado a algo que no es una session cookie.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "6- Cuando el CSRF token está ligado a algo que no es una session cookie"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -207,40 +221,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c996b1efa7557f02",
+  "active": "3725adf4455d057b",
   "lastOpenFiles": [
+    "Hacking/Explotación/Hacking web/CSRF/7- SameSite Cookie.md",
+    "Hacking/Explotación/Hacking web/CSRF/6- Cuando el CSRF token está ligado a algo que no es una session cookie.md",
+    "Hacking/Explotación/Hacking web/CSRF/3- CSRF cuando la validación del token depende del método de petición.md",
+    "Hacking/Explotación/Hacking web/CSRF/1- Que es un CSRF.md",
+    "Hacking/Explotación/Hacking web/WebSockets Hacking/2-.md",
+    "Hacking/Explotación/Hacking web/WebSockets Hacking/1- Cross-Site WebSocket Hijacking (CSWSH).md",
+    "Hacking/Explotación/Hacking web/WebSockets Hacking",
+    "Hacking/Explotación/Hacking web/CSRF/4- CSRF cuando la validación del token depende de su existencia.md",
+    "Hacking/Explotación/Hacking web/CSRF/5- CSRF cuando el token no depende de la cookie session.md",
+    "Redes/Mascara de subred/Para que sirve la mascara de subred.md",
+    "Redes/Direcciones IP/Que clases hay y como identificarlas.md",
+    "Hacking/post-explotacion/Privilege-escalation/Linux/Enumeracion/Enumeracion de usuario/Registros de contraseñas de cada usuario.md",
+    "Hacking/post-explotacion/Privilege-escalation/Linux/Enumeracion/Enumeracion de usuario/Permisos y identificador de usuario.md",
+    "Hacking/post-explotacion/Privilege-escalation/Linux/Enumeracion/Enumeracion de usuario/Historial de los usuarios.md",
+    "Hacking/post-explotacion/Privilege-escalation/Linux/Enumeracion/Enumeracion de usuario/Encontrando aplicaciones con permisos sudo.md",
+    "Hacking/post-explotacion/Privilege-escalation/Linux/Enumeracion/Enumeracion de usuario/Archivo con las variables de entorno de linux.md",
+    "Hacking/post-explotacion/Privilege-escalation/Linux/Enumeracion/Enumeración de red/Conocer la IP de la maquina local.md",
+    "Hacking/post-explotacion/Privilege-escalation/Linux/Enumeracion/Enumeracion de Contraseñas/Buscando nombres de archivo que contengan palabras clave.md",
+    "Hacking/post-explotacion/Privilege-escalation/Linux/Enumeracion/Enumeracion de Contraseñas/Buscando la palabra password en todos los archivos.md",
+    "Hacking/post-explotacion/Privilege-escalation/Linux/Enumeracion/Enumeracion de Contraseñas/Archivo history.md",
+    "Hacking/Herramientas/grep.md",
+    "Sistemas Operativos/Linux/2- Manejo de texto.md",
+    "Hacking/post-explotacion/Tratamiento de la TTY.md",
+    "Hacking/Explotación/Hacking web/CSRF/2- Cuando no hay protecciones CSRF.md",
+    "Protocolos/HTTP/3- Envío de datos en peticiones.md",
+    "Protocolos/HTTP",
+    "Imagenes/CSRF 1.png",
     "Hacking/Explotación/Hacking web/HTTP Smuggling/Que es y en qué consiste HTTP Smuggling.md",
-    "Hacking/Herramientas/hashid.md",
-    "Hacking/Explotación/Hacking web/DOTGIT Exposed/Que es una carpeta .git (DOTGIT).md",
-    "Hacking/Hashes/Hashes Salted.md",
-    "Hacking/Explotación/Hacking web/Cypher Injection/1- Que es cypher (Neo4j).md",
+    "Hacking/Explotación/Hacking web/DOTGIT Exposed/Que es una carpeta .git (DOTGIT) y explotación.md",
+    "Hacking/Explotación/Hacking web/CSRF",
     "Hacking/Explotación/Hacking web/DOTGIT Exposed",
-    "Hacking/Herramientas/wget.md",
-    "Hacking/Herramientas/curl.md",
-    "Hacking/Herramientas/git.md",
-    "Hacking/Explotación/Hacking web/XSS/3- XSS con AngularJS/3- XSS de AngularJS en Sandbox con CSP.md",
-    "Hacking/Explotación/Hacking web/XSS/1- XSS representado en HTML/8- XSS en un literal template.md",
-    "Hacking/Explotación/Hacking web/XSS/4- XSS con Hijacking/1- XSS con cookie stealing.md",
-    "Hacking/Explotación/Hacking web/XSS/1- XSS representado en HTML/9- XSS con etiquetas SVG.md",
-    "Hacking/Explotación/Hacking web/XSS/1- XSS representado en HTML/7- XSS en el atributo onclick con ofuscado HTML.md",
-    "Hacking/Explotación/Hacking web/XSS/3- XSS con AngularJS/1- XSS de AngularJS con double quotes y angle brackets HTML codificados.md",
-    "Hacking/Explotación/Hacking web/XSS/4- XSS con Hijacking/2- XSS para robo de contraseñas.md",
-    "Hacking/Explotación/Hacking web/XSS/4- XSS con Hijacking/3- XSS para realizar un ataque CSRF.md",
-    "Información Acortada/Buffer Overflow/Comandos Over Flow.md",
-    "Hacking/Explotación/Buffer Overflow/1- Que es un Buffer OverFlow.md",
-    "Hacking/Explotación/Buffer Overflow/4- Como funciona una explotación Buffer Overflow.md",
-    "Hacking/Explotación/Buffer Overflow/5- DoS con Buffer Overflow.md",
     "Imagenes/Buffer_Overflow2.png",
-    "Hacking/Explotación/Buffer Overflow/3- Introduccion al Stack.md",
-    "Hacking/Explotación/Buffer Overflow/2- Como los programas usan la memoria.md",
     "Imagenes/Buffer_Overflow1.png",
-    "Hacking/Explotación/Hacking web/XSS/1- XSS representado en HTML/5- XSS con etiquetas SVG.md",
-    "Hacking/Explotación/Hacking web/XSS/1- XSS representado en HTML/2- XSS guardado y mostrado en HTML.md",
-    "Hacking/Explotación/Hacking web/XSS/1- XSS representado en HTML/1- XSS reflejado en HTML.md",
-    "Hacking/Explotación/Hacking web/XSS/1- XSS representado en HTML/6- XSS en un canonical link.md",
     "Hacking/Explotación/Hacking web/Cypher Injection",
-    "Hacking/Explotación/Hacking web/XSS/4- XSS con Hijacking",
-    "Hacking/Explotación/Hacking web/XSS/3- XSS con AngularJS",
+    "Hacking/Explotación/Hacking web/XSS (Cross-Site Scripting)/4- XSS con Hijacking",
+    "Hacking/Explotación/Hacking web/XSS (Cross-Site Scripting)/3- XSS con AngularJS",
     "Lenguajes/HTML",
     "Imagenes/LFI5.png",
     "Imagenes/Pasted image 20250108215700.png",
@@ -250,11 +268,7 @@
     "Imagenes/SMB Relay 6.png",
     "Hacking/Explotación/Hacking Web/XSS/2- XSS DOM-based/jQuery",
     "Untitled",
-    "jQuery",
-    "Hacking/Explotación/Hacking web/XSS/2- XSS DOM-based",
-    "Hacking/Explotación/Hacking web/XSS/1- XSS representado en HTML",
     "Imagenes/image 1.png",
-    "Imagenes/HTTPS1.png",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]
