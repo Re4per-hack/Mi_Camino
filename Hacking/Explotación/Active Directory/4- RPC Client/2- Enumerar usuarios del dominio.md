@@ -4,5 +4,5 @@ Si tenemos las credenciales de cualquier usuario podemos usarlas para loguearnos
 rpcclient -U "{Nombre_dominio}\{usuario}%{contraseña}" {IP_DEL_DC}
 ```
 
-Si queremos trabajar con la salida del comando podemos indicarle directamente a rpcclient el comando que queremos ejecutar, para esto podemos usar el parametro "-c ", ejecutaremos el comando
+Si queremos trabajar con la salida del comando podemos indicarle directamente a rpcclient el comando que queremos ejecutar, para esto podemos usar el parametro "-c ", ejecutaremos el comando 
 

@@ -69,16 +69,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Shells/Bash/Scripting/Programacion/3- Bucles.md",
+                "file": "Hacking/Explotación/Active Directory/1- Reconocimiento/1- enumeracion de equipos en el Active Directory.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3- Bucles"
+              "title": "1- enumeracion de equipos en el Active Directory"
+            }
+          },
+          {
+            "id": "279802b88ef4ceb8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hacking/Explotación/Active Directory/2- SMB Relay/1- SMB Relay Attack Simple.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1- SMB Relay Attack Simple"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -221,41 +235,41 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "26e6f2f5578fd61f",
+  "active": "279802b88ef4ceb8",
   "lastOpenFiles": [
-    "Shells/Bash/Scripting/Programacion/2- Condicionales.md",
-    "Shells/Bash/Scripting/Programacion/1- Variables.md",
-    "Redes/Mascara de subred/Para que sirve la mascara de subred.md",
-    "Entorno/Entorno Hacking Linux.md",
+    "Hacking/Explotación/Active Directory/2- SMB Relay/2- SMB Relay Attack Avanzado.md",
+    "Hacking/Explotación/Active Directory/2- SMB Relay/1- SMB Relay Attack Simple.md",
+    "Hacking/Explotación/Active Directory/1- Reconocimiento/2-.md",
+    "Hacking/Explotación/Active Directory/1- Reconocimiento/1- enumeracion de equipos en el Active Directory.md",
+    "Hacking/Explotación/Active Directory/2-  NTLM Relay Attack.md",
+    "Hacking/Explotación/Active Directory/1- Que es Active Directory.md",
+    "Hacking/Explotación/Active Directory/Comandos active directory.md",
+    "Hacking/Explotación/Active Directory/Sondeo de equipos en el Active Directory.md",
+    "Hacking/Explotación/Active Directory/Que hacer con los Hashes NTLMv2.md",
+    "Hacking/Explotación/Active Directory/Que Hacer con la SAM dumpeada.md",
+    "Hacking/Explotación/Active Directory/2- SMB Relay/3- SMB Relay IPv5 attack.md",
+    "Hacking/Explotación/Active Directory/4- RPC Client/2- Enumerar usuarios del dominio.md",
+    "Hacking/Explotación/Active Directory/4- RPC Client/1- NULL Session por RPC Client.md",
+    "Hacking/Explotación/Active Directory/2- SMB Relay/Untitled.md",
+    "Hacking/CVEs/CVE-2019/CVE-2019-14287.md",
+    "Hacking/CVEs/CVE-2019/CVE-2019-18634.md",
+    "Hacking/CVEs/CVE-2019/CVE-2019-9053.md",
+    "Hacking/CVEs/CVE-2016/Dirty Cow (CVE-2016-5195).md",
+    "Errores/SSH/No matching host key type found.md",
     "Errores/FTP/Entering Extended Passive Mode.md",
-    "Hacking/Explotación/Hacking web/Cypher Injection/1- Que es cypher (Neo4j).md",
-    "Hacking/Explotación/Hacking web/WebSockets Hacking/1- Cross-Site WebSocket Hijacking (CSWSH).md",
-    "Hacking/Explotación/Hacking web/CSRF/10- CSRF cuando no funciona quitar el Referer.md",
-    "Hacking/Explotación/Hacking web/CSRF/9- CSRF cuando la validacion del referer depende de si está siendo presentado.md",
-    "Hacking/Explotación/Hacking web/CSRF/8- SameSite cookie Lax bypass con HTTP method override.md",
-    "Hacking/Explotación/Hacking web/CSRF/7- Que es la SameSite cookie.md",
-    "Hacking/Explotación/Hacking web/WebSockets Hacking/2-.md",
-    "Hacking/Explotación/Hacking web/CSRF/2- Cuando no hay protecciones CSRF.md",
-    "README.md",
-    "Pendiente.md",
-    "Protocolos/FTP/Navegación basica.md",
+    "Entorno/Entorno Hacking Linux.md",
+    "Hacking/post-explotacion/Tratamiento de la TTY.md",
+    "Imagenes/Buffer_Overflow2.png",
+    "Hacking/Paginas de interés/Privilegie Scalation - Linux.md",
+    "Hacking/Maquinas/Hack The Box/Sea.md",
+    "Shells/Bash/Scripting/Programacion/3- Bucles.md",
+    "Shells/Bash/Scripting/Programacion/2- Condicionales.md",
     "Hacking/Explotación/Hacking web/CSRF/SameSite",
-    "Hacking/Explotación/Hacking web/CSRF/6- Cuando el CSRF token está ligado a algo que no es una session cookie.md",
-    "Hacking/Explotación/Hacking web/CSRF/5- CSRF cuando el token no depende de la cookie session.md",
-    "Hacking/Explotación/Hacking web/CSRF/3- CSRF cuando la validación del token depende del método de petición.md",
-    "Hacking/Explotación/Hacking web/CSRF/1- Que es un CSRF.md",
     "Hacking/Explotación/Hacking web/WebSockets Hacking",
-    "Hacking/Explotación/Hacking web/CSRF/4- CSRF cuando la validación del token depende de su existencia.md",
-    "Redes/Direcciones IP/Que clases hay y como identificarlas.md",
-    "Hacking/post-explotacion/Privilege-escalation/Linux/Enumeracion/Enumeracion de usuario/Registros de contraseñas de cada usuario.md",
-    "Hacking/post-explotacion/Privilege-escalation/Linux/Enumeracion/Enumeracion de usuario/Permisos y identificador de usuario.md",
-    "Hacking/post-explotacion/Privilege-escalation/Linux/Enumeracion/Enumeracion de usuario/Historial de los usuarios.md",
-    "Hacking/post-explotacion/Privilege-escalation/Linux/Enumeracion/Enumeracion de usuario/Encontrando aplicaciones con permisos sudo.md",
     "Protocolos/HTTP",
     "Imagenes/CSRF 1.png",
     "Hacking/Explotación/Hacking web/CSRF",
     "Hacking/Explotación/Hacking web/DOTGIT Exposed",
-    "Imagenes/Buffer_Overflow2.png",
     "Imagenes/Buffer_Overflow1.png",
     "Hacking/Explotación/Hacking web/Cypher Injection",
     "Hacking/Explotación/Hacking web/XSS (Cross-Site Scripting)/4- XSS con Hijacking",

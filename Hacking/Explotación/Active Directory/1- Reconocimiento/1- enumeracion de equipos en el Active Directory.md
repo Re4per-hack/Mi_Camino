@@ -1,4 +1,4 @@
-Para realizar un sondeo de los dispositivos disponibles en el Active Directory, es tan simple como usar la herramienta cme ( CrackMapExec ) de la siguiente forma: 
+Para realizar un sondeo de los dispositivos disponibles en el Active Directory, es tan simple como usar la herramienta Netexec de la siguiente forma: 
 
 EJEMPLO:
 ```ruby

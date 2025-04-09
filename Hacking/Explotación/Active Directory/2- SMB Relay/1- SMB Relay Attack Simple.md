@@ -1,4 +1,3 @@
-# SMB Relay Attack basico
 ## Teoría
 
 Un ataque NTLM Relay Attack consta de interceptar los Hashes NTLMv2 mediante la suplantación de un recurso inexistente, a continuación lo explicaré paso a paso, pero quiero dejar claro el panorama para que se entienda bien, digamos que hay un dominio registrado con:
@@ -32,8 +31,7 @@ responder -I eth0 -d -w -v
 
 - -v: Este parámetro indica que queremos mas información, yo lo suelo usar porque cuando hacemos este ataque y capturamos los hashes, no nos los vuelve a mostrar, entonces usemos este para metro para evitar esas cosas
 
-- -w: 
-
+- -w: Activa un servidor WPAD (Web Proxy Auto-Discovery protocol) falso, WPAD es un protocolo que permite a las maquinas configurar automáticamente los proxies necesarios para cada caso, en concreto este es un archivo, el cual define estas configuraciones proxy, la localización de este archivo es definida por el DHCP, pero también hace una búsqueda automática con diferentes dominios como wpad.local o wpad.{dominioactual}
 
 Al iniciar este comando solo basta con esperar y veras como te van llegando esos Hashes
 
