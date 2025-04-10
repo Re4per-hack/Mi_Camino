@@ -5,9 +5,7 @@ Decir "Avanzado" hace ver esto como  dificil, pero para nada, ya veras lo facil 
 
 En el NTLM Relay Attack avanzado lo que hacemos es lo mismo que en el basico, pero esta vez vamos a coger este NTLMv2 y lo usaremos para ejecutar comandos en una maquina sobre la cual el usuario y hash que nos haya llegado tengan privilegios, intentaré hacerme entender, imaginemos que existen 2 usuarios en un Active Directory, sin contar el administrador, estos dos usuarios son Juan y Silvia, pero Juan tiene privilegios sobre Silvia, esto significa que juan puede ejecutar comandos en la maquina de Silvia, ya con esto entendido vamos a la maquina atacante:
 
-
-
-- Supongamos que juan queria buscar:
+- Supongamos que Juan quería buscar:
 
 ```java
 smb:\\sqlserver\pass
@@ -19,7 +17,7 @@ smb:\\sqlserver\pass
 smb:\\sqlselver
 ```
 
-- Como este recurso no existe, pues pasara lo que yo ya había explicado arriba, a nosotros que como atacantes tendremos el responder ejecutándose vamos a recibir el hash y la contraseña, pero esta vez tenemos otras herramientas ejecutándose, que nos permiten coger ese NTLMv2 que nos llega y redirigirlo a Silvia, haciéndonos pasar por juan, y haciendo que ejecute un comando, y asi se tiene acceso a la maquina de Silvia
+- Como este recurso no existe, pues pasara lo que yo ya había explicado arriba, a nosotros que como atacantes tendremos el responder ejecutándose vamos a recibir el hash y la contraseña, pero esta vez tenemos otras herramientas ejecutándose, que nos permiten coger ese NTLMv2 que nos llega y redirigirlo a Silvia, haciéndonos pasar por juan, haciendo que ejecute un comando, y asi se tiene acceso a la maquina de Silvia
 
 ## Practica
 
@@ -62,9 +60,6 @@ después de hacer un archivo que lusca algo así:
 targets.txt
 ``` 
 192.168.184.200
-
-
-
 ```
 
 
