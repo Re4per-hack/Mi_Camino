@@ -27,7 +27,7 @@ responder -I eth0 -d -w -v
 
 - -I: **==Especifica la interfaz por la que vamos a recibir los hashes==** 
 
-- -d: ==**Activa la respuesta a peticiones DHCP**==, DHCP es lo que se encarga de asignar las IP's y demás configuraciones de red automáticamente a los dispositivos en una red, un ejemplo de una petición DHCP puede ser un equipo nuevo en una red solicitando una IP, el gateaway, etc, esta opción sirve para indicarnos a nosotros como intermediario (gateaway), y así ver toda la información que pasa en la red de ese dispositivo
+- -d: ==**Activa la respuesta a peticiones DHCP**==, DHCP (Dynamic Host Configuration Protocol) es el protocolo que se encarga de asignar las IP's y demás configuraciones de red automáticamente a los dispositivos en una red, un ejemplo de una petición DHCP puede ser un equipo nuevo en una red solicitando una IP, el gateaway, etc, esta opción sirve para indicarnos a nosotros como intermediario (gateaway), y así ver toda la información que pasa en la red de ese dispositivo
 
 - -v: **==Este parámetro indica que queremos mas información==**, yo lo suelo usar porque cuando hacemos este ataque y capturamos los hashes, no nos los vuelve a mostrar, entonces usemos este para metro para evitar esas cosas
 

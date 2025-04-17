@@ -116,3 +116,75 @@ Steven - 20 años
 ```
 
 
+# Solo mostrar las coincidencias 
+
+En caso de que tengamos algun archivo en el que queremos que no nos muestre una linea completa, sino únicamente la coincidencia para esto usaremos el parametro -o:
+
+```
+Juan - 17 años
+Pablo - 13 años
+Silvia - 17 años
+Margarita - 30 años
+Steven - 20 años
+Eddy - 17 años
+```
+
+En este caso digamos que solo queremos que se resalten los "Pablo" en el texto, pero no la linea completa, en un caso normal se vería algo así:
+
+```shell
+grep "Pablo" nombres.txt
+```
+
+El resultado seria el siguiente: 
+
+```
+Pablo - 13 años
+```
+
+Pero con la opción se vería algo así:
+
+
+```shell
+grep -o "Pablo" nombres.txt
+```
+
+El resultado seria el siguiente: 
+
+```
+Pablo
+```
+
+# Filtrar por expresiones regulares
+
+Para esto usaremos la opción -P, 
+
+
+
+## Filtrar con multiple matching 
+
+
+# Evitar distinción entre Mayúsculas y Minúsculas
+
+Para esto vamos a usar la opción -i, para este ejercicio tendremos el siguiente ejemplo
+
+```
+Juan - 17 años
+Pablo - 13 años
+[Silvia] - 17 años
+[Margarita] - 30 años
+Steven - 20 años
+Eddy - 17 años
+```
+
+En este caso digamos que solo queremos filtrar por el contenido que está entre Corchetes (\[ ]):
+
+```shell
+grep -P "\[.+?\]" nombres.txt
+```
+
+El resultado seria el siguiente: 
+
+```
+Pablo - 13 años
+```
+

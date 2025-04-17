@@ -3,7 +3,7 @@
 
 Decir "Avanzado" hace ver esto como  dificil, pero para nada, ya veras lo facil que es de entender, empecemos por diferenciar el basico por el avanzado, en el basico lo unico que haciamos era  capturar el NTLMv2 que nos llegaba, pero con este ataque podemos hacer algo mucho mas interesante, pero para practicar esto deberemos desactivar windows defender ya que nos puede chapar esta tecnica, pero bueno, vamos al grano, ¿de que consta esta otra tecnica?
 
-En el NTLM Relay Attack avanzado lo que hacemos es lo mismo que en el basico, pero esta vez vamos a coger este NTLMv2 y lo usaremos para ejecutar comandos en una maquina sobre la cual el usuario y hash que nos haya llegado tengan privilegios, intentaré hacerme entender, imaginemos que existen 2 usuarios en un Active Directory, sin contar el administrador, estos dos usuarios son Juan y Silvia, pero Juan tiene privilegios sobre Silvia, esto significa que juan puede ejecutar comandos en la maquina de Silvia, ya con esto entendido vamos a la maquina atacante:
+En el NTLM Relay Attack avanzado lo que hacemos es lo mismo que en el basico, pero esta vez vamos a coger este NTLMv2 y lo usaremos para ejecutar comandos en una maquina sobre la cual el usuario y hash que nos haya llegado tengan privilegios, intentaré hacerme entender, imaginemos que existen 2 usuarios en un Active Directory, sin contar el administrador, estos dos usuarios son Juan y Silvia, pero Juan tiene privilegios sobre UN EQUIPO, en este caso, el equipo PC-Silvia , esto significa que juan puede ejecutar comandos en la maquina PC-Silvia, ya con esto entendido vamos a la maquina atacante:
 
 - Supongamos que Juan quería buscar:
 
