@@ -20,10 +20,10 @@ Con este comando podemos tener una especie de "Consola interactiva", en la que s
 
 ![[SMB Relay 4.png]]
 
-AdminStatues en estado "TRUE" quiere decir que interceptamos credenciales con permisos administrativos sobre el objetivo, ahora, tenemos que redirigir estas credenciales al objetivo usando NetExec para poder obtener la sam o ejecutar comandos, para ello tenemos que configurar el archivo /etc/proxychains.conf, el final del archivo tiene que verse algo así (con el puerto 1080):
+AdminStatu es en estado "TRUE" quiere decir que interceptamos credenciales con permisos administrativos sobre el objetivo, ahora, tenemos que redirigir estas credenciales al objetivo usando NetExec para poder obtener la sam o ejecutar comandos, para ello tenemos que configurar el archivo /etc/proxychains.conf, el final del archivo tiene que verse algo así (con el puerto 1080):
 
 ![[SMB Relay 5.png]]
-Cuando hayamos editado este archivo ya tendremos proxychains configurado para que se comunique con ntlmrelayx, ahora vamos a usar proxychains para redirigir el trafico de los paquetes de cme a ntlmrelayx: 
+Cuando hayamos editado este archivo ya tendremos proxychains configurado para que se comunique con ntlmrelayx, ahora vamos a usar proxychains para redirigir el trafico de los paquetes de  NetExec a ntlmrelayx: 
 
 ```ruby
 proxychains netexec smb {IP_VICTIMA} -u 'juan' -p 'no_importala_contraseña' -d 'juancorp'

@@ -1,1 +1,0 @@
-RPC o Remote Procedure Call es un protocolo que nos permite ejecutar ciertos procesos  

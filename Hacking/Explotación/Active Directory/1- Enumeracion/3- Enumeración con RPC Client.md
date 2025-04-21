@@ -14,8 +14,7 @@ rpcclient -U "" {IP_DC} -N
 ```python
 rpcclient -U "[NOMBRE_DOMINIO/][USUARIO]%[CONTRASEÑA]" {IP-DC}
 ```
-
-### Enumerar usuarios y sus descripciones
+# Enumerar usuarios y sus descripciones
 
 Comandos de RPC interesantes
 
@@ -25,6 +24,6 @@ Comandos de RPC interesantes
 
 - enumdomgroups: Enumera los grupos existentes en el dominio y sus respectivos rid's 
 
-- querygroup {Group_RID}: 
+- querygroupmem {Group_RID}: Enumera los rid's de los usuarios en el grupo especificado
 
 
