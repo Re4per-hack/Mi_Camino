@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hacking/Explotación/Active Directory/1- Enumeracion/3- Enumeración con RPC Client.md",
+                "file": "Hacking/Explotación/Active Directory/4- Kerberoasting/2- Pedir un TGS (Ticket Granting Service).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3- Enumeración con RPC Client"
+              "title": "2- Pedir un TGS (Ticket Granting Service)"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "wmiexec",
+                "query": "rm",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -170,32 +170,32 @@
   },
   "active": "fae6374420742508",
   "lastOpenFiles": [
-    "Hacking/Explotación/Active Directory/2- SMB Relay/3- SMB Relay IPv6 attack.md",
-    "Hacking/Explotación/Active Directory/4- Kerberoasting/1-.md",
-    "Hacking/Explotación/Active Directory/3- Al conseguir hashes o credenciales/2- Que Hacer con la SAM dumpeada.md",
-    "Hacking/Explotación/Active Directory/2- SMB Relay/2- SMB Relay Attack Avanzado.md",
-    "Hacking/Explotación/Active Directory/3- Al conseguir hashes o credenciales/5- Que hacer con credenciales de cualquier usuario.md",
-    "Hacking/Explotación/Active Directory/4- Kerberoasting",
-    "Hacking/Explotación/Active Directory/3- Al conseguir hashes o credenciales/3- Que hacer con credenciales del administrador de dominio.md",
-    "Hacking/Explotación/Active Directory/3- Al conseguir hashes o credenciales/1- Que hacer con los Hashes NTLMv2.md",
+    "Hacking/Explotación/Active Directory/4- Kerberoasting/1- Funcionamiento Kerberos.md",
+    "Hacking/Explotación/Active Directory/4- Kerberoasting/2- Pedir un TGS (Ticket Granting Service).md",
     "Hacking/Explotación/Active Directory/1- Enumeracion/3- Enumeración con RPC Client.md",
     "Hacking/Explotación/Active Directory/1- Enumeracion/2- Enumeración con ldap.md",
-    "Hacking/Explotación/Active Directory/4- RPC Client/2- Enumerar usuarios del dominio.md",
-    "Hacking/Explotación/Active Directory/1- Enumeracion/1- enumeracion de equipos en el Active Directory.md",
-    "Hacking/Explotación/Active Directory/2- SMB Relay/1- SMB Relay Attack Simple.md",
-    "Hacking/Herramientas/grep.md",
-    "Hacking/Herramientas/wc.md",
-    "Hacking/Herramientas/wget.md",
-    "Hacking/Herramientas/diff.md",
-    "Hacking/Herramientas/base64.md",
-    "Hacking/Herramientas/awk.md",
-    "Hacking/Explotación/Active Directory/4- RPC Client/1- NULL Session por RPC Client.md",
+    "Hacking/Explotación/Active Directory/3- Al conseguir hashes o credenciales/3- Que hacer con credenciales del administrador de dominio.md",
+    "Hacking/Explotación/Active Directory/3- Al conseguir hashes o credenciales/5- Que hacer con credenciales de cualquier usuario.md",
+    "Hacking/Explotación/Active Directory/3- Al conseguir hashes o credenciales/2- Que Hacer con la SAM dumpeada.md",
+    "Hacking/Explotación/Active Directory/2- SMB Relay/3- SMB Relay IPv6 attack.md",
     "Hacking/Explotación/Active Directory/3- Al conseguir hashes o credenciales/4- Authentication spraying.md",
-    "Hacking/Explotación/Hacking web/CSRF/10- CSRF cuando no funciona quitar el Referer.md",
-    "Hacking/Explotación/Active Directory/2-  NTLM Relay Attack.md",
-    "Hacking/Explotación/Active Directory/1- Que es Active Directory.md",
+    "Hacking/Explotación/Active Directory/3- Al conseguir hashes o credenciales/1- Que hacer con los Hashes NTLMv2.md",
+    "Hacking/Explotación/Active Directory/3- Al conseguir hashes o credenciales/3- Que hacer si obtenemos credenciales del administrador de dominio.md",
+    "Hacking/Explotación/Active Directory/4- Kerberoasting",
+    "Hacking/Explotación/Active Directory/1- Enumeracion/1- enumeracion de equipos en el Active Directory.md",
+    "Hacking/Explotación/Active Directory/1- Enumeracion",
+    "Hacking/Explotación/Active Directory/2- SMB Relay/3- SMB Relay IPv5 attack.md",
+    "Hacking/Explotación/Active Directory/2- SMB Relay/2- SMB Relay Attack Avanzado.md",
+    "Hacking/Explotación/Active Directory/4- RPC Client/1- NULL Session por RPC Client.md",
+    "Hacking/Explotación/Active Directory/4- RPC Client/2- Enumerar usuarios del dominio.md",
+    "Hacking/Explotación/Active Directory/Comandos active directory.md",
+    "Hacking/Explotación/Active Directory/Sondeo de equipos en el Active Directory.md",
     "Hacking/Explotación/Active Directory/Que hacer con los Hashes NTLMv2.md",
     "Hacking/Explotación/Active Directory/Que Hacer con la SAM dumpeada.md",
-    "Hacking/Explotación/Active Directory/Comandos active directory.md"
+    "Hacking/Explotación/Active Directory/1- Reconocimiento/1- enumeracion de equipos en el Active Directory.md",
+    "Hacking/Explotación/Active Directory/2- SMB Relay/1- SMB Relay Attack Simple.md",
+    "Hacking/Herramientas/John The Ripper.md",
+    "Hacking/Herramientas/HashCat.md",
+    "Hacking/Explotación/Active Directory/2- SMB Relay/Untitled.md"
   ]
 }

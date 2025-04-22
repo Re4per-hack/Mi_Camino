@@ -1,0 +1,1 @@
+Para esto necesitamos tener credenciales validas, con esto podremos pedir un TGS, el cual al est

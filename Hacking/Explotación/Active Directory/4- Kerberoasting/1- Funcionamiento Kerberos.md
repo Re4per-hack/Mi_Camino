@@ -1,0 +1,1 @@
+Kerberos se constituye de un KDC (Key Distribution Center) 
