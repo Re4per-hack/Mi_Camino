@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "2- Pedir un TGS (Ticket Granting Service)"
             }
+          },
+          {
+            "id": "faf47ef21c2075ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hacking/Explotación/Active Directory/4- Kerberoasting/2- Pedir un TGS  (Ticket Granting Service).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2- Pedir un TGS  (Ticket Granting Service)"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -168,11 +183,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fae6374420742508",
+  "active": "faf47ef21c2075ab",
   "lastOpenFiles": [
     "Hacking/Explotación/Active Directory/4- Kerberoasting/1- Funcionamiento Kerberos.md",
-    "Hacking/Explotación/Active Directory/4- Kerberoasting/2- Pedir un TGS (Ticket Granting Service).md",
+    "Pasted image 20250424065810.png",
+    "Hacking/Explotación/Active Directory/4- Kerberoasting/2- Pedir un TGS  (Ticket Granting Service).md",
+    "Prueba.md",
     "Hacking/Explotación/Active Directory/1- Enumeracion/3- Enumeración con RPC Client.md",
+    "Untitled",
+    "Hacking/Explotación/Active Directory/Teniendo acceso al DC",
+    "Pasted image 20250423105234.png",
     "Hacking/Explotación/Active Directory/1- Enumeracion/2- Enumeración con ldap.md",
     "Hacking/Explotación/Active Directory/3- Al conseguir hashes o credenciales/3- Que hacer con credenciales del administrador de dominio.md",
     "Hacking/Explotación/Active Directory/3- Al conseguir hashes o credenciales/5- Que hacer con credenciales de cualquier usuario.md",
@@ -195,7 +215,6 @@
     "Hacking/Explotación/Active Directory/1- Reconocimiento/1- enumeracion de equipos en el Active Directory.md",
     "Hacking/Explotación/Active Directory/2- SMB Relay/1- SMB Relay Attack Simple.md",
     "Hacking/Herramientas/John The Ripper.md",
-    "Hacking/Herramientas/HashCat.md",
-    "Hacking/Explotación/Active Directory/2- SMB Relay/Untitled.md"
+    "Hacking/Herramientas/HashCat.md"
   ]
 }
