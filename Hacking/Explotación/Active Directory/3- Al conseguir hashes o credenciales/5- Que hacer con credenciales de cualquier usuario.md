@@ -1,5 +1,9 @@
 # Conectarse remotamente
 
+## Realizar un Kerberoasting
+
+Para mas informacion visitar el apartado [[2- Realizando un Kerberoasting]]
+
 ### Usando psexec
 
 ```python
