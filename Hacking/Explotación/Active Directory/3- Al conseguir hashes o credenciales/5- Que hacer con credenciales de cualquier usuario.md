@@ -15,3 +15,13 @@ psexec {DOMINIO}/{Usuario}:{Contraseña}@{IP} cmd.exe
 evil-winrm -u '{USUARIO}' -p '{CONTRASEÑA}' -i {IP_MAQUINA}
 ```
 
+## Enumerar contenido
+
+
+Revisar los módulos [[3- Enumeración con RPC Client]] y [[2- Enumeración con ldap]]
+
+## Kerberoasting
+
+Revisar el modulo [[2- Realizando un Kerberoasting]]
+
+

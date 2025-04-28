@@ -4,6 +4,5 @@ Kerberos se constituye de un KDC (Key Distribution Center) el cual a su vez cont
 
 Ahora hablemos de como funciona paso a paso la autenticación, dejaré una imagen y la explicaré a continuación:
 
-
 ![[Pasted image 20250426191205.png]]
 #### 
