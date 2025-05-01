@@ -34,6 +34,7 @@ Esto nos dará algo similar a esto:
 
 ![[Pasted image 20250428160113.png]]
 
+<<<<<<< HEAD
 Aqui ya estarán todos los datos que necesitamos para construir el golden ticket.
 
 Ahora tenemos dos opciones:
@@ -41,6 +42,22 @@ Ahora tenemos dos opciones:
 - 1. Usar esto para contruir un golden.kirbi el cual nos servirá para acceder a cualquier recurso del sistema desde una maquina windows a otra, Ejemplo: PC-Juan queriendo acceder a admin$ del dc (\\\\DC-Company\\admin$) cosa que no se puede hacer normalmente.
 
 - 2. Usar esto junto a ticketer para que el golden ticket tenga un formato ccache el cual nos permitiría acceder a cualquier maquina del dominio (la mejor opción)
+=======
+Aqui ya estarán todos los datos que necesitamos para construir el golden ticket, solo que podemos hacerlo de dos formas, y cada una es para hacer algo diferent:
+## Tener privilegios sobre un equipo desde una maquina Windows (con Mimikatz)
+
+Para esto vamos a crear un archivo golden.kirbi, luego, este lo vamos a injectar en la memoria, permitiendo que cuando esta maquina solicite un recurso privilegiado se envie el Golden ticket, permitiendo así el acceso:
+
+```Python
+kerberos::golden /domain:\[Dominio] /sid:\[SID del usuario krbtgt] /rc4:\[Hash NT] /user:Administrador /ticket:golden.kirbi
+```
+
+## Acceder a cualquier maquina desde nuestra maquina atacante
+
+Para esto vamos a crear un archivo Administrador.ccache el cual se va a enviar para autenticarse a las maquinas como el usuario Administrador:
+
+
+>>>>>>> fb24da824488e89914e3210da4ad11afb8955748
 
 ##### Recursos 
 - [Hack Tricks](https://book.hacktricks.wiki/en/windows-hardening/stealing-credentials/credentials-mimikatz.html?highlight=Mimikatz#mimikatz)
