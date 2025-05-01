@@ -35,4 +35,4 @@ Ya con la lista de usuarios (users.txt) podemos realizar el ataque:
 GetNPUsers.py -no-pass -usersfile users.txt {DOMINIO}/
 ```
 
-Si alguno de los usuarios de la lista tiene el NP (No Preauth) deshabilitado nos dará el TGT.
+Si alguno de los usuarios de la lista tiene el NP (No Preauth) deshabilitado nos dará el TGT y podremos crackearlo con John The Reaper para obtener la contraseña del usuario en cuestión.

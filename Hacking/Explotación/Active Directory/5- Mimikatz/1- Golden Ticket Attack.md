@@ -26,7 +26,7 @@ lsadump::lsa /inject /name:krbtgt
 
 A continuación voy a desglosar el porque usamos cada uno de los parametros:
 
-- **/name:** El usuario cuyas credenciales serán robadas 
+- **/user:** El usuario cuyas credenciales serán robadas 
 
 - **/inject:** Injecta un Payload en memoria que permite mostrarnos información mas privilegiada
 
@@ -34,6 +34,13 @@ Esto nos dará algo similar a esto:
 
 ![[Pasted image 20250428160113.png]]
 
-Aqui ya estarán todos los datos que necesitamos para construir el golden ticket 
+Aqui ya estarán todos los datos que necesitamos para construir el golden ticket.
+
+Ahora tenemos dos opciones:
+
+- 1. Usar esto para contruir un golden.kirbi el cual nos servirá para acceder a cualquier recurso del sistema desde una maquina windows a otra, Ejemplo: PC-Juan queriendo acceder a admin$ del dc (\\\\DC-Company\\admin$) cosa que no se puede hacer normalmente.
+
+- 2. Usar esto junto a ticketer para que el golden ticket tenga un formato ccache el cual nos permitiría acceder a cualquier maquina del dominio (la mejor opción)
+
 ##### Recursos 
 - [Hack Tricks](https://book.hacktricks.wiki/en/windows-hardening/stealing-credentials/credentials-mimikatz.html?highlight=Mimikatz#mimikatz)

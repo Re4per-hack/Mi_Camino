@@ -170,6 +170,7 @@
   },
   "active": "fae6374420742508",
   "lastOpenFiles": [
+<<<<<<< Updated upstream
     "Pasted image 20250428160113.png",
     "Pasted image 20250426191205.png",
     "Pasted image 20250424065810.png",
@@ -178,6 +179,8 @@
     "Imagenes/Pasted image 20250426191205.png",
     "Imagenes/Pasted image 20250424065810.png",
     "Imagenes/Pasted image 20250423105234.png",
+=======
+>>>>>>> Stashed changes
     "Hacking/Explotación/Active Directory/4- Kerberos/2- Realizando un Kerberoasting.md",
     "Hacking/Explotación/Active Directory/4- Kerberos/3- Realizando un AS-REP Roasting.md",
     "Hacking/Explotación/Active Directory/4- Kerberos/1- Funcionamiento Kerberos.md",
