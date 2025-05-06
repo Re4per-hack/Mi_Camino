@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hacking/Explotación/Active Directory/2- SMB Relay/3- SMB Relay IPv6 attack.md",
+                "file": "Hacking/Evasion de Antivirus/Anti-Malware Scan Interface (AMSI).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3- SMB Relay IPv6 attack"
+              "title": "Anti-Malware Scan Interface (AMSI)"
             }
           }
         ],
@@ -183,34 +183,38 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "09fdece4f481fdc8",
+  "active": "02c3bde409e7cfb0",
   "lastOpenFiles": [
-    "Shells/Bash/Scripting/Programacion/2- Condicionales.md",
-    "Hacking/Explotación/Active Directory/6- Archivo SCF Malicioso/1- Obtener el NTLMv2 del usuario Administrador.md",
-    "Hacking/Explotación/Active Directory/2- SMB Relay/3- SMB Relay IPv6 attack.md",
-    "Hacking/Explotación/Active Directory/2- SMB Relay/2- SMB Relay Attack Avanzado.md",
-    "Hacking/Herramientas/Linux/smbserver.md",
-    "Hacking/Explotación/Hacking web/CSRF/1- Que es un CSRF.md",
+    "Hacking/Evasion de Antivirus/1- Como funciona un Antivirus.md",
+    "Hacking/Evasion de Antivirus/Anti-Malware Scan Interface (AMSI).md",
+    "Hacking/Evasion de Antivirus/Ejecuciones fileless.md",
+    "Hacking/Evasion de Antivirus/SafetyKatz y SharpLoader.md",
+    "Hacking/Explotación/Active Directory/7- Bloodhound/1- Instalación y uso/3- Recoleccion de informacion.md",
+    "Hacking/Explotación/Active Directory/7- Bloodhound/1- Instalación y uso/2- Inicio y uso de bloodhound.md",
+    "Hacking/Explotación/Active Directory/7- Bloodhound/Ataques/ForceChangePassword.md",
+    "Hacking/Herramientas/Windows/Invoke-Expression (IEX).md",
+    "Hacking/Herramientas/Windows/Get-ChildItem.md",
+    "Hacking/Explotación/Active Directory/7- Bloodhound/1- Instalación y uso/1- Instalación de bloodhound.md",
+    "Hacking/Evasion de Antivirus",
+    "Hacking/Herramientas/Linux/disown.md",
+    "Hacking/Herramientas/Linux/ls.md",
+    "Hacking/Hacking wifi/1- Modo monitor de la antena.md",
+    "Hacking/Hacking wifi/2- Búsqueda de redes.md",
     "Hacking/Hacking wifi/3- Sacar a todos los dispositivos de la red.md",
     "Hacking/Hacking wifi/4- Búsqueda de redes.md",
-    "Hacking/Hacking wifi/1- Modo monitor de la antena.md",
-    "Hacking/Hacking wifi/Sacar a todos los dispositivos de la red.md",
     "Hacking/Hacking wifi/Modo monitor de la antena.md",
-    "Hacking/Herramientas/Windows/certutil.md",
-    "Hacking/Herramientas/Windows/Get-ChildItem.md",
-    "Hacking/Herramientas/Windows/Invoke-Expression (IEX).md",
-    "Hacking/Herramientas/Windows/Rubeus.md",
-    "Hacking/Herramientas/Windows/Mimikatz.md",
-    "Hacking/Explotación/Active Directory/1- Enumeracion/4- Enumeración con RPC Client.md",
     "Hacking/Explotación/Active Directory/1- Enumeracion/1- enumeracion de equipos en el Active Directory.md",
     "Hacking/Explotación/Active Directory/1- Enumeracion/2- Enumeración de recursos smb.md",
     "Hacking/Explotación/Active Directory/1- Enumeracion/3- Enumeracion de usuarios validos.md",
     "Hacking/Explotación/Active Directory/1- Enumeracion/5- Enumeración con ldap.md",
-    "Hacking/Herramientas/Linux/smbmap.md",
-    "Hacking/Herramientas/Linux/smbclient.md",
-    "Hacking/Herramientas/Linux/kerbrute.md",
+    "Hacking/Explotación/Active Directory/1- Enumeracion/4- Enumeración con RPC Client.md",
+    "Hacking/Explotación/Active Directory/6- Archivo SCF Malicioso/1- Obtener el NTLMv2 del usuario Administrador.md",
+    "Hacking/Explotación/Active Directory/7- Bloodhound/1- Instalación y uso",
+    "Hacking/Explotación/Active Directory/7- Bloodhound/Ataques",
+    "Hacking/Explotación/Active Directory/7- Bloodhound/Untitled.md",
     "Hacking/Explotación/Active Directory/5- Mimikatz/1- Golden Ticket Attack.md",
-    "Hacking/Explotación/Hacking web/SQLI (SQL Injection)/Hoja de trucos SQLi.md",
+    "Hacking/Explotación/Active Directory/7- Bloodhound",
+    "Hacking/Explotación/Active Directory/2- SMB Relay/3- SMB Relay IPv6 attack.md",
     "Hacking/Explotación/Active Directory/6- Archivo SCF Malicioso",
     "Imagenes/Pasted image 20250428160113.png",
     "Imagenes/Pasted image 20250426191205.png",
@@ -224,8 +228,6 @@
     "Hacking/Herramientas/New folder",
     "Hacking/Herramientas/Windows",
     "Hacking/Herramientas/Herramientas",
-    "Hacking/Explotación/Active Directory/5- Mimikatz",
-    "Post-Explotacion",
-    "Hacking/Explotación/Active Directory/4- Kerberos"
+    "Hacking/Explotación/Active Directory/5- Mimikatz"
   ]
 }
