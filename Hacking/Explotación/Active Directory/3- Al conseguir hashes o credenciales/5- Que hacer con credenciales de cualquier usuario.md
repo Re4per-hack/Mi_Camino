@@ -18,7 +18,7 @@ evil-winrm -u '{USUARIO}' -p '{CONTRASEÑA}' -i {IP_MAQUINA}
 ## Enumerar contenido
 
 
-Revisar los módulos [[3- Enumeración con RPC Client]] y [[2- Enumeración con ldap]]
+Revisar los módulos [[4- Enumeración con RPC Client]] y [[5- Enumeración con ldap]]
 
 ## Kerberoasting
 
