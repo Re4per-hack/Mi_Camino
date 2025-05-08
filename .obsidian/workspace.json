@@ -1,56 +1,41 @@
 {
   "main": {
-    "id": "1af3e75578d85c34",
+    "id": "5ece7a79b4fc1c14",
     "type": "split",
     "children": [
       {
-        "id": "ae7601b9071eb04b",
+        "id": "72a7e1c43d9ddabe",
         "type": "tabs",
         "children": [
           {
-            "id": "fae6374420742508",
+            "id": "1783e8474a60ddfa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hacking/Explotación/Hacking web/CSRF/1- Que es un CSRF.md",
+                "file": "Hacking/Herramientas/Linux/diff.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1- Que es un CSRF"
-            }
-          },
-          {
-            "id": "02c3bde409e7cfb0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hacking/Evasion de Antivirus/Anti-Malware Scan Interface (AMSI).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Anti-Malware Scan Interface (AMSI)"
+              "title": "diff"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "1c966e332a312a99",
+    "id": "abf7d15424663da8",
     "type": "split",
     "children": [
       {
-        "id": "7e0e692b0fcdded4",
+        "id": "20a679c13d4f7fed",
         "type": "tabs",
         "children": [
           {
-            "id": "09fdece4f481fdc8",
+            "id": "1ae2bf7439bba665",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -63,7 +48,7 @@
             }
           },
           {
-            "id": "53951804d4b88e28",
+            "id": "6dd54cdb3a8fea1f",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -80,7 +65,7 @@
             }
           },
           {
-            "id": "9e10d0fe2360fc5d",
+            "id": "4f970a9a3f00cc81",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -96,20 +81,20 @@
     "width": 300
   },
   "right": {
-    "id": "4f35237fe5e959e2",
+    "id": "38af3d137e0e116b",
     "type": "split",
     "children": [
       {
-        "id": "1e761953c1c1654c",
+        "id": "90cb86361c958801",
         "type": "tabs",
         "children": [
           {
-            "id": "d883e099a726ce21",
+            "id": "7556c0c10254ea0c",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hacking/Explotación/Active Directory/2- SMB Relay/1- SMB Relay Attack Simple.md",
+                "file": "Hacking/Herramientas/Windows/Invoke-Expression (IEX).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 1- SMB Relay Attack Simple"
+              "title": "Backlinks for Invoke-Expression (IEX)"
             }
           },
           {
-            "id": "7529df95195eff84",
+            "id": "bdbb561aa4bdf12b",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hacking/Explotación/Active Directory/2- SMB Relay/1- SMB Relay Attack Simple.md",
+                "file": "Hacking/Herramientas/Windows/Invoke-Expression (IEX).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 1- SMB Relay Attack Simple"
+              "title": "Outgoing links from Invoke-Expression (IEX)"
             }
           },
           {
-            "id": "5502a691f48669c9",
+            "id": "df5e74c9e862e2b3",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -152,18 +137,18 @@
             }
           },
           {
-            "id": "9cffe50235249e9f",
+            "id": "e55552465881ae39",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hacking/Explotación/Active Directory/2- SMB Relay/1- SMB Relay Attack Simple.md",
+                "file": "Hacking/Herramientas/Windows/Invoke-Expression (IEX).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 1- SMB Relay Attack Simple"
+              "title": "Outline of Invoke-Expression (IEX)"
             }
           }
         ]
@@ -183,51 +168,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "02c3bde409e7cfb0",
+  "active": "1783e8474a60ddfa",
   "lastOpenFiles": [
-    "Hacking/Evasion de Antivirus/1- Como funciona un Antivirus.md",
-    "Hacking/Evasion de Antivirus/Anti-Malware Scan Interface (AMSI).md",
-    "Hacking/Evasion de Antivirus/Ejecuciones fileless.md",
+    "Errores/SSH/No matching host key type found.md",
+    "Errores/FTP/Entering Extended Passive Mode.md",
+    "Hacking/Herramientas/Linux/openssl.md",
+    "Hacking/Herramientas/Linux/ssh.md",
+    "Hacking/Herramientas/Linux/netstat.md",
+    "Hacking/post-explotacion/Privilege-escalation/Linux/Enumeracion/Enumeración de red/Conocer la IP de la maquina local.md",
     "Hacking/Evasion de Antivirus/SafetyKatz y SharpLoader.md",
+    "Hacking/Evasion de Antivirus/Ejecuciones fileless.md",
+    "Hacking/Evasion de Antivirus/Anti-Malware Scan Interface (AMSI).md",
+    "Hacking/Evasion de Antivirus/1- Como funciona un Antivirus.md",
+    "Hacking/Herramientas/Linux/telnet.md",
     "Hacking/Explotación/Active Directory/7- Bloodhound/1- Instalación y uso/3- Recoleccion de informacion.md",
-    "Hacking/Explotación/Active Directory/7- Bloodhound/1- Instalación y uso/2- Inicio y uso de bloodhound.md",
-    "Hacking/Explotación/Active Directory/7- Bloodhound/Ataques/ForceChangePassword.md",
+    "Hacking/Explotación/Active Directory/3- Al conseguir hashes o credenciales/3- Que hacer con credenciales del administrador de dominio.md",
+    "Hacking/Explotación/Active Directory/3- Al conseguir hashes o credenciales/1- Que hacer con los Hashes NTLMv2.md",
     "Hacking/Herramientas/Windows/Invoke-Expression (IEX).md",
     "Hacking/Herramientas/Windows/Get-ChildItem.md",
-    "Hacking/Explotación/Active Directory/7- Bloodhound/1- Instalación y uso/1- Instalación de bloodhound.md",
-    "Hacking/Evasion de Antivirus",
-    "Hacking/Herramientas/Linux/disown.md",
-    "Hacking/Herramientas/Linux/ls.md",
-    "Hacking/Hacking wifi/1- Modo monitor de la antena.md",
-    "Hacking/Hacking wifi/2- Búsqueda de redes.md",
-    "Hacking/Hacking wifi/3- Sacar a todos los dispositivos de la red.md",
-    "Hacking/Hacking wifi/4- Búsqueda de redes.md",
-    "Hacking/Hacking wifi/Modo monitor de la antena.md",
-    "Hacking/Explotación/Active Directory/1- Enumeracion/1- enumeracion de equipos en el Active Directory.md",
-    "Hacking/Explotación/Active Directory/1- Enumeracion/2- Enumeración de recursos smb.md",
-    "Hacking/Explotación/Active Directory/1- Enumeracion/3- Enumeracion de usuarios validos.md",
-    "Hacking/Explotación/Active Directory/1- Enumeracion/5- Enumeración con ldap.md",
-    "Hacking/Explotación/Active Directory/1- Enumeracion/4- Enumeración con RPC Client.md",
-    "Hacking/Explotación/Active Directory/6- Archivo SCF Malicioso/1- Obtener el NTLMv2 del usuario Administrador.md",
-    "Hacking/Explotación/Active Directory/7- Bloodhound/1- Instalación y uso",
-    "Hacking/Explotación/Active Directory/7- Bloodhound/Ataques",
-    "Hacking/Explotación/Active Directory/7- Bloodhound/Untitled.md",
-    "Hacking/Explotación/Active Directory/5- Mimikatz/1- Golden Ticket Attack.md",
-    "Hacking/Explotación/Active Directory/7- Bloodhound",
-    "Hacking/Explotación/Active Directory/2- SMB Relay/3- SMB Relay IPv6 attack.md",
-    "Hacking/Explotación/Active Directory/6- Archivo SCF Malicioso",
-    "Imagenes/Pasted image 20250428160113.png",
-    "Imagenes/Pasted image 20250426191205.png",
-    "Imagenes/Pasted image 20250424065810.png",
-    "Imagenes/Pasted image 20250423105234.png",
-    "Pasted image 20250428160113.png",
-    "Pasted image 20250426191205.png",
-    "Pasted image 20250424065810.png",
-    "Pasted image 20250423105234.png",
-    "Hacking/Herramientas/Windows/Mimikatz",
-    "Hacking/Herramientas/New folder",
-    "Hacking/Herramientas/Windows",
-    "Hacking/Herramientas/Herramientas",
-    "Hacking/Explotación/Active Directory/5- Mimikatz"
+    "Hacking/Herramientas/Windows/Mimikatz.md"
   ]
 }

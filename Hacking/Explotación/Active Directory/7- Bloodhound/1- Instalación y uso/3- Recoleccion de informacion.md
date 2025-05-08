@@ -30,7 +30,7 @@ Esto nos deberia dejar un archivo .zip en el directorio actual, nos lo moveremos
 En este caso, no tenemos acceso directo a una maquina pero si a un usuario y contraseña validos, por lo que vamos a ahcer uso de la herramienta bloohound-python, recomiendo que sea ejecutada en una carpeta vacia ya que suelta bastantes archivos y luego tenemos que seleccionarlos todos en bloodhound, la sintaxis del comando seria la siguiente:
 
 ```python
-bloodhound-python -u {Usuario}@{Dominio} -p {Contraseña} -c All 
+bloodhound-python -u {Usuario} -ns [IP_DC] -d [DOMINIO] -p {Contraseña} -c All 
 ```
 
 Esto nos pondrá un montón de archivos json que tendremos que subir a bloodhound, 
