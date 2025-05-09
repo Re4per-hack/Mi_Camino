@@ -41,6 +41,7 @@ Ahora tenemos dos opciones:
 - 1. Usar esto para contruir un golden.kirbi el cual nos servirá para acceder a cualquier recurso del sistema desde una maquina windows a otra, Ejemplo: PC-Juan queriendo acceder a admin$ del dc (\\\\DC-Company\\admin$) cosa que no se puede hacer normalmente.
 
 - 2. Usar esto junto a ticketer para que el golden ticket tenga un formato ccache el cual nos permitiría acceder a cualquier maquina del dominio (la mejor opción)
+<<<<<<< Updated upstream
 ## Tener privilegios sobre un equipo desde una maquina Windows (Primera opción)
 
 Para esto vamos a crear un archivo golden.kirbi, luego, este lo vamos a injectar en la memoria, permitiendo que cuando esta maquina solicite un recurso privilegiado se envie el Golden ticket, permitiendo así el acceso:
@@ -73,6 +74,9 @@ psexec.py -n -k juancorp.local/Administrador@{IP_EQUIPO} powershell.exe
 ```
 
 Ahora aunque el administrador cambie su contraseña igual podremos seguir estableciendo conexión, ya que esto no depende de esa contraseña del admin, sino de la contraseña de krbtgt 
+=======
+
+>>>>>>> Stashed changes
 ##### Recursos 
 - [Hack Tricks](https://book.hacktricks.wiki/en/windows-hardening/stealing-credentials/credentials-mimikatz.html?highlight=Mimikatz#mimikatz)
 

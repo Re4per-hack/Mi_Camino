@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "1af3e75578d85c34",
+    "id": "5ece7a79b4fc1c14",
     "type": "split",
     "children": [
       {
-        "id": "ae7601b9071eb04b",
+        "id": "72a7e1c43d9ddabe",
         "type": "tabs",
         "children": [
           {
-            "id": "fae6374420742508",
+            "id": "1783e8474a60ddfa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hacking/Explotación/Active Directory/4- Kerberoasting/2- Pedir un TGS (Ticket Granting Service).md",
+                "file": "Hacking/Herramientas/Linux/diff.md",
                 "mode": "source",
                 "source": false
               },
@@ -47,22 +47,21 @@
               "title": "1- Como funciona un Antivirus"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "1c966e332a312a99",
+    "id": "abf7d15424663da8",
     "type": "split",
     "children": [
       {
-        "id": "7e0e692b0fcdded4",
+        "id": "20a679c13d4f7fed",
         "type": "tabs",
         "children": [
           {
-            "id": "09fdece4f481fdc8",
+            "id": "1ae2bf7439bba665",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -75,7 +74,7 @@
             }
           },
           {
-            "id": "53951804d4b88e28",
+            "id": "6dd54cdb3a8fea1f",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -92,7 +91,7 @@
             }
           },
           {
-            "id": "9e10d0fe2360fc5d",
+            "id": "4f970a9a3f00cc81",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -108,20 +107,20 @@
     "width": 300
   },
   "right": {
-    "id": "4f35237fe5e959e2",
+    "id": "38af3d137e0e116b",
     "type": "split",
     "children": [
       {
-        "id": "1e761953c1c1654c",
+        "id": "90cb86361c958801",
         "type": "tabs",
         "children": [
           {
-            "id": "d883e099a726ce21",
+            "id": "7556c0c10254ea0c",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hacking/Explotación/Active Directory/2- SMB Relay/1- SMB Relay Attack Simple.md",
+                "file": "Hacking/Herramientas/Windows/Invoke-Expression (IEX).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,25 +130,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 1- SMB Relay Attack Simple"
+              "title": "Backlinks for Invoke-Expression (IEX)"
             }
           },
           {
-            "id": "7529df95195eff84",
+            "id": "bdbb561aa4bdf12b",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hacking/Explotación/Active Directory/2- SMB Relay/1- SMB Relay Attack Simple.md",
+                "file": "Hacking/Herramientas/Windows/Invoke-Expression (IEX).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 1- SMB Relay Attack Simple"
+              "title": "Outgoing links from Invoke-Expression (IEX)"
             }
           },
           {
-            "id": "5502a691f48669c9",
+            "id": "df5e74c9e862e2b3",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -164,18 +163,18 @@
             }
           },
           {
-            "id": "9cffe50235249e9f",
+            "id": "e55552465881ae39",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hacking/Explotación/Active Directory/2- SMB Relay/1- SMB Relay Attack Simple.md",
+                "file": "Hacking/Herramientas/Windows/Invoke-Expression (IEX).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 1- SMB Relay Attack Simple"
+              "title": "Outline of Invoke-Expression (IEX)"
             }
           }
         ]
@@ -195,8 +194,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ebf21e055c5b0289",
+  "active": "1783e8474a60ddfa",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "Hacking/Explotación/Active Directory/1- Enumeracion/4- Enumeración con RPC Client.md",
     "Hacking/Explotación/Active Directory/1- Enumeracion/5- Enumeración con ldap.md",
     "Hacking/Explotación/Active Directory/1- Enumeracion/3- Enumeracion de usuarios validos.md",
@@ -238,5 +238,24 @@
     "Hacking/Explotación/Active Directory/5- Mimikatz",
     "Hacking/Explotación/Active Directory/4- Kerberoasting",
     "Imagenes/Pasted image 20250424065810.png"
+=======
+    "Errores/SSH/No matching host key type found.md",
+    "Errores/FTP/Entering Extended Passive Mode.md",
+    "Hacking/Herramientas/Linux/openssl.md",
+    "Hacking/Herramientas/Linux/ssh.md",
+    "Hacking/Herramientas/Linux/netstat.md",
+    "Hacking/post-explotacion/Privilege-escalation/Linux/Enumeracion/Enumeración de red/Conocer la IP de la maquina local.md",
+    "Hacking/Evasion de Antivirus/SafetyKatz y SharpLoader.md",
+    "Hacking/Evasion de Antivirus/Ejecuciones fileless.md",
+    "Hacking/Evasion de Antivirus/Anti-Malware Scan Interface (AMSI).md",
+    "Hacking/Evasion de Antivirus/1- Como funciona un Antivirus.md",
+    "Hacking/Herramientas/Linux/telnet.md",
+    "Hacking/Explotación/Active Directory/7- Bloodhound/1- Instalación y uso/3- Recoleccion de informacion.md",
+    "Hacking/Explotación/Active Directory/3- Al conseguir hashes o credenciales/3- Que hacer con credenciales del administrador de dominio.md",
+    "Hacking/Explotación/Active Directory/3- Al conseguir hashes o credenciales/1- Que hacer con los Hashes NTLMv2.md",
+    "Hacking/Herramientas/Windows/Invoke-Expression (IEX).md",
+    "Hacking/Herramientas/Windows/Get-ChildItem.md",
+    "Hacking/Herramientas/Windows/Mimikatz.md"
+>>>>>>> fb840866877d9f1312c7678c4f5bc5ac6f376690
   ]
 }
