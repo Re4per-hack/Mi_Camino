@@ -18,7 +18,33 @@
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5- DoS con Buffer Overflow"
+              "title": "2- Pedir un TGS (Ticket Granting Service)"
+            }
+          },
+          {
+            "id": "db1695a483ebfd5b",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Imagenes/Pasted image 20250426191205.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20250426191205"
+            }
+          },
+          {
+            "id": "ebf21e055c5b0289",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hacking/Evasion de Antivirus/1- Como funciona un Antivirus.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1- Como funciona un Antivirus"
             }
           }
         ]
@@ -170,9 +196,53 @@
   },
   "active": "1ae2bf7439bba665",
   "lastOpenFiles": [
-    "Hacking/Explotación/Buffer Overflow/4- Como funciona una explotación Buffer Overflow.md",
-    "Hacking/Evasion de Antivirus/3- Deshabilitar windows defender.md",
-    "Hacking/Explotación/Hacking web/ManageEngine ServiceDesk Plus",
+    "Hacking/Explotación/Active Directory/1- Enumeracion/4- Enumeración con RPC Client.md",
+    "Hacking/Explotación/Active Directory/1- Enumeracion/5- Enumeración con ldap.md",
+    "Hacking/Explotación/Active Directory/1- Enumeracion/3- Enumeracion de usuarios validos.md",
+    "Hacking/Evasion de Antivirus/Anti-Malware Scan Interface (AMSI).md",
+    "Hacking/Evasion de Antivirus/SafetyKatz y SharpLoader.md",
+    "Hacking/Evasion de Antivirus/Ejecuciones fileless.md",
+    "Hacking/Evasion de Antivirus/1- Como funciona un Antivirus.md",
+    "Hacking/Explotación/Active Directory/4- Kerberos/3- Realizando un AS-REP Roasting.md",
+    "Hacking/Herramientas/Windows/Invoke-Expression (IEX).md",
+    "Hacking/Herramientas/Windows/Get-ChildItem.md",
+    "Hacking/Herramientas/Linux/smbserver.md",
+    "Hacking/Herramientas/Linux/smbmap.md",
+    "Hacking/Herramientas/Linux/smbclient.md",
+    "Hacking/Herramientas/Linux/kerbrute.md",
+    "Hacking/Herramientas/Linux/disown.md",
+    "Hacking/Explotación/Active Directory/7- Bloodhound/Ataques/ForceChangePassword.md",
+    "Hacking/Explotación/Active Directory/7- Bloodhound/1- Instalación y uso/3- Recoleccion de informacion.md",
+    "Hacking/Explotación/Active Directory/7- Bloodhound/1- Instalación y uso/2- Inicio y uso de bloodhound.md",
+    "Hacking/Explotación/Active Directory/7- Bloodhound/1- Instalación y uso/1- Instalación de bloodhound.md",
+    "Hacking/Explotación/Active Directory/7- Bloodhound/Ataques",
+    "Hacking/Explotación/Active Directory/7- Bloodhound/1- Instalación y uso",
+    "Hacking/Explotación/Active Directory/7- Bloodhound",
+    "Hacking/Explotación/Active Directory/6- Archivo SCF Malicioso/1- Obtener el NTLMv2 del usuario Administrador.md",
+    "Hacking/Explotación/Active Directory/6- Archivo SCF Malicioso",
+    "Hacking/Explotación/Active Directory/1- Enumeracion/2- Enumeración de recursos smb.md",
+    "Hacking/Evasion de Antivirus",
+    "Hacking/Explotación/Active Directory/4- Kerberos/2- Realizando un Kerberoasting.md",
+    "Hacking/Explotación/Active Directory/4- Kerberos/1- Funcionamiento Kerberos.md",
+    "Hacking/Explotación/Active Directory/3- Al conseguir hashes o credenciales/5- Que hacer con credenciales de cualquier usuario.md",
+    "Hacking/Explotación/Active Directory/3- Al conseguir hashes o credenciales/4- Authentication spraying.md",
+    "Hacking/Explotación/Active Directory/3- Al conseguir hashes o credenciales/3- Que hacer con credenciales del administrador de dominio.md",
+    "Hacking/Explotación/Active Directory/4- Kerberos",
+    "Imagenes/Pasted image 20250426191205.png",
+    "Imagenes/Pasted image 20250428160113.png",
+    "Imagenes/Pasted image 20250423105234.png",
+    "Hacking/Herramientas/Windows",
+    "Hacking/Herramientas/Linux",
+    "Imagenes/Pasted image 20250424065810.png",
+    "Hacking/Explotación/Active Directory/5- Mimikatz",
+    "Hacking/Explotación/Active Directory/4- Kerberoasting",
+    "Imagenes/Pasted image 20250424065810.png"
+    "Errores/SSH/No matching host key type found.md",
+    "Errores/FTP/Entering Extended Passive Mode.md",
+    "Hacking/Herramientas/Linux/openssl.md",
+    "Hacking/Herramientas/Linux/ssh.md",
+    "Hacking/Herramientas/Linux/netstat.md",
+    "Hacking/post-explotacion/Privilege-escalation/Linux/Enumeracion/Enumeración de red/Conocer la IP de la maquina local.md",
     "Hacking/Evasion de Antivirus/SafetyKatz y SharpLoader.md",
     "Hacking/Explotación/Active Directory/2- SMB Relay/3- SMB Relay IPv6 attack.md",
     "Hacking/Explotación/Active Directory/2- SMB Relay/2- SMB Relay Attack Avanzado.md",
@@ -180,23 +250,8 @@
     "Hacking/Explotación/Active Directory/3- Al conseguir hashes o credenciales/3- Que hacer con credenciales del administrador de dominio.md",
     "Hacking/Explotación/Active Directory/3- Al conseguir hashes o credenciales/2- Que Hacer con la SAM dumpeada.md",
     "Hacking/Explotación/Active Directory/3- Al conseguir hashes o credenciales/1- Que hacer con los Hashes NTLMv2.md",
-    "Hacking/Evasion de Antivirus/Ejecuciones fileless.md",
-    "Hacking/Evasion de Antivirus/2- Anti-Malware Scan Interface (AMSI).md",
-    "Hacking/Evasion de Antivirus/1- Como funciona un Antivirus.md",
-    "Hacking/Explotación/Active Directory/3- Al conseguir hashes o credenciales/4- Authentication spraying.md",
-    "Hacking/Explotación/Active Directory/3- Al conseguir hashes o credenciales/5- Que hacer con credenciales de cualquier usuario.md",
-    "Hacking/Evasion de Firewalls/Untitled.md",
-    "Hacking/Herramientas/Linux/vim.md",
-    "Sistemas Operativos/Linux/3- Redireccion en bash.md",
-    "Hacking/Evasion de Firewalls",
-    "Sistemas Operativos/Linux/3- Expresiones regulares.md",
-    "Sistemas Operativos/Linux/2- Salidas de datos.md",
-    "Sistemas Operativos/Linux/2- Manejo de texto.md",
-    "Sistemas Operativos/Linux/1- Permisos en Linux.md",
-    "Sistemas Operativos/Linux/Permisos en Linux.md",
-    "Hacking/Herramientas/Linux/diff.md",
-    "Errores/SSH/No matching host key type found.md",
-    "Errores/FTP/Entering Extended Passive Mode.md",
-    "Hacking/Herramientas/Linux/openssl.md"
+    "Hacking/Herramientas/Windows/Invoke-Expression (IEX).md",
+    "Hacking/Herramientas/Windows/Get-ChildItem.md",
+    "Hacking/Herramientas/Windows/Mimikatz.md"
   ]
 }
