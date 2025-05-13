@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hacking/Herramientas/Linux/diff.md",
+                "file": "Hacking/Explotación/Buffer Overflow/5- DoS con Buffer Overflow.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "diff"
+              "title": "5- DoS con Buffer Overflow"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "rm",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -168,24 +168,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1783e8474a60ddfa",
+  "active": "1ae2bf7439bba665",
   "lastOpenFiles": [
+    "Hacking/Explotación/Buffer Overflow/4- Como funciona una explotación Buffer Overflow.md",
+    "Hacking/Evasion de Antivirus/3- Deshabilitar windows defender.md",
+    "Hacking/Explotación/Hacking web/ManageEngine ServiceDesk Plus",
+    "Hacking/Evasion de Antivirus/SafetyKatz y SharpLoader.md",
+    "Hacking/Explotación/Active Directory/2- SMB Relay/3- SMB Relay IPv6 attack.md",
+    "Hacking/Explotación/Active Directory/2- SMB Relay/2- SMB Relay Attack Avanzado.md",
+    "Hacking/Explotación/Active Directory/2- SMB Relay/1- SMB Relay Attack Simple.md",
+    "Hacking/Explotación/Active Directory/3- Al conseguir hashes o credenciales/3- Que hacer con credenciales del administrador de dominio.md",
+    "Hacking/Explotación/Active Directory/3- Al conseguir hashes o credenciales/2- Que Hacer con la SAM dumpeada.md",
+    "Hacking/Explotación/Active Directory/3- Al conseguir hashes o credenciales/1- Que hacer con los Hashes NTLMv2.md",
+    "Hacking/Evasion de Antivirus/Ejecuciones fileless.md",
+    "Hacking/Evasion de Antivirus/2- Anti-Malware Scan Interface (AMSI).md",
+    "Hacking/Evasion de Antivirus/1- Como funciona un Antivirus.md",
+    "Hacking/Explotación/Active Directory/3- Al conseguir hashes o credenciales/4- Authentication spraying.md",
+    "Hacking/Explotación/Active Directory/3- Al conseguir hashes o credenciales/5- Que hacer con credenciales de cualquier usuario.md",
+    "Hacking/Evasion de Firewalls/Untitled.md",
+    "Hacking/Herramientas/Linux/vim.md",
+    "Sistemas Operativos/Linux/3- Redireccion en bash.md",
+    "Hacking/Evasion de Firewalls",
+    "Sistemas Operativos/Linux/3- Expresiones regulares.md",
+    "Sistemas Operativos/Linux/2- Salidas de datos.md",
+    "Sistemas Operativos/Linux/2- Manejo de texto.md",
+    "Sistemas Operativos/Linux/1- Permisos en Linux.md",
+    "Sistemas Operativos/Linux/Permisos en Linux.md",
+    "Hacking/Herramientas/Linux/diff.md",
     "Errores/SSH/No matching host key type found.md",
     "Errores/FTP/Entering Extended Passive Mode.md",
-    "Hacking/Herramientas/Linux/openssl.md",
-    "Hacking/Herramientas/Linux/ssh.md",
-    "Hacking/Herramientas/Linux/netstat.md",
-    "Hacking/post-explotacion/Privilege-escalation/Linux/Enumeracion/Enumeración de red/Conocer la IP de la maquina local.md",
-    "Hacking/Evasion de Antivirus/SafetyKatz y SharpLoader.md",
-    "Hacking/Evasion de Antivirus/Ejecuciones fileless.md",
-    "Hacking/Evasion de Antivirus/Anti-Malware Scan Interface (AMSI).md",
-    "Hacking/Evasion de Antivirus/1- Como funciona un Antivirus.md",
-    "Hacking/Herramientas/Linux/telnet.md",
-    "Hacking/Explotación/Active Directory/7- Bloodhound/1- Instalación y uso/3- Recoleccion de informacion.md",
-    "Hacking/Explotación/Active Directory/3- Al conseguir hashes o credenciales/3- Que hacer con credenciales del administrador de dominio.md",
-    "Hacking/Explotación/Active Directory/3- Al conseguir hashes o credenciales/1- Que hacer con los Hashes NTLMv2.md",
-    "Hacking/Herramientas/Windows/Invoke-Expression (IEX).md",
-    "Hacking/Herramientas/Windows/Get-ChildItem.md",
-    "Hacking/Herramientas/Windows/Mimikatz.md"
+    "Hacking/Herramientas/Linux/openssl.md"
   ]
 }

