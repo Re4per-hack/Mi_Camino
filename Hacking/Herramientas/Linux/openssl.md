@@ -8,4 +8,10 @@ openssl s_client -connect {IP}:{Puerto}
 
 - connect: Con este parámetro le indicamos la dirección a la que queremos conectarnos.
 
+## Error KeyUpdate 
+
+```
+-ign_eof
+```
+
 

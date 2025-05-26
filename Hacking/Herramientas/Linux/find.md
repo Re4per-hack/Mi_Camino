@@ -36,4 +36,4 @@ find -size 1000G // Tamaño en Gigabytes
 ```
 
 
-
+Buscar por propietarios
