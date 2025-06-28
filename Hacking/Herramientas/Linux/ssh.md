@@ -34,3 +34,10 @@ SSH ademas de permitirnos establecer conexiones en maquinas remotas, tambien pod
 ```shell
 ssh {USUARIO}@IP {COMANDO}
 ```
+
+
+## Tunelización con SSH
+
+```shell
+ssh -L [PUERTO_LOCAL]:[DESTINO_REMOTO]:[PUERTO_DESTINO] usuario@maquina_intermedia
+```

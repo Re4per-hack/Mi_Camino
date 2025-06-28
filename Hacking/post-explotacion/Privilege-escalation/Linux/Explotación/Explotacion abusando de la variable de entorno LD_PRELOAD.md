@@ -38,7 +38,7 @@ Listo, ya tenemos el script ahora tenemos que compilarlo como una libreria para 
 
 
 ```bash
-gcc -fPIC -shared -o shell.so shell.c -nostartfile
+gcc -fPIC -shared -o shell.so shell.c -nostartfiles
 ```
 
 Listo, ya tenemos la libreria, ahora solonos hace falta agregar la ruta de la libreria a la variable LD_PRELOAD para que LD la ejecute, pero aqui tengo que aclarar algo, tiene que haber algun comando que podamos ejecutar como sudo, estos comandos que podemos ejecutar como sudo sin proporcionar contraseña los podemos ver con el comando sudo -l, en mi caso podia ejecutar apache2:
