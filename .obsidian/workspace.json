@@ -1,64 +1,37 @@
 {
   "main": {
-    "id": "5374c9ffbd78caa2",
+    "id": "ef6977110f7ccd0d",
     "type": "split",
     "children": [
       {
-        "id": "5baebfc2a6a408cd",
+        "id": "7058dc2fc416ad84",
         "type": "tabs",
         "children": [
           {
-            "id": "3076cc41a4eb3ade",
+            "id": "3da841168c324a21",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-<<<<<<< HEAD
-                "file": "Hacking/Herramientas/Linux/ssh.md",
-=======
-                "file": "Hacking/Explotación/Hacking web/Upload Files vulnerabilities/1- RCE con subida de archivos.md",
->>>>>>> 1b7e4f1faf7e19d3c21226bb4b51e13874f923f3
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-<<<<<<< HEAD
-              "title": "ssh"
-=======
-              "title": "1- RCE con subida de archivos"
-            }
-          },
-          {
-            "id": "0b835e9a180c37a6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hacking/Herramientas/Linux/openssl.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "openssl"
->>>>>>> 1b7e4f1faf7e19d3c21226bb4b51e13874f923f3
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "b5bcdee72f5f68e4",
+    "id": "e37b922ea99970de",
     "type": "split",
     "children": [
       {
-        "id": "bf783c4f2bca95d4",
+        "id": "e101552ab7ede78c",
         "type": "tabs",
         "children": [
           {
-            "id": "fc7ee0be3304eb60",
+            "id": "642331a6a5a2ce53",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -71,16 +44,12 @@
             }
           },
           {
-            "id": "9ab230b4f89ccf43",
+            "id": "5392e86e09690360",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-<<<<<<< HEAD
-                "query": "ssh",
-=======
-                "query": "errores",
->>>>>>> 1b7e4f1faf7e19d3c21226bb4b51e13874f923f3
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -92,7 +61,7 @@
             }
           },
           {
-            "id": "75151a0c8737182c",
+            "id": "874bfa35d6291701",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -101,23 +70,22 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 300
   },
   "right": {
-    "id": "89513e5c44980692",
+    "id": "b7a6d05216134308",
     "type": "split",
     "children": [
       {
-        "id": "c38a4670a85f08a9",
+        "id": "c249e1089f90c3b9",
         "type": "tabs",
         "children": [
           {
-            "id": "00863e2fd17f51ff",
+            "id": "58ce316e428e615e",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -135,7 +103,7 @@
             }
           },
           {
-            "id": "aa9684dcbe8f525b",
+            "id": "ede8890f6a9f387f",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -148,7 +116,7 @@
             }
           },
           {
-            "id": "3850b8c317403819",
+            "id": "a79653baac7e0272",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -163,17 +131,18 @@
             }
           },
           {
-            "id": "8e014ff70e0a57f8",
+            "id": "fac15544e8f6a43a",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+                "file": "Hacking/Explotación/Untitled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Untitled"
             }
           }
         ]
@@ -193,45 +162,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9ab230b4f89ccf43",
+  "active": "642331a6a5a2ce53",
   "lastOpenFiles": [
-<<<<<<< HEAD
-    "Hacking/Herramientas/Linux/openssl.md",
-    "Untitled.canvas",
-    "2025-05-31.md",
-    "Hacking/post-explotacion/Tratamiento de la TTY.md",
-    "Hacking/Herramientas/Linux/tr.md",
-    "Hacking/Herramientas/Linux/grep.md",
-    "Hacking/Explotación/Active Directory/1- Enumeracion/5- Enumeración con ldap.md",
-=======
-    "Hacking/Herramientas/Linux/xxd.md",
-    "Hacking/Herramientas/Linux/awk.md",
-    "Hacking/Herramientas/Linux/find.md",
-    "Hacking/post-explotacion/Privilege-escalation/Linux/Enumeracion/Enumeracion de Contraseñas/Buscando nombres de archivo que contengan palabras clave.md",
-    "Hacking/Explotación/Hacking web/Prototype pollution/1- Que es un prototipo y un objeto.md",
-    "Hacking/Explotación/Hacking web/Upload Files vulnerabilities/1- RCE con subida de archivos.md",
-    "Hacking/Explotación/Hacking web/Prototype pollution",
-    "Hacking/Explotación/Active Directory/1- Enumeracion/5- Enumeración con ldap.md",
-    "Hacking/Explotación/Hacking web/Upload Files vulnerabilities",
->>>>>>> 1b7e4f1faf7e19d3c21226bb4b51e13874f923f3
-    "Hacking/Explotación/Active Directory/1- Enumeracion/3- Enumeracion de usuarios validos.md",
-    "Hacking/Explotación/Active Directory/1- Enumeracion/4- Enumeración con RPC Client.md",
-    "Hacking/Explotación/Active Directory/3- Al conseguir hashes o credenciales/5- Que hacer con credenciales de cualquier usuario.md",
-    "Hacking/Explotación/Active Directory/3- Al conseguir hashes o credenciales/3- Que hacer con credenciales del administrador de dominio.md",
-    "Hacking/Explotación/Active Directory/2- SMB Relay/3- SMB Relay IPv6 attack.md",
-    "Hacking/Explotación/Active Directory/2- SMB Relay/2- SMB Relay Attack Avanzado.md",
-    "Hacking/Explotación/Active Directory/2- SMB Relay/1- SMB Relay Attack Simple.md",
-    "Hacking/Evasion de Antivirus/3- Deshabilitar windows defender.md",
-    "Hacking/Evasion de Antivirus/4- Conexiones remotas sin levantar sospechas.md",
-    "Hacking/Evasion de Antivirus/Ejecuciones fileless.md",
-    "Hacking/Evasion de Antivirus/Anti-Malware Scan Interface (AMSI).md",
-    "Hacking/Evasion de Antivirus/SafetyKatz y SharpLoader.md",
-    "Hacking/Explotación/Buffer Overflow/5- DoS con Buffer Overflow.md",
-    "Hacking/Explotación/Buffer Overflow/3- Introduccion al Stack.md",
-    "Hacking/Explotación/Buffer Overflow/2- Como los programas usan la memoria.md",
-    "Hacking/Explotación/Buffer Overflow/4- Como funciona una explotación Buffer Overflow.md",
-    "Hacking/Evasion de Antivirus/1- Como funciona un Antivirus.md",
-    "Hacking/Evasion de Antivirus/2- Anti-Malware Scan Interface (AMSI).md",
-    "Hacking/Herramientas/Linux/xfreerdp.md"
+    "Hacking/Explotación/MaliciousMail",
+    "Hacking/Explotación/Untitled.md"
   ]
 }
