@@ -163,7 +163,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "75347e229afccce5",
@@ -255,14 +255,22 @@
   },
   "active": "e8eac6102afc764b",
   "lastOpenFiles": [
-    "Pasted image 20250827233826.png",
-    "Pasted image 20250827233734.png",
-    "Pasted image 20250827233513.png",
-    "Pasted image 20250827233501.png",
-    "Pasted image 20250827233428.png",
-    "Pasted image 20250827232943.png",
-    "Hacking/Explotación/Hacking web/API Testing/1. Busqueda de documentación de una API.md",
+    "Pasted image 20250828115302.png",
+    "Pasted image 20250828114434.png",
+    "Pasted image 20250828114134.png",
+    "Pasted image 20250828113738.png",
+    "Pasted image 20250828113712.png",
+    "Pasted image 20250828112441.png",
+    "Hacking/Herramientas/Linux/ffuf.md",
     "Hacking/Explotación/Hacking web/API Testing/2. SSPP alterando comportamiento de API interna.md",
+    "Pasted image 20250828105849.png",
+    "Pasted image 20250828105838.png",
+    "Pasted image 20250828002300.png",
+    "Pasted image 20250828000659.png",
+    "Hacking/Explotación/Hacking web/Upload Files vulnerabilities/1- RCE con subida de archivos.md",
+    "Hacking/Explotación/Hacking web/Upload Files vulnerabilities",
+    "Pasted image 20250827233826.png",
+    "Hacking/Explotación/Hacking web/API Testing/1. Busqueda de documentación de una API.md",
     "Hacking/Explotación/Hacking web/API Testing/Server-side Parameter Pollution/1. Exfiltración de reset de contraseña.md",
     "Hacking/Explotación/Hacking web/Prototype pollution/1- Que es un prototipo y un objeto.md",
     "Redes/Scaneo/Escanear las maquinas en una red.md",
@@ -270,8 +278,6 @@
     "Redes/Scaneo",
     "Pendiente.md",
     "2025-05-31.md",
-    "Pasted image 20250730083542.png",
-    "Pasted image 20250729171317.png",
     "Hacking/Explotación/Hacking web/API Testing/Server-side Parameter Pollution",
     "Hacking/API Testing/Untitled.md",
     "Hacking/BugBounty/Enumeración/1. Scopes con wildcard.md",
@@ -279,7 +285,6 @@
     "Untitled.md",
     "Untitled.base",
     "Untitled.canvas",
-    "Hacking/Herramientas/Linux/ffuf.md",
     "Hacking/Explotación/Hacking web/API Testing",
     "Hacking/Untitled.md",
     "Hacking/BugBounty",
@@ -296,9 +301,6 @@
     "Hacking/post-explotacion/Privilege-escalation/Linux/Enumeracion/Enumeracion de usuario/Permisos y identificador de usuario.md",
     "Hacking/post-explotacion/Privilege-escalation/Linux/Enumeracion/1. Enumerar archivos con permisos sensibles",
     "Hacking/post-explotacion/Privilege-escalation/Linux/Enumeracion/Enumeración de red/Conocer la IP de la maquina local.md",
-    "Hacking/post-explotacion/Privilege-escalation/Linux/Enumeracion/Enumeracion de usuario/Registros de contraseñas de cada usuario.md",
-    "Imagenes/Pasted image 20250426191205.png",
-    "Hacking/Explotación/Active Directory/General",
-    "Hacking/Explotación/Active Directory/Shadow Attack"
+    "Hacking/Explotación/Active Directory/General"
   ]
 }
