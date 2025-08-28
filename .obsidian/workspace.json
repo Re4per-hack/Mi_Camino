@@ -139,6 +139,7 @@
               "type": "search",
               "state": {
                 "query": "",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -160,6 +161,7 @@
             }
           }
         ]
+        ]
       }
     ],
     "direction": "horizontal",
@@ -170,7 +172,7 @@
     "type": "split",
     "children": [
       {
-        "id": "370fc71cd39fcf9c",
+        "id": "c38a4670a85f08a9",
         "type": "tabs",
         "children": [
           {
@@ -227,7 +229,6 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hacking/Herramientas/Windows/Invoke-Expression (IEX).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
