@@ -1,8 +1,0 @@
-{
-	"nodes":[
-		{"id":"99b74ac917f68234","x":-125,"y":-30,"width":250,"height":60,"type":"text","text":"Saber quien es Barichara al dia"},
-		{"id":"ee89e5c5d7543602","x":-460,"y":180,"width":280,"height":120,"type":"text","text":"Adulto 28 años aprox, santandereano, probablemente nacido en sangil."},
-		{"id":"708df6fa6255f0a8","x":-430,"y":-260,"width":250,"height":60,"type":"text","text":""}
-	],
-	"edges":[]
-}

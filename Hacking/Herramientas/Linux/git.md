@@ -49,3 +49,8 @@ Cambiar de branch hará que el repositorio no vaya por el camino/branch main, si
 git checkout {Branch}
 ```
 
+
+# Para ver etiquetas 
+
+git show {etiqueta
+}

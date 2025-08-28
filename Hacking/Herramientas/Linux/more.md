@@ -1,4 +1,4 @@
-More es un comando que nos permite leer archivos, cuando un archivo es demasiado grande para ser mostrado completo en la terminal, more lo "pagina" es decir, te lo separa en parte spara que puedas ver completo usando las flechas del teclado, el caso es que con more podemos spawnear alguna shell o leer otros archivos:
+ More es un comando que nos permite leer archivos, cuando un archivo es demasiado grande para ser mostrado completo en la terminal, more lo "pagina" es decir, te lo separa en parte spara que puedas ver completo usando las flechas del teclado, el caso es que con more podemos spawnear alguna shell o leer otros archivos:
 
 ## Leer otros archivos dentro de more
 

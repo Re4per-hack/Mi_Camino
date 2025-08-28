@@ -8,7 +8,7 @@ Primeramente vamos a listar los SPN (Service Principal Name) en el AD (Active Di
 GetUserSPNs.py juancorp.local/Juan:Password1
 ```
 
-Ahora, podemos usar la opcion --request para obtener el TGS-REP, que contiene el Ticket Granting Service, nosotros podemos intentar crackear este ticket para obtener la contraseña de el SPN (Service Principal Name), podemos usar [[John The Ripper]] para realizar esta tarea
+Ahora, podemos usar la opcion -request para obtener el TGS-REP, que contiene el Ticket Granting Service, nosotros podemos intentar crackear este ticket para obtener la contraseña de el SPN (Service Principal Name), podemos usar [[John The Ripper]] para realizar esta tarea
 
 
 
@@ -16,6 +16,6 @@ Ahora, podemos usar la opcion --request para obtener el TGS-REP, que contiene el
 
 Esta seccion de este documento es exclusivamente para quienes estan creando un laboratorio AD (Active Directory).
 
-![[Pasted image 20250423105234.png]]
+![[Pasted image 20250730083542.png]]
 
 
