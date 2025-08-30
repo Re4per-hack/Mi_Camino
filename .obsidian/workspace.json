@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tty",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -170,7 +169,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "b78192d6590e05c7",
+  "active": "6b176f87abd1f55c",
   "lastOpenFiles": [
     "Protocolos/SMTP/2. Enviar un correo.md",
     "Protocolos/SMTP/1. Conectarse a un servicio SMTP.md",
