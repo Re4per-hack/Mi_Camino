@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pendiente.md",
+                "file": "Hacking/post-explotacion/Tratamiento de la TTY.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pendiente"
+              "title": "Tratamiento de la TTY"
             }
           }
         ]
@@ -171,15 +171,18 @@
   },
   "active": "6b176f87abd1f55c",
   "lastOpenFiles": [
-    "2025-05-31.md",
     "Imagenes/Notsorted/Pasted image 20250829000551.png",
+    "Imagenes/Notsorted/Pasted image 20250829000445.png",
+    "Imagenes/Notsorted/Pasted image 20250829000425.png",
+    "Imagenes/Notsorted/Pasted image 20250829000351.png",
     "Imagenes/Notsorted/Pasted image 20250829000311.png",
-    "Imagenes/Notsorted/Pasted image 20250108215700.png",
-    "Imagenes/Notsorted/Pasted image 20250729171317.png",
-    "Imagenes/Notsorted/Pasted image 20250730083542.png",
-    "Imagenes/Notsorted/Pasted image 20250828114434.png",
+    "Imagenes/Notsorted/Pasted image 20250829000202.png",
+    "Imagenes/Notsorted/Pasted image 20250829000055.png",
+    "Imagenes/Notsorted/Pasted image 20250828235758.png",
+    "Imagenes/Notsorted/Pasted image 20250828235711.png",
+    "Imagenes/Notsorted/Pasted image 20250828235643.png",
+    "Imagenes/Notsorted/Pasted image 20250828235212.png",
     "Imagenes/Notsorted",
-    "Hacking/post-explotacion/Tratamiento de la TTY.md",
     "Protocolos/SMTP/2. Enviar un correo.md",
     "Protocolos/SMTP/1. Conectarse a un servicio SMTP.md",
     "Redes/Scaneo/Escanear las maquinas en una red.md",
@@ -189,10 +192,6 @@
     "Protocolos/FTP/Navegación basica.md",
     "Hacking/Explotación/Hacking web/API Testing/5..md",
     "Hacking/Explotación/Hacking web/API Testing/4. Encontrando y explotando un API endpoint sin documentación.md",
-    "Imagenes/Notsorted/Pasted image 20250829000445.png",
-    "Imagenes/Notsorted/Pasted image 20250829000425.png",
-    "Imagenes/Notsorted/Pasted image 20250829000351.png",
-    "Imagenes/Notsorted/Pasted image 20250829000202.png",
     "Hacking/Explotación/Hacking web/API Testing/2. SSPP alterando comportamiento de API interna.md",
     "Hacking/Explotación/Hacking web/API Testing/1. Busqueda de documentación de una API.md"
   ]
