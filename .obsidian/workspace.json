@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hacking/post-explotacion/Tratamiento de la TTY.md",
+                "file": "Hacking/Explotación/Hacking web/API Testing/5. Asignación masiva vulnerable.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tratamiento de la TTY"
+              "title": "5. Asignación masiva vulnerable"
             }
           }
         ]
@@ -169,8 +169,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "6b176f87abd1f55c",
+  "active": "b78192d6590e05c7",
   "lastOpenFiles": [
+    "Pasted image 20250830125708.png",
+    "Pasted image 20250830125705.png",
+    "Pasted image 20250830113509.png",
+    "Hacking/Explotación/Hacking web/API Testing/4. Encontrando y explotando un API endpoint sin documentación.md",
+    "Hacking/Explotación/Hacking web/API Testing/2. SSPP alterando comportamiento de API interna.md",
+    "Hacking/Explotación/Hacking web/API Testing/1. Busqueda de documentación de una API.md",
+    "Hacking/post-explotacion/Tratamiento de la TTY.md",
     "Imagenes/Notsorted/Pasted image 20250829000551.png",
     "Imagenes/Notsorted/Pasted image 20250829000445.png",
     "Imagenes/Notsorted/Pasted image 20250829000425.png",
@@ -179,9 +186,6 @@
     "Imagenes/Notsorted/Pasted image 20250829000202.png",
     "Imagenes/Notsorted/Pasted image 20250829000055.png",
     "Imagenes/Notsorted/Pasted image 20250828235758.png",
-    "Imagenes/Notsorted/Pasted image 20250828235711.png",
-    "Imagenes/Notsorted/Pasted image 20250828235643.png",
-    "Imagenes/Notsorted/Pasted image 20250828235212.png",
     "Imagenes/Notsorted",
     "Protocolos/SMTP/2. Enviar un correo.md",
     "Protocolos/SMTP/1. Conectarse a un servicio SMTP.md",
@@ -190,9 +194,6 @@
     "Protocolos/SMTP",
     "Protocolos/Untitled.md",
     "Protocolos/FTP/Navegación basica.md",
-    "Hacking/Explotación/Hacking web/API Testing/5..md",
-    "Hacking/Explotación/Hacking web/API Testing/4. Encontrando y explotando un API endpoint sin documentación.md",
-    "Hacking/Explotación/Hacking web/API Testing/2. SSPP alterando comportamiento de API interna.md",
-    "Hacking/Explotación/Hacking web/API Testing/1. Busqueda de documentación de una API.md"
+    "Hacking/Explotación/Hacking web/API Testing/5. Asignación masiva vulnerable.md"
   ]
 }
