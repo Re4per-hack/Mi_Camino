@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hacking/Evasion de Firewalls/Untitled.md",
+                "file": "Hacking/Explotación/Hacking Web/API Testing/5. Asignación masiva vulnerable.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "5. Asignación masiva vulnerable"
             }
           }
         ]
@@ -171,35 +171,28 @@
   },
   "active": "b78192d6590e05c7",
   "lastOpenFiles": [
-    "Hacking/Evasion de Antivirus/SafetyKatz y SharpLoader.md",
-    "Hacking/Evasion de Antivirus/Anti-Malware Scan Interface (AMSI).md",
-    "Hacking/Evasion de Antivirus/4- Conexiones remotas sin levantar sospechas.md",
-    "Hacking/Evasion de Antivirus/2- Anti-Malware Scan Interface (AMSI).md",
-    "Hacking/Evasion de Antivirus/1- Como funciona un Antivirus.md",
-    "Hacking/CVEs/CVE-2019/CVE-2019-14287.md",
-    "Hacking/BugBounty/Enumeración/1. Scopes con wildcard.md",
-    "Hacking/CVEs/CVE-2016/Dirty Cow (CVE-2016-5195).md",
-    "Hacking/CVEs/CVE-2019/CVE-2019-9053.md",
-    "Hacking/CVEs/CVE-2019/CVE-2019-18634.md",
-    "Hacking/Evasion de Firewalls/Untitled.md",
-    "Hacking/Explotación/Hacking web/API Testing/0. Que es una REST API.md",
-    "Hacking/post-explotacion/Tratamiento de la TTY.md",
-    "Hacking/Explotación/Hacking web/API Testing/6. SSPP en una RESP API.md",
-    "Hacking/Explotación/Hacking web/API Testing/5. Asignación masiva vulnerable.md",
-    "Hacking/Herramientas/Linux/ssh.md",
-    "Hacking/Explotación/Hacking web/API Testing/2. SSPP alterando comportamiento de API interna.md",
-    "Hacking/Explotación/Hacking web/API Testing/1. Busqueda de documentación de una API.md",
-    "Imagenes/Pasted image 20250830113509.png",
     "Imagenes/Pasted image 20250901113342.png",
     "Imagenes/Pasted image 20250901113303.png",
     "Imagenes/Pasted image 20250901112808.png",
     "Imagenes/Pasted image 20250901112645.png",
     "Imagenes/Pasted image 20250901112605.png",
-    "Hacking/Explotación/Hacking web/API Testing/4. Encontrando y explotando un API endpoint sin documentación.md",
     "Imagenes/Pasted image 20250830125708.png",
     "Imagenes/Pasted image 20250830125705.png",
-    "Imagenes/Notsorted/Pasted image 20250829000551.png",
-    "Imagenes/Notsorted/Pasted image 20250829000445.png",
+    "Imagenes/Pasted image 20250830113509.png",
+    "Hacking/Explotación/Hacking Web/API Testing/6. SSPP en una RESP API.md",
+    "Hacking/Explotación/Hacking Web/API Testing/0. Que es una REST API.md",
+    "Hacking/Explotación/Hacking Web/CSRF/8- SameSite cookie Lax bypass con HTTP method override.md",
+    "Hacking/Explotación/Hacking Web/CSRF/6- Cuando el CSRF token está ligado a algo que no es una session cookie.md",
+    "Hacking/Explotación/Hacking Web/CSRF/3- CSRF cuando la validación del token depende del método de petición.md",
+    "Hacking/Explotación/Hacking Web/CSRF/2- Cuando no hay protecciones CSRF.md",
+    "Hacking/Explotación/Hacking Web/DOTGIT Exposed/Que es una carpeta .git (DOTGIT) y explotación.md",
+    "Pasted image 20250830125708.png",
+    "Pasted image 20250830125705.png",
+    "Pasted image 20250830113509.png",
+    "Hacking/Explotación/Hacking web/API Testing/4. Encontrando y explotando un API endpoint sin documentación.md",
+    "Hacking/Explotación/Hacking web/API Testing/2. SSPP alterando comportamiento de API interna.md",
+    "Hacking/Explotación/Hacking web/API Testing/1. Busqueda de documentación de una API.md",
+    "Hacking/post-explotacion/Tratamiento de la TTY.md",
     "Imagenes/Notsorted",
     "Protocolos/SMTP/2. Enviar un correo.md",
     "Protocolos/SMTP/1. Conectarse a un servicio SMTP.md",
@@ -207,6 +200,7 @@
     "Protocolos/FTP/Iniciar Servidor FTP en linux.md",
     "Protocolos/SMTP",
     "Protocolos/Untitled.md",
-    "Protocolos/FTP/Navegación basica.md"
+    "Protocolos/FTP/Navegación basica.md",
+    "Hacking/Explotación/Hacking web/API Testing/5. Asignación masiva vulnerable.md"
   ]
 }
