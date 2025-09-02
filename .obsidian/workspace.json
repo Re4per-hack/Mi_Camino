@@ -13,12 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hacking/Explotación/Hacking Web/API Testing/5. Asignación masiva vulnerable.md",
+                "file": "Hacking/Explotación/Hacking Web/API Testing/6. SSPP en una RESP API.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5. Asignación masiva vulnerable"
+              "title": "6. SSPP en una RESP API"
+            }
+          },
+          {
+            "id": "b512252457c06cfb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
             }
           }
         ]
@@ -171,29 +185,30 @@
   },
   "active": "b78192d6590e05c7",
   "lastOpenFiles": [
-    "Imagenes/Pasted image 20250901113342.png",
-    "Imagenes/Pasted image 20250901113303.png",
-    "Imagenes/Pasted image 20250901112808.png",
-    "Imagenes/Pasted image 20250901112645.png",
-    "Imagenes/Pasted image 20250901112605.png",
-    "Imagenes/Pasted image 20250830125708.png",
-    "Imagenes/Pasted image 20250830125705.png",
-    "Imagenes/Pasted image 20250830113509.png",
+    "Untitled.md",
     "Hacking/Explotación/Hacking Web/API Testing/6. SSPP en una RESP API.md",
+    "Imagenes/Pasted image 20250901221901.png",
+    "Imagenes/Pasted image 20250902001449.png",
+    "Recursos/Wordlist/Paginas utiles.md",
+    "Recursos/Wordlist",
+    "Recursos",
+    "Imagenes/Pasted image 20250901232608.png",
+    "Imagenes/Pasted image 20250901232528.png",
+    "Imagenes/Pasted image 20250901231206.png",
+    "Imagenes/Pasted image 20250901230246.png",
+    "Imagenes/Pasted image 20250901225738.png",
+    "Imagenes/Pasted image 20250901225424.png",
+    "Imagenes/Pasted image 20250901225330.png",
+    "Imagenes/Pasted image 20250901225301.png",
+    "Hacking/Explotación/Hacking Web/API Testing/2. SSPP alterando comportamiento de API interna.md",
+    "Hacking/Explotación/Hacking Web/API Testing/1. Busqueda de documentación de una API.md",
+    "Hacking/Explotación/Hacking Web/API Testing/5. Asignación masiva vulnerable.md",
     "Hacking/Explotación/Hacking Web/API Testing/0. Que es una REST API.md",
     "Hacking/Explotación/Hacking Web/CSRF/8- SameSite cookie Lax bypass con HTTP method override.md",
     "Hacking/Explotación/Hacking Web/CSRF/6- Cuando el CSRF token está ligado a algo que no es una session cookie.md",
     "Hacking/Explotación/Hacking Web/CSRF/3- CSRF cuando la validación del token depende del método de petición.md",
     "Hacking/Explotación/Hacking Web/CSRF/2- Cuando no hay protecciones CSRF.md",
     "Hacking/Explotación/Hacking Web/DOTGIT Exposed/Que es una carpeta .git (DOTGIT) y explotación.md",
-    "Hacking/Explotación/Hacking Web/CSRF/8- SameSite cookie Lax bypass con HTTP method override.md",
-    "Hacking/Explotación/Hacking Web/CSRF/6- Cuando el CSRF token está ligado a algo que no es una session cookie.md",
-    "Hacking/Explotación/Hacking Web/CSRF/3- CSRF cuando la validación del token depende del método de petición.md",
-    "Hacking/Explotación/Hacking Web/CSRF/2- Cuando no hay protecciones CSRF.md",
-    "Hacking/Explotación/Hacking Web/DOTGIT Exposed/Que es una carpeta .git (DOTGIT) y explotación.md",
-    "Pasted image 20250830125708.png",
-    "Pasted image 20250830125705.png",
-    "Pasted image 20250830113509.png",
     "Hacking/Explotación/Hacking web/API Testing/4. Encontrando y explotando un API endpoint sin documentación.md",
     "Hacking/Explotación/Hacking web/API Testing/2. SSPP alterando comportamiento de API interna.md",
     "Hacking/Explotación/Hacking web/API Testing/1. Busqueda de documentación de una API.md",
