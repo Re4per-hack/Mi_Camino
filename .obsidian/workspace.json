@@ -13,20 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< Updated upstream
-                "file": "Hacking/Evasion de Firewalls/Untitled.md",
-=======
-                "file": "Hacking/Explotación/Active Directory/5- Mimikatz/1- Golden Ticket Attack.md",
->>>>>>> Stashed changes
+                "file": "Hacking/Explotación/Hacking Web/API Testing/6. SSPP en una RESP API.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-<<<<<<< Updated upstream
+              "title": "6. SSPP en una RESP API"
+            }
+          },
+          {
+            "id": "b512252457c06cfb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
               "title": "Untitled"
-=======
-              "title": "1- Golden Ticket Attack"
->>>>>>> Stashed changes
             }
           }
         ]
@@ -179,36 +185,34 @@
   },
   "active": "b78192d6590e05c7",
   "lastOpenFiles": [
-<<<<<<< Updated upstream
-    "Hacking/Evasion de Antivirus/SafetyKatz y SharpLoader.md",
-    "Hacking/Evasion de Antivirus/Anti-Malware Scan Interface (AMSI).md",
-    "Hacking/Evasion de Antivirus/4- Conexiones remotas sin levantar sospechas.md",
-    "Hacking/Evasion de Antivirus/2- Anti-Malware Scan Interface (AMSI).md",
-    "Hacking/Evasion de Antivirus/1- Como funciona un Antivirus.md",
-    "Hacking/CVEs/CVE-2019/CVE-2019-14287.md",
-    "Hacking/BugBounty/Enumeración/1. Scopes con wildcard.md",
-    "Hacking/CVEs/CVE-2016/Dirty Cow (CVE-2016-5195).md",
-    "Hacking/CVEs/CVE-2019/CVE-2019-9053.md",
-    "Hacking/CVEs/CVE-2019/CVE-2019-18634.md",
-    "Hacking/Evasion de Firewalls/Untitled.md",
-    "Hacking/Explotación/Hacking web/API Testing/0. Que es una REST API.md",
-    "Hacking/post-explotacion/Tratamiento de la TTY.md",
-    "Hacking/Explotación/Hacking web/API Testing/6. SSPP en una RESP API.md",
-    "Hacking/Explotación/Hacking web/API Testing/5. Asignación masiva vulnerable.md",
-    "Hacking/Herramientas/Linux/ssh.md",
+    "Untitled.md",
+    "Hacking/Explotación/Hacking Web/API Testing/6. SSPP en una RESP API.md",
+    "Imagenes/Pasted image 20250901221901.png",
+    "Imagenes/Pasted image 20250902001449.png",
+    "Recursos/Wordlist/Paginas utiles.md",
+    "Recursos/Wordlist",
+    "Recursos",
+    "Imagenes/Pasted image 20250901232608.png",
+    "Imagenes/Pasted image 20250901232528.png",
+    "Imagenes/Pasted image 20250901231206.png",
+    "Imagenes/Pasted image 20250901230246.png",
+    "Imagenes/Pasted image 20250901225738.png",
+    "Imagenes/Pasted image 20250901225424.png",
+    "Imagenes/Pasted image 20250901225330.png",
+    "Imagenes/Pasted image 20250901225301.png",
+    "Hacking/Explotación/Hacking Web/API Testing/2. SSPP alterando comportamiento de API interna.md",
+    "Hacking/Explotación/Hacking Web/API Testing/1. Busqueda de documentación de una API.md",
+    "Hacking/Explotación/Hacking Web/API Testing/5. Asignación masiva vulnerable.md",
+    "Hacking/Explotación/Hacking Web/API Testing/0. Que es una REST API.md",
+    "Hacking/Explotación/Hacking Web/CSRF/8- SameSite cookie Lax bypass con HTTP method override.md",
+    "Hacking/Explotación/Hacking Web/CSRF/6- Cuando el CSRF token está ligado a algo que no es una session cookie.md",
+    "Hacking/Explotación/Hacking Web/CSRF/3- CSRF cuando la validación del token depende del método de petición.md",
+    "Hacking/Explotación/Hacking Web/CSRF/2- Cuando no hay protecciones CSRF.md",
+    "Hacking/Explotación/Hacking Web/DOTGIT Exposed/Que es una carpeta .git (DOTGIT) y explotación.md",
+    "Hacking/Explotación/Hacking web/API Testing/4. Encontrando y explotando un API endpoint sin documentación.md",
     "Hacking/Explotación/Hacking web/API Testing/2. SSPP alterando comportamiento de API interna.md",
     "Hacking/Explotación/Hacking web/API Testing/1. Busqueda de documentación de una API.md",
-    "Imagenes/Pasted image 20250830113509.png",
-    "Imagenes/Pasted image 20250901113342.png",
-    "Imagenes/Pasted image 20250901113303.png",
-    "Imagenes/Pasted image 20250901112808.png",
-    "Imagenes/Pasted image 20250901112645.png",
-    "Imagenes/Pasted image 20250901112605.png",
-    "Hacking/Explotación/Hacking web/API Testing/4. Encontrando y explotando un API endpoint sin documentación.md",
-    "Imagenes/Pasted image 20250830125708.png",
-    "Imagenes/Pasted image 20250830125705.png",
-    "Imagenes/Notsorted/Pasted image 20250829000551.png",
-    "Imagenes/Notsorted/Pasted image 20250829000445.png",
+    "Hacking/post-explotacion/Tratamiento de la TTY.md",
     "Imagenes/Notsorted",
     "Protocolos/SMTP/2. Enviar un correo.md",
     "Protocolos/SMTP/1. Conectarse a un servicio SMTP.md",
@@ -216,45 +220,7 @@
     "Protocolos/FTP/Iniciar Servidor FTP en linux.md",
     "Protocolos/SMTP",
     "Protocolos/Untitled.md",
-    "Protocolos/FTP/Navegación basica.md"
-=======
-    "Hacking/Explotación/Active Directory/4- Kerberos/2- Realizando un Kerberoasting.md",
-    "Hacking/Explotación/Active Directory/4- Kerberos/3- Realizando un AS-REP Roasting.md",
-    "Hacking/Explotación/Active Directory/4- Kerberos/1- Funcionamiento Kerberos.md",
-    "Hacking/Explotación/Active Directory/3- Al conseguir hashes o credenciales/5- Que hacer con credenciales de cualquier usuario.md",
-    "Hacking/Explotación/Active Directory/5- Mimikatz/1- Golden Ticket Attack.md",
-    "Hacking/Explotación/Active Directory/3- Al conseguir hashes o credenciales/2- Que Hacer con la SAM dumpeada.md",
-    "Hacking/Explotación/Active Directory/3- Al conseguir hashes o credenciales/1- Que hacer con los Hashes NTLMv2.md",
-    "Hacking/Explotación/Active Directory/3- Al conseguir hashes o credenciales/4- Authentication spraying.md",
-    "Hacking/Herramientas/Linux/xxd.md",
-    "Hacking/Herramientas/Windows/Mimikatz.md",
-    "Pasted image 20250428160113.png",
-    "Hacking/Explotación/Active Directory/3- Al conseguir hashes o credenciales/3- Que hacer con credenciales del administrador de dominio.md",
-    "Hacking/Herramientas/Linux/psexec.md",
-    "Hacking/Herramientas/Windows/certutil.md",
-    "Hacking/Herramientas/Windows/Rubeus.md",
-    "Hacking/Explotación/Buffer Overflow/1- Que es un Buffer OverFlow.md",
-    "Hacking/Explotación/Buffer Overflow/2- Como los programas usan la memoria.md",
-    "Hacking/Explotación/Buffer Overflow/3- Introduccion al Stack.md",
-    "Hacking/Explotación/Buffer Overflow/4- Como funciona una explotación Buffer Overflow.md",
-    "Hacking/Explotación/Buffer Overflow/5- DoS con Buffer Overflow.md",
-    "Hacking/Explotación/Hacking web/CSRF/2- Cuando no hay protecciones CSRF.md",
-    "Hacking/Explotación/Hacking web/CSRF/4- CSRF cuando la validación del token depende de su existencia.md",
-    "Hacking/Explotación/Hacking web/XSS (Cross-Site Scripting)/2- XSS DOM-based/2- XSS DOM-based por document.write.md",
-    "Hacking/Explotación/Hacking web/XSS (Cross-Site Scripting)/1- XSS representado en HTML/8- XSS en un literal template.md",
-    "Hacking/Explotación/Hacking web/XSS (Cross-Site Scripting)/1- XSS representado en HTML/6- XSS en un canonical link.md",
-    "Hacking/Explotación/Hacking web/XSS (Cross-Site Scripting)/1- XSS representado en HTML/5- XSS con etiquetas SVG.md",
-    "Hacking/Explotación/Hacking web/XSS (Cross-Site Scripting)/1- XSS representado en HTML/3- XSS con la mayoría de tags y atributos bloqueados.md",
-    "Hacking/Herramientas/Windows/Mimikatz",
-    "Hacking/Herramientas/New folder",
-    "Hacking/Herramientas/Windows",
-    "Hacking/Herramientas/Herramientas",
-    "Hacking/Explotación/Active Directory/5- Mimikatz",
-    "Pasted image 20250426191205.png",
-    "Post-Explotacion",
-    "Pasted image 20250424065810.png",
-    "Pasted image 20250423105234.png",
-    "Hacking/Explotación/Active Directory/4- Kerberos"
->>>>>>> Stashed changes
+    "Protocolos/FTP/Navegación basica.md",
+    "Hacking/Explotación/Hacking web/API Testing/5. Asignación masiva vulnerable.md"
   ]
 }
