@@ -1,62 +1,20 @@
 {
   "main": {
-    "id": "6aec4d61f1ffb1d2",
+    "id": "b8df464066d259ee",
     "type": "split",
     "children": [
       {
-        "id": "e47f098a59debb41",
+        "id": "3061f30d885320cf",
         "type": "tabs",
         "children": [
           {
-            "id": "b78192d6590e05c7",
+            "id": "b97b2766ab24f360",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-                "file": "Hacking/Explotación/Hacking Web/API Testing/6. SSPP en una RESP API.md",
-=======
-                "file": "Hacking/Explotación/Active Directory/5- Mimikatz/1- Golden Ticket Attack.md",
->>>>>>> Stashed changes
-=======
-                "file": "Hacking/Explotación/Active Directory/5- Mimikatz/1- Golden Ticket Attack.md",
->>>>>>> Stashed changes
-=======
-                "file": "Hacking/Explotación/Active Directory/5- Mimikatz/1- Golden Ticket Attack.md",
->>>>>>> Stashed changes
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "title": "6. SSPP en una RESP API"
-            }
-          },
-          {
-            "id": "b512252457c06cfb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Untitled"
-=======
-              "title": "1- Golden Ticket Attack"
->>>>>>> Stashed changes
-=======
-              "title": "1- Golden Ticket Attack"
->>>>>>> Stashed changes
-=======
-              "title": "1- Golden Ticket Attack"
->>>>>>> Stashed changes
+              "title": "New tab"
             }
           }
         ]
@@ -65,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "ac3a59d1cabac469",
+    "id": "856cf88cdd8db75c",
     "type": "split",
     "children": [
       {
-        "id": "709291c62be4a525",
+        "id": "46fa1abc7d7b0b5f",
         "type": "tabs",
         "children": [
           {
-            "id": "6b176f87abd1f55c",
+            "id": "49965c113fffc8d9",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -86,7 +44,7 @@
             }
           },
           {
-            "id": "72bb5fee140d08a2",
+            "id": "fc52ec9f530e62bc",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -103,7 +61,7 @@
             }
           },
           {
-            "id": "9a483ae8942a9421",
+            "id": "e8c46e78c2cb54dc",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -119,20 +77,19 @@
     "width": 300
   },
   "right": {
-    "id": "1d04d75dc9e2a29b",
+    "id": "64d18d6a79dabac7",
     "type": "split",
     "children": [
       {
-        "id": "1186f8ac638d23b6",
+        "id": "e242880038682455",
         "type": "tabs",
         "children": [
           {
-            "id": "5d498a0176e73104",
+            "id": "ba7eb15f316bb415",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hacking/Explotación/Hacking web/API Testing/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,25 +99,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Untitled"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "43be698b77600437",
+            "id": "33c9fa9995bcf6ec",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hacking/Explotación/Hacking web/API Testing/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Untitled"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "cb274ccf9391af5c",
+            "id": "bc3948e2d5812616",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -175,18 +131,17 @@
             }
           },
           {
-            "id": "e24e99d44542b13c",
+            "id": "aef999235a35f832",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hacking/Explotación/Hacking web/API Testing/Untitled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled"
+              "title": "Outline"
             }
           }
         ]
@@ -207,90 +162,6 @@
       "bases:Create new base": false
     }
   },
-  "active": "b78192d6590e05c7",
-  "lastOpenFiles": [
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-    "Untitled.md",
-    "Hacking/Explotación/Hacking Web/API Testing/6. SSPP en una RESP API.md",
-    "Imagenes/Pasted image 20250901221901.png",
-    "Imagenes/Pasted image 20250902001449.png",
-    "Recursos/Wordlist/Paginas utiles.md",
-    "Recursos/Wordlist",
-    "Recursos",
-    "Imagenes/Pasted image 20250901232608.png",
-    "Imagenes/Pasted image 20250901232528.png",
-    "Imagenes/Pasted image 20250901231206.png",
-    "Imagenes/Pasted image 20250901230246.png",
-    "Imagenes/Pasted image 20250901225738.png",
-    "Imagenes/Pasted image 20250901225424.png",
-    "Imagenes/Pasted image 20250901225330.png",
-    "Imagenes/Pasted image 20250901225301.png",
-    "Hacking/Explotación/Hacking Web/API Testing/2. SSPP alterando comportamiento de API interna.md",
-    "Hacking/Explotación/Hacking Web/API Testing/1. Busqueda de documentación de una API.md",
-    "Hacking/Explotación/Hacking Web/API Testing/5. Asignación masiva vulnerable.md",
-    "Hacking/Explotación/Hacking Web/API Testing/0. Que es una REST API.md",
-    "Hacking/Explotación/Hacking Web/CSRF/8- SameSite cookie Lax bypass con HTTP method override.md",
-    "Hacking/Explotación/Hacking Web/CSRF/6- Cuando el CSRF token está ligado a algo que no es una session cookie.md",
-    "Hacking/Explotación/Hacking Web/CSRF/3- CSRF cuando la validación del token depende del método de petición.md",
-    "Hacking/Explotación/Hacking Web/CSRF/2- Cuando no hay protecciones CSRF.md",
-    "Hacking/Explotación/Hacking Web/DOTGIT Exposed/Que es una carpeta .git (DOTGIT) y explotación.md",
-    "Hacking/Explotación/Hacking web/API Testing/4. Encontrando y explotando un API endpoint sin documentación.md",
-    "Hacking/Explotación/Hacking web/API Testing/2. SSPP alterando comportamiento de API interna.md",
-    "Hacking/Explotación/Hacking web/API Testing/1. Busqueda de documentación de una API.md",
-    "Hacking/post-explotacion/Tratamiento de la TTY.md",
-    "Imagenes/Notsorted",
-    "Protocolos/SMTP/2. Enviar un correo.md",
-    "Protocolos/SMTP/1. Conectarse a un servicio SMTP.md",
-    "Redes/Scaneo/Escanear las maquinas en una red.md",
-    "Protocolos/FTP/Iniciar Servidor FTP en linux.md",
-    "Protocolos/SMTP",
-    "Protocolos/Untitled.md",
-    "Protocolos/FTP/Navegación basica.md",
-    "Hacking/Explotación/Hacking web/API Testing/5. Asignación masiva vulnerable.md"
-=======
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-    "Hacking/Explotación/Active Directory/4- Kerberos/2- Realizando un Kerberoasting.md",
-    "Hacking/Explotación/Active Directory/4- Kerberos/3- Realizando un AS-REP Roasting.md",
-    "Hacking/Explotación/Active Directory/4- Kerberos/1- Funcionamiento Kerberos.md",
-    "Hacking/Explotación/Active Directory/3- Al conseguir hashes o credenciales/5- Que hacer con credenciales de cualquier usuario.md",
-    "Hacking/Explotación/Active Directory/5- Mimikatz/1- Golden Ticket Attack.md",
-    "Hacking/Explotación/Active Directory/3- Al conseguir hashes o credenciales/2- Que Hacer con la SAM dumpeada.md",
-    "Hacking/Explotación/Active Directory/3- Al conseguir hashes o credenciales/1- Que hacer con los Hashes NTLMv2.md",
-    "Hacking/Explotación/Active Directory/3- Al conseguir hashes o credenciales/4- Authentication spraying.md",
-    "Hacking/Herramientas/Linux/xxd.md",
-    "Hacking/Herramientas/Windows/Mimikatz.md",
-    "Pasted image 20250428160113.png",
-    "Hacking/Explotación/Active Directory/3- Al conseguir hashes o credenciales/3- Que hacer con credenciales del administrador de dominio.md",
-    "Hacking/Herramientas/Linux/psexec.md",
-    "Hacking/Herramientas/Windows/certutil.md",
-    "Hacking/Herramientas/Windows/Rubeus.md",
-    "Hacking/Explotación/Buffer Overflow/1- Que es un Buffer OverFlow.md",
-    "Hacking/Explotación/Buffer Overflow/2- Como los programas usan la memoria.md",
-    "Hacking/Explotación/Buffer Overflow/3- Introduccion al Stack.md",
-    "Hacking/Explotación/Buffer Overflow/4- Como funciona una explotación Buffer Overflow.md",
-    "Hacking/Explotación/Buffer Overflow/5- DoS con Buffer Overflow.md",
-    "Hacking/Explotación/Hacking web/CSRF/2- Cuando no hay protecciones CSRF.md",
-    "Hacking/Explotación/Hacking web/CSRF/4- CSRF cuando la validación del token depende de su existencia.md",
-    "Hacking/Explotación/Hacking web/XSS (Cross-Site Scripting)/2- XSS DOM-based/2- XSS DOM-based por document.write.md",
-    "Hacking/Explotación/Hacking web/XSS (Cross-Site Scripting)/1- XSS representado en HTML/8- XSS en un literal template.md",
-    "Hacking/Explotación/Hacking web/XSS (Cross-Site Scripting)/1- XSS representado en HTML/6- XSS en un canonical link.md",
-    "Hacking/Explotación/Hacking web/XSS (Cross-Site Scripting)/1- XSS representado en HTML/5- XSS con etiquetas SVG.md",
-    "Hacking/Explotación/Hacking web/XSS (Cross-Site Scripting)/1- XSS representado en HTML/3- XSS con la mayoría de tags y atributos bloqueados.md",
-    "Hacking/Herramientas/Windows/Mimikatz",
-    "Hacking/Herramientas/New folder",
-    "Hacking/Herramientas/Windows",
-    "Hacking/Herramientas/Herramientas",
-    "Hacking/Explotación/Active Directory/5- Mimikatz",
-    "Pasted image 20250426191205.png",
-    "Post-Explotacion",
-    "Pasted image 20250424065810.png",
-    "Pasted image 20250423105234.png",
-    "Hacking/Explotación/Active Directory/4- Kerberos"
->>>>>>> Stashed changes
-  ]
+  "active": "b97b2766ab24f360",
+  "lastOpenFiles": []
 }
