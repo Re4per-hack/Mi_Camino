@@ -13,12 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< Updated upstream
                 "file": "Hacking/Evasion de Firewalls/Untitled.md",
+=======
+                "file": "Hacking/Explotación/Active Directory/5- Mimikatz/1- Golden Ticket Attack.md",
+>>>>>>> Stashed changes
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
+<<<<<<< Updated upstream
               "title": "Untitled"
+=======
+              "title": "1- Golden Ticket Attack"
+>>>>>>> Stashed changes
             }
           }
         ]
@@ -171,6 +179,7 @@
   },
   "active": "b78192d6590e05c7",
   "lastOpenFiles": [
+<<<<<<< Updated upstream
     "Hacking/Evasion de Antivirus/SafetyKatz y SharpLoader.md",
     "Hacking/Evasion de Antivirus/Anti-Malware Scan Interface (AMSI).md",
     "Hacking/Evasion de Antivirus/4- Conexiones remotas sin levantar sospechas.md",
@@ -208,5 +217,44 @@
     "Protocolos/SMTP",
     "Protocolos/Untitled.md",
     "Protocolos/FTP/Navegación basica.md"
+=======
+    "Hacking/Explotación/Active Directory/4- Kerberos/2- Realizando un Kerberoasting.md",
+    "Hacking/Explotación/Active Directory/4- Kerberos/3- Realizando un AS-REP Roasting.md",
+    "Hacking/Explotación/Active Directory/4- Kerberos/1- Funcionamiento Kerberos.md",
+    "Hacking/Explotación/Active Directory/3- Al conseguir hashes o credenciales/5- Que hacer con credenciales de cualquier usuario.md",
+    "Hacking/Explotación/Active Directory/5- Mimikatz/1- Golden Ticket Attack.md",
+    "Hacking/Explotación/Active Directory/3- Al conseguir hashes o credenciales/2- Que Hacer con la SAM dumpeada.md",
+    "Hacking/Explotación/Active Directory/3- Al conseguir hashes o credenciales/1- Que hacer con los Hashes NTLMv2.md",
+    "Hacking/Explotación/Active Directory/3- Al conseguir hashes o credenciales/4- Authentication spraying.md",
+    "Hacking/Herramientas/Linux/xxd.md",
+    "Hacking/Herramientas/Windows/Mimikatz.md",
+    "Pasted image 20250428160113.png",
+    "Hacking/Explotación/Active Directory/3- Al conseguir hashes o credenciales/3- Que hacer con credenciales del administrador de dominio.md",
+    "Hacking/Herramientas/Linux/psexec.md",
+    "Hacking/Herramientas/Windows/certutil.md",
+    "Hacking/Herramientas/Windows/Rubeus.md",
+    "Hacking/Explotación/Buffer Overflow/1- Que es un Buffer OverFlow.md",
+    "Hacking/Explotación/Buffer Overflow/2- Como los programas usan la memoria.md",
+    "Hacking/Explotación/Buffer Overflow/3- Introduccion al Stack.md",
+    "Hacking/Explotación/Buffer Overflow/4- Como funciona una explotación Buffer Overflow.md",
+    "Hacking/Explotación/Buffer Overflow/5- DoS con Buffer Overflow.md",
+    "Hacking/Explotación/Hacking web/CSRF/2- Cuando no hay protecciones CSRF.md",
+    "Hacking/Explotación/Hacking web/CSRF/4- CSRF cuando la validación del token depende de su existencia.md",
+    "Hacking/Explotación/Hacking web/XSS (Cross-Site Scripting)/2- XSS DOM-based/2- XSS DOM-based por document.write.md",
+    "Hacking/Explotación/Hacking web/XSS (Cross-Site Scripting)/1- XSS representado en HTML/8- XSS en un literal template.md",
+    "Hacking/Explotación/Hacking web/XSS (Cross-Site Scripting)/1- XSS representado en HTML/6- XSS en un canonical link.md",
+    "Hacking/Explotación/Hacking web/XSS (Cross-Site Scripting)/1- XSS representado en HTML/5- XSS con etiquetas SVG.md",
+    "Hacking/Explotación/Hacking web/XSS (Cross-Site Scripting)/1- XSS representado en HTML/3- XSS con la mayoría de tags y atributos bloqueados.md",
+    "Hacking/Herramientas/Windows/Mimikatz",
+    "Hacking/Herramientas/New folder",
+    "Hacking/Herramientas/Windows",
+    "Hacking/Herramientas/Herramientas",
+    "Hacking/Explotación/Active Directory/5- Mimikatz",
+    "Pasted image 20250426191205.png",
+    "Post-Explotacion",
+    "Pasted image 20250424065810.png",
+    "Pasted image 20250423105234.png",
+    "Hacking/Explotación/Active Directory/4- Kerberos"
+>>>>>>> Stashed changes
   ]
 }
