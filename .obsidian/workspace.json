@@ -14,7 +14,11 @@
               "type": "markdown",
               "state": {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 "file": "Hacking/Explotación/Hacking Web/API Testing/6. SSPP en una RESP API.md",
+=======
+                "file": "Hacking/Explotación/Active Directory/5- Mimikatz/1- Golden Ticket Attack.md",
+>>>>>>> Stashed changes
 =======
                 "file": "Hacking/Explotación/Active Directory/5- Mimikatz/1- Golden Ticket Attack.md",
 >>>>>>> Stashed changes
@@ -22,6 +26,7 @@
                 "source": false
               },
               "icon": "lucide-file",
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
               "title": "6. SSPP en una RESP API"
             }
@@ -38,6 +43,9 @@
               },
               "icon": "lucide-file",
               "title": "Untitled"
+=======
+              "title": "1- Golden Ticket Attack"
+>>>>>>> Stashed changes
 =======
               "title": "1- Golden Ticket Attack"
 >>>>>>> Stashed changes
@@ -194,6 +202,7 @@
   "active": "b78192d6590e05c7",
   "lastOpenFiles": [
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "Untitled.md",
     "Hacking/Explotación/Hacking Web/API Testing/6. SSPP en una RESP API.md",
     "Imagenes/Pasted image 20250901221901.png",
@@ -232,6 +241,8 @@
     "Protocolos/FTP/Navegación basica.md",
     "Hacking/Explotación/Hacking web/API Testing/5. Asignación masiva vulnerable.md"
 =======
+=======
+>>>>>>> Stashed changes
     "Hacking/Explotación/Active Directory/4- Kerberos/2- Realizando un Kerberoasting.md",
     "Hacking/Explotación/Active Directory/4- Kerberos/3- Realizando un AS-REP Roasting.md",
     "Hacking/Explotación/Active Directory/4- Kerberos/1- Funcionamiento Kerberos.md",
