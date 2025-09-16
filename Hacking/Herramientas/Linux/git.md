@@ -19,10 +19,10 @@ En Github un repositorio puede ser actualizado/cambiado, a estas actualizaciones
 git log 
 ```
 
-## Para revisar un commit especifico
+## Para cambiar de comit
 
 ```shell
-git log -r {commit}
+git checkout  {commit}
 ```
 
 # Revisar contenido de diferentes branchs
@@ -50,7 +50,15 @@ git checkout {Branch}
 ```
 
 
-# Para ver etiquetas 
+# Para ver etiquetas disponibles
 
-git show {etiqueta
-}
+```shell
+git tag
+```
+
+## Para ver una etiqueta
+
+```shell
+git show {etiqueta}
+```
+

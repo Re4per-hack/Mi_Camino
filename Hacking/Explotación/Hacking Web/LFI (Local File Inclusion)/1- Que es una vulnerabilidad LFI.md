@@ -7,7 +7,7 @@ LFI, las sigas de Local File Inclusion, es una técnica en la cual un atacante a
 - 4 [¿Que son los PHP wrappers?]()
 - 5 ¿Que es una vulnerabilidad RFI?
 - 6 Explotando una vulnerabilidad RFI y RCE
-- 7 Envenenamiento de registros
+- 7 Envenenamiento de registros (Log Poisoningz)
 
 Siguiendo con la explicación de que es un LFI,  se puede unir o dividir en otras técnicas, por ejemplo, a pesar de que el LFI y el RFI son técnicas distintas, ambos se basan en una misma vulnerabilidad que permite cargar y ver archivos, asi que para facilitar este modulo diremos que el RFI deriva del LFI, hice un esquema que hará mas fácil entender las técnicas que se verán en este modulo: 
 

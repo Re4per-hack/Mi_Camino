@@ -13,14 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hacking/Explotación/Hacking Web/API Testing/5. Asignación masiva vulnerable.md",
+                "file": "Hacking/Herramientas/Linux/git.md",
                 "mode": "source",
                 "source": false
               },
-              "type": "empty",
-              "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "git"
             }
           }
         ]
@@ -50,12 +48,22 @@
             }
           },
           {
+            "id": "e8c46e78c2cb54dc",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
             "id": "fc52ec9f530e62bc",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "git",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,18 +73,9 @@
               "icon": "lucide-search",
               "title": "Search"
             }
-          },
-          {
-            "id": "e8c46e78c2cb54dc",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
-            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -96,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Lenguajes/Python/Librerias/String.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for String"
             }
           },
           {
@@ -114,11 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Lenguajes/Python/Librerias/String.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from String"
             }
           },
           {
@@ -142,12 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Lenguajes/Python/Librerias/String.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of String"
             }
           }
         ]
@@ -168,37 +170,45 @@
       "bases:Create new base": false
     }
   },
-  "active": "b78192d6590e05c7",
-  "lastOpenFiles": [
-    "Hacking/Explotación/Hacking Web/CSRF/8- SameSite cookie Lax bypass con HTTP method override.md",
-    "Hacking/Explotación/Hacking Web/CSRF/6- Cuando el CSRF token está ligado a algo que no es una session cookie.md",
-    "Hacking/Explotación/Hacking Web/CSRF/3- CSRF cuando la validación del token depende del método de petición.md",
-    "Hacking/Explotación/Hacking Web/CSRF/2- Cuando no hay protecciones CSRF.md",
-    "Hacking/Explotación/Hacking Web/DOTGIT Exposed/Que es una carpeta .git (DOTGIT) y explotación.md",
-    "Pasted image 20250830125708.png",
-    "Pasted image 20250830125705.png",
-    "Pasted image 20250830113509.png",
-    "Hacking/Explotación/Hacking web/API Testing/4. Encontrando y explotando un API endpoint sin documentación.md",
-    "Hacking/Explotación/Hacking web/API Testing/2. SSPP alterando comportamiento de API interna.md",
-    "Hacking/Explotación/Hacking web/API Testing/1. Busqueda de documentación de una API.md",
-    "Hacking/post-explotacion/Tratamiento de la TTY.md",
-    "Imagenes/Notsorted/Pasted image 20250829000551.png",
-    "Imagenes/Notsorted/Pasted image 20250829000445.png",
-    "Imagenes/Notsorted/Pasted image 20250829000425.png",
-    "Imagenes/Notsorted/Pasted image 20250829000351.png",
-    "Imagenes/Notsorted/Pasted image 20250829000311.png",
-    "Imagenes/Notsorted/Pasted image 20250829000202.png",
-    "Imagenes/Notsorted/Pasted image 20250829000055.png",
-    "Imagenes/Notsorted",
-    "Protocolos/SMTP/2. Enviar un correo.md",
-    "Protocolos/SMTP/1. Conectarse a un servicio SMTP.md",
-    "Redes/Scaneo/Escanear las maquinas en una red.md",
-    "Protocolos/FTP/Iniciar Servidor FTP en linux.md",
-    "Protocolos/SMTP",
-    "Protocolos/Untitled.md",
-    "Protocolos/FTP/Navegación basica.md",
-    "Hacking/Explotación/Hacking web/API Testing/5. Asignación masiva vulnerable.md"
-  ]
   "active": "b97b2766ab24f360",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Hacking/post-explotacion/Privilege-escalation/Linux/1. Reconocimiento en el sistema.md",
+    "Hacking/Herramientas/Linux/git.md",
+    "Imagenes/Pasted image 20250902225544.png",
+    "Framworks Web/NextJS/Estructura interna.md",
+    "Imagenes/Pasted image 20250916064806.png",
+    "Imagenes/Pasted image 20250916061518.png",
+    "Imagenes/Pasted image 20250915190712.png",
+    "Hacking/Herramientas/Linux/more.md",
+    "Imagenes/Pasted image 20250914202510.png",
+    "Framworks Web/NextJS",
+    "Framworks Web",
+    "Untitled 2.md",
+    "Untitled 1.md",
+    "Untitled 3.md",
+    "Hacking/Explotación/Hacking Web/LFI (Local File Inclusion)/5- LFI a RCE.md",
+    "Hacking/Explotación/Hacking Web/LFI (Local File Inclusion)/4- Relevando codigo fuente usando Wrappers php.md",
+    "Hacking/Explotación/Hacking Web/LFI (Local File Inclusion)/3- Filtros contra Path-Traversal.md",
+    "Hacking/Explotación/Hacking Web/LFI (Local File Inclusion)/1- Que es una vulnerabilidad LFI.md",
+    "Hacking/Explotación/Hacking Web/LFI (Local File Inclusion)/2- Detectando vulnerabilidades LFI y exponiendo datos privilegiados del servidor.md",
+    "Hacking/Explotación/Hacking Web/LFI (Local File Inclusion)/Rutas_para_LFI.md",
+    "Hacking/Explotación/Hacking Web/LFI (Local File Inclusion)/RCE_usando_PHP_wrappers.md",
+    "Hacking/Explotación/Hacking Web/LFI (Local File Inclusion)/Hoja de funciones LFI.md",
+    "Hacking/Explotación/Hacking Web/LFI (Local File Inclusion)/Explotación_LFI_Hoja_de_funciones_LFI.md",
+    "Hacking/Explotación/Hacking Web/LFI (Local File Inclusion)/Algunos_de_los_filtros_en_codigo_para_evitar_LFI_como_vulnerarlos.md",
+    "Hacking/Explotación/Hacking Web/LFI (Local File Inclusion)/PHP_Wrappers.md",
+    "Hacking/Herramientas/Linux/openssl.md",
+    "Hacking/Explotación/Hacking Web/API Testing/1. Busqueda de documentación de una API.md",
+    "Hacking/Explotación/Hacking Web/API Testing/0. Que es una REST API.md",
+    "Hacking/Explotación/Hacking Web/JWT Attacks (JSON Web Token)/5. Parametro jku admitido.md",
+    "Hacking/Explotación/Hacking Web/JWT Attacks (JSON Web Token)/4. Parametro jwk admitido.md",
+    "Hacking/Explotación/Hacking Web/JWT Attacks (JSON Web Token)/3. Crakeo y firma de JWT's.md",
+    "Hacking/Explotación/Hacking Web/JWT Attacks (JSON Web Token)/2. El servidor admite none en alg.md",
+    "Hacking/Herramientas/Linux/ffuf.md",
+    "Hacking/Explotación/Hacking Web/JWT Attacks (JSON Web Token)",
+    "Imagenes/Pasted image 20250904182212.png",
+    "Imagenes/Pasted image 20250904182148.png",
+    "Hacking/Explotación/Hacking Web/Clickjacking",
+    "Imagenes/Pasted image 20250902230034.png"
+  ]
 }
