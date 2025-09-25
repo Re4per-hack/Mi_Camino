@@ -33,4 +33,4 @@ En este caso, no tenemos acceso directo a una maquina pero si a un usuario y con
 bloodhound-python -u {Usuario} -ns [IP_DC] -d [DOMINIO] -p {Contraseña} -c All 
 ```
 
-Esto nos pondrá un montón de archivos json que tendremos que subir a bloodhound, 
+Esto nos pondrá un montón de archivos json que tendremos que subir a bloodhound.

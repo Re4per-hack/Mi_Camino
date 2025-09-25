@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hacking/Herramientas/Linux/git.md",
+                "file": "Hacking/Herramientas/Linux/pspy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "git"
+              "title": "pspy"
+            }
+          },
+          {
+            "id": "1334f31d3341dc3f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hacking/post-explotacion/Privilege-escalation/Windows/DPAPI & BLOBS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DPAPI & BLOBS"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -63,7 +78,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "git",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,8 +89,7 @@
               "title": "Search"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -170,41 +184,46 @@
       "bases:Create new base": false
     }
   },
-  "active": "b97b2766ab24f360",
+  "active": "1334f31d3341dc3f",
   "lastOpenFiles": [
-    "Hacking/post-explotacion/Privilege-escalation/Linux/1. Reconocimiento en el sistema.md",
+    "Hacking/Explotación/Active Directory/Control de objetos/LDAP/Cambiar atributos de un objeto ldapmodify (Manualmente).md",
+    "Hacking/post-explotacion/Privilege-escalation/Windows/DPAPI & BLOBS.md",
+    "Hacking/post-explotacion/Privilege-escalation/Windows",
+    "Hacking/Explotación/Active Directory/Control de objetos/LDAP/Identificadores DN.md",
+    "Hacking/Explotación/Active Directory/Control de objetos/LDAP/Obteniendo informacion con LDAP (Manualmente).md",
+    "Hacking/Explotación/Active Directory/General/rol de servidor de Windows.md",
+    "Hacking/Explotación/Active Directory/General/Objetos.md",
+    "Hacking/Evasion de Firewalls/Untitled.md",
+    "Protocolos/FTP/Navegación basica.md",
+    "Protocolos/FTP/Iniciar Servidor FTP en linux.md",
     "Hacking/Herramientas/Linux/git.md",
+    "().md",
+    "Hacking/Explotación/Active Directory/Control de objetos/Cambiar contraseña de un usuario.md",
+    "Hacking/Explotación/Active Directory/Control de objetos/Habilitar usuario deshabilitado o disabled.md",
+    "Hacking/Explotación/Active Directory/Control de objetos/Agregar usuario a un grupo.md",
+    "Hacking/Explotación/Active Directory/Control de objetos/Ver miembros de un grupo.md",
+    "Hacking/Explotación/Active Directory/1- Enumeracion/1- enumeracion de equipos en el Active Directory.md",
+    "Hacking/Explotación/Active Directory/Control de objetos/LDAP",
+    "Hacking/Explotación/Active Directory/1- Enumeracion/2- Enumeración de recursos smb.md",
+    "Hacking/Explotación/Active Directory/1- Enumeracion/3- Enumeracion de usuarios validos.md",
+    "Hacking/Explotación/Active Directory/Bloodhound/Ataques/Generic.md",
+    "Hacking/Explotación/Active Directory/3- Al conseguir hashes o credenciales/4-  Spraying.md",
+    "Hacking/Crakeo/Archivos kdbx/1- Extraer el Hash crackeable.md",
+    "Hacking/Crakeo/Archivos kdbx/2- Crackear directamente el archivo.md",
+    "Hacking/Crakeo/Hashes/Hashes Salted.md",
+    "Hacking/Crakeo/Archivos kdbx",
+    "Hacking/Crakeo",
+    "Hacking/Herramientas/Linux/smbmap.md",
+    "Hacking/Explotación/Active Directory/Bloodhound/Ataques/ForceChangePassword.md",
+    "Hacking/Explotación/Active Directory/Bloodhound/1- Instalación y uso/3- Recoleccion de informacion.md",
+    "Lenguajes/Compilar",
     "Imagenes/Pasted image 20250902225544.png",
-    "Framworks Web/NextJS/Estructura interna.md",
     "Imagenes/Pasted image 20250916064806.png",
     "Imagenes/Pasted image 20250916061518.png",
     "Imagenes/Pasted image 20250915190712.png",
-    "Hacking/Herramientas/Linux/more.md",
     "Imagenes/Pasted image 20250914202510.png",
     "Framworks Web/NextJS",
     "Framworks Web",
-    "Untitled 2.md",
-    "Untitled 1.md",
-    "Untitled 3.md",
-    "Hacking/Explotación/Hacking Web/LFI (Local File Inclusion)/5- LFI a RCE.md",
-    "Hacking/Explotación/Hacking Web/LFI (Local File Inclusion)/4- Relevando codigo fuente usando Wrappers php.md",
-    "Hacking/Explotación/Hacking Web/LFI (Local File Inclusion)/3- Filtros contra Path-Traversal.md",
-    "Hacking/Explotación/Hacking Web/LFI (Local File Inclusion)/1- Que es una vulnerabilidad LFI.md",
-    "Hacking/Explotación/Hacking Web/LFI (Local File Inclusion)/2- Detectando vulnerabilidades LFI y exponiendo datos privilegiados del servidor.md",
-    "Hacking/Explotación/Hacking Web/LFI (Local File Inclusion)/Rutas_para_LFI.md",
-    "Hacking/Explotación/Hacking Web/LFI (Local File Inclusion)/RCE_usando_PHP_wrappers.md",
-    "Hacking/Explotación/Hacking Web/LFI (Local File Inclusion)/Hoja de funciones LFI.md",
-    "Hacking/Explotación/Hacking Web/LFI (Local File Inclusion)/Explotación_LFI_Hoja_de_funciones_LFI.md",
-    "Hacking/Explotación/Hacking Web/LFI (Local File Inclusion)/Algunos_de_los_filtros_en_codigo_para_evitar_LFI_como_vulnerarlos.md",
-    "Hacking/Explotación/Hacking Web/LFI (Local File Inclusion)/PHP_Wrappers.md",
-    "Hacking/Herramientas/Linux/openssl.md",
-    "Hacking/Explotación/Hacking Web/API Testing/1. Busqueda de documentación de una API.md",
-    "Hacking/Explotación/Hacking Web/API Testing/0. Que es una REST API.md",
-    "Hacking/Explotación/Hacking Web/JWT Attacks (JSON Web Token)/5. Parametro jku admitido.md",
-    "Hacking/Explotación/Hacking Web/JWT Attacks (JSON Web Token)/4. Parametro jwk admitido.md",
-    "Hacking/Explotación/Hacking Web/JWT Attacks (JSON Web Token)/3. Crakeo y firma de JWT's.md",
-    "Hacking/Explotación/Hacking Web/JWT Attacks (JSON Web Token)/2. El servidor admite none en alg.md",
-    "Hacking/Herramientas/Linux/ffuf.md",
     "Hacking/Explotación/Hacking Web/JWT Attacks (JSON Web Token)",
     "Imagenes/Pasted image 20250904182212.png",
     "Imagenes/Pasted image 20250904182148.png",

@@ -40,7 +40,7 @@ smbmap -L {IP_DC} -N
 ### Autenticación con smbclient
 
 ```python
-smbmap -L {IP_DC} -U [DOMINIO]/[USUARIO]%[CONTRASEÑA]
+smbclient -L {IP_DC} -U [DOMINIO]/[USUARIO]%[CONTRASEÑA]
 ```
 
 

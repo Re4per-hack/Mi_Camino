@@ -27,3 +27,8 @@ Si despues de listar los recursos vemos que alguno tiene Readable permissions.
 smbmap -H {IP_DC} -u '{USUARIO}' -p '{CONTRASEÑA}' -r '{RECURSOS}'
 ```
 
+### Acceder a una carpeta dentro del recurso
+
+```python
+smbmap -H {IP_DC} -u '{USUARIO}' -p '{CONTRASEÑA}' -r '{RECURSOS}/'
+```
