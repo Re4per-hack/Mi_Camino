@@ -63,3 +63,24 @@ git show {etiqueta}
 ```
 
 ## Hacer un push a un repositorio
+
+Añadir archivo a la lista de cambios:
+
+```shell
+git add {FILE}
+```
+
+Crear commit:
+
+```shell
+git commit -m "{titulo}"
+```
+
+Hacer Push:
+
+```shell
+git push -u origin master
+```
+
+
+

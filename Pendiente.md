@@ -4,5 +4,3 @@ smart contract
 prototipe pollution hola que tal
 
 
-```
-```

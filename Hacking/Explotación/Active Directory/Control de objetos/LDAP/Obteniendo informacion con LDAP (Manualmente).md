@@ -1,5 +1,5 @@
 
-Para esta tarea haremos uso de ldapsearch, una herramienta que nos permite enumerar los diferentes atributos de los objetos en un AD (Directorio Activo).
+Para esta tarea haremos uso de  ldapsearch, una herramienta que nos permite enumerar los diferentes atributos de los objetos en un AD (Directorio Activo).
 
 A continuación un ejemplo basico: 
 

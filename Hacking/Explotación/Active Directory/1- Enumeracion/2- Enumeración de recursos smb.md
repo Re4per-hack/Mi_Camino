@@ -26,7 +26,11 @@ Si despues de listar los recursos vemos que alguno tiene Readable permissions.
 smbmap -H {IP_DC} -u '{USUARIO}' -p '{CONTRASEÑA}' -r '{RECURSOS}'
 ```
 
+### Descargar archivos con smbmap
 
+```python
+smbmap -H {IP_DC} -u '{USUARIO}' -p '{CONTRASEÑA}' --download '{PATH}'
+```
 # SMBClient
 
 ### Null session con smbclient
