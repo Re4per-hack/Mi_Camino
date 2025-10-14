@@ -1,3 +1,5 @@
+Mas información [Aquí](https://angelica.gitbook.io/hacktricks/network-services-pentesting/ipsec-ike-vpn-pentesting)
+
 Este es un puerto UDP, la mejor forma (y mas rapida), de encontrar este tipo de puertos es usando el siguiente comando:
 
 ```ruby
@@ -38,7 +40,7 @@ Este comando envia un transform set (un conjunto de varios transforms, uno par a
 Si recibimos 1 handshake and 0 notify, significa que IKE ha realizado un Handshake, lo que significa que IPSec ha aceptado nuestra propuesta, ahora tenemos que saber cual es el ID (group name)
 
 Pero si recibimos 0 handshake y 1 notify, tenemos que hacer fuerza bruta a las transformaciones.
-## Fuerza bruta a las transformaciones
+## ==Fuerza bruta a las transformaciones==
 
 Crear archivo con todas las posibles transforms:
 
@@ -59,6 +61,14 @@ while read line; do (echo "Valid trans found: $line" && ike-scan -M --aggressive
 ```
 
 
+# ==Hacer fuerza bruta al PSK (Pre-Shared Key)==
+
+
+Para esto haremos uso de la herramienta :
+
+```ruby
+psk-crack -d {WORDLIST} {HASH}
+```
 
 
 

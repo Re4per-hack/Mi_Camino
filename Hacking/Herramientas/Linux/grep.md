@@ -154,18 +154,23 @@ El resultado seria el siguiente:
 Pablo
 ```
 
+
+# Buscar palabra especifica en diferentes archivos
+
+Esto es util cuando queremos filtrar por  palabras especificas en diferentes archivos
+
+```bash
+grep -rnw / -ie "PASSWORD" 
+```
+
+- -r: IMPORTANTE, para que busque dentro de carpetas de forma recursiva
+
+- -n: Para que muestre la linea en la uqe se encuentra esa coincidencia 
+
+- -w: Para que solo Matchee con palabras es decir, PASSWORDXD no lo va a agarrar, en cambio PASSWORD si 
+
 # Filtrar por expresiones regulares
 
-Para esto usaremos la opción -P, 
-
-
-
-## Filtrar con multiple matching 
-
-
-# Evitar distinción entre Mayúsculas y Minúsculas
-
-Para esto vamos a usar la opción -i, para este ejercicio tendremos el siguiente ejemplo
 
 ```
 Juan - 17 años
@@ -185,6 +190,14 @@ grep -P "\[.+?\]" nombres.txt
 El resultado seria el siguiente: 
 
 ```
-Pablo - 13 años
+[Silvia] - 17 años
+[Margarita] - 30 años
 ```
+
+## Filtrar con multiple matching 
+
+
+# Evitar distinción entre Mayúsculas y Minúsculas
+
+Para esto vamos a usar la opción -i, para este ejercicio tendremos el siguiente ejemplo
 

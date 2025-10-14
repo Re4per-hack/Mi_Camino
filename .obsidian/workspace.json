@@ -67,30 +67,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hacking/Explotación/Puertos Y Servicios/Puerto 500 UDP e  ISAKMP.md",
+                "file": "Hacking/Herramientas/Linux/Docker.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Puerto 500 UDP e  ISAKMP"
-            }
-          },
-          {
-            "id": "8d7ba298b114aeeb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hacking/Explotación/Hacking Web/Path traversal/Archivos interesantes/Linux/Archivos del sistema.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Archivos del sistema"
+              "title": "Docker"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -110,7 +96,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -132,7 +118,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "docker",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -143,7 +129,8 @@
               "title": "Search"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -238,34 +225,35 @@
       "bases:Create new base": false
     }
   },
-  "active": "8d7ba298b114aeeb",
+  "active": "e73482901dcdb770",
   "lastOpenFiles": [
-    "Hacking/Explotación/Hacking Web/Path traversal/Testeo de Path traversal.md",
-    "Hacking/Metodologia/Input Checklist/Descargas de archivos (Path traversal).md",
-    "Hacking/Explotación/Hacking Web/Path traversal/Archivos interesantes/Linux/Archivos del sistema.md",
-    "Hacking/Metodologia/Input Checklist/Se refleja (XSS, SSTI).md",
-    "Hacking/Metodologia/Input Checklist/Se envian datos en XML (XXE).md",
-    "Hacking/Metodologia/Input Checklist/Login (SQLI).md",
-    "Hacking/Metodologia/Input Checklist/Formularios (XSS + Python).md",
-    "Hacking/Explotación/Hacking Web/XSS (Cross-Site Scripting)/XSS Filter Evasion.md",
-    "Hacking/Explotación/Hacking Web/XSS (Cross-Site Scripting)/1- XSS representado en HTML/1- XSS reflejado en HTML.md",
-    "Hacking/Explotación/Hacking Web/XSS (Cross-Site Scripting)/1- XSS representado en HTML/4- XSS con etiquetas custom.md",
-    "Hacking/Explotación/Hacking Web/XSS (Cross-Site Scripting)/1- XSS representado en HTML/2- XSS guardado y mostrado en HTML.md",
-    "Hacking/Explotación/Hacking Web/XSS (Cross-Site Scripting)/4- XSS con Hijacking/3- XSS para realizar un ataque CSRF.md",
-    "Hacking/Explotación/Hacking Web/XSS (Cross-Site Scripting)/4- XSS con Hijacking/2- XSS para robo de contraseñas.md",
-    "Hacking/Explotación/Hacking Web/XSS (Cross-Site Scripting)/4- XSS con Hijacking/1- XSS con cookie stealing.md",
-    "Hacking/Explotación/Hacking Web/XSS (Cross-Site Scripting)/Bypass de CSP.md",
-    "Hacking/Explotación/Hacking Web/XSS (Cross-Site Scripting)/1- XSS representado en HTML/9- XSS con etiquetas SVG.md",
-    "Hacking/Explotación/Hacking Web/XSS (Cross-Site Scripting)/1- XSS representado en HTML/8- XSS en un literal template.md",
-    "Hacking/Explotación/Hacking Web/XSS (Cross-Site Scripting)/1- XSS representado en HTML/7- XSS en el atributo onclick con ofuscado HTML.md",
-    "Hacking/Explotación/Hacking Web/XSS (Cross-Site Scripting)/1- XSS representado en HTML/6- XSS en un canonical link.md",
-    "Hacking/Explotación/Hacking Web/XSS (Cross-Site Scripting)/1- XSS representado en HTML/5- XSS con etiquetas SVG.md",
-    "Hacking/Explotación/Hacking Web/XSS (Cross-Site Scripting)/1- XSS representado en HTML/3- XSS con la mayoría de tags y atributos bloqueados.md",
-    "Hacking/Metodologia/File uploads checklist.md",
-    "Hacking/post-explotacion/Privilege-escalation/Linux/Enumeracion/Enumeracion de Contraseñas/Buscando nombres de archivo que contengan palabras clave.md",
-    "Hacking/post-explotacion/Privilege-escalation/Linux/Enumeracion/Enumeracion de Contraseñas/Archivo history.md",
+    "Hacking/post-explotacion/Privilege-escalation/Linux/3. Enumeracion del usuario.md",
+    "Hacking/post-explotacion/Privilege-escalation/Linux/2. Enumeracion de red.md",
     "Hacking/post-explotacion/Privilege-escalation/Linux/1. Reconocimiento en el sistema.md",
-    "Hacking/post-explotacion/Privilege-escalation/Windows/DPAPI & BLOBS.md",
+    "Hacking/Herramientas/Linux/Docker.md",
+    "Errores/bloodhound-python.md",
+    "Hacking/Explotación/Puertos Y Servicios/Puerto 500 UDP e  ISAKMP.md",
+    "Hacking/Crakeo/Archivo aes.md",
+    "Hacking/Crakeo/Hashes/Hashes Salted.md",
+    "Hacking/Crakeo/Archivos kdbx/2- Crackear directamente el archivo.md",
+    "Hacking/Crakeo/Archivos kdbx/1- Extraer el Hash crackeable.md",
+    "Hacking/Crakeo/Archivos kbdx.md",
+    "Hacking/post-explotacion/Privilege-escalation/Linux/Enumeracion/Herramientas automatizadas/linux-exploit-suggester.md",
+    "Hacking/post-explotacion/Privilege-escalation/Linux/Explotación/Accediendo a commits antiguos en un repositorio Git.md",
+    "Hacking/post-explotacion/Privilege-escalation/Linux/Enumeracion/Enumeracion del sistema/Ver procesos.md",
+    "Hacking/post-explotacion/Privilege-escalation/Linux/Enumeracion/Enumeracion del sistema/Ver la version del sistema.md",
+    "Hacking/post-explotacion/Privilege-escalation/Linux/Enumeracion/Enumeracion de usuario/Registros de contraseñas de cada usuario.md",
+    "Hacking/post-explotacion/Privilege-escalation/Linux/Enumeracion/Enumeracion de usuario/Permisos y identificador de usuario.md",
+    "Hacking/post-explotacion/Privilege-escalation/Linux/Enumeracion/Enumeracion de usuario/Historial de los usuarios.md",
+    "Hacking/post-explotacion/Privilege-escalation/Linux/Enumeracion/Enumeracion de usuario/Encontrando aplicaciones con permisos sudo.md",
+    "Hacking/post-explotacion/Privilege-escalation/Linux/Enumeracion/Enumeracion de usuario/Archivo con las variables de entorno de linux.md",
+    "Hacking/post-explotacion/Privilege-escalation/Linux/Enumeracion/Enumeración de red/Conocer la IP de la maquina local.md",
+    "Hacking/post-explotacion/Privilege-escalation/Linux/Enumeracion/Enumeracion de Contraseñas/Buscando nombres de archivo que contengan palabras clave.md",
+    "Hacking/post-explotacion/Privilege-escalation/Linux/Enumeracion/Enumeracion de Contraseñas/Buscando la palabra password en todos los archivos.md",
+    "Hacking/Herramientas/Linux/grep.md",
+    "Hacking/post-explotacion/Privilege-escalation/Linux/Enumeracion/Enumeracion de Contraseñas/Archivo history.md",
+    "Hacking/post-explotacion/Tratamiento de la TTY.md",
+    "Hacking/Explotación/Hacking Web/Path traversal/Archivos interesantes/Lenguajes y Frameworks",
     "Imagenes/Resolución Maquinas-9.jpg",
     "Hacking/Explotación/Hacking Web/Path traversal/Archivos interesantes/Linux",
     "Hacking/Explotación/Hacking Web/Path traversal/Archivos interesantes",
@@ -281,7 +269,6 @@
     "Aprendizaje",
     "Imagenes/Pasted image 20250927113301.png",
     "Imagenes/Pasted image 20250927110850.png",
-    "Hacking/post-explotacion/Privilege-escalation/Windows",
     "Imagenes/Pasted image 20250902225544.png",
     "Imagenes/Pasted image 20250916064806.png",
     "Imagenes/Pasted image 20250916061518.png",

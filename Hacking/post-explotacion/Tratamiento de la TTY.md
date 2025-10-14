@@ -4,7 +4,11 @@ A continuación están los comandos necesarios para la sanitización la TTY (arr
 - Ctrl+z: Suspendemos el proceso
 - stty raw -echo; fg
 - export TERM=xterm
+- export SHELL=bash
 - reset xterm: Reseteamos la terminal
+- (En nuestra maquina pantalla completa) stty size
+- stty rows {VALOR_IZQUIERDA} columns {VALOR_DERECHA}
+
 
 
 
