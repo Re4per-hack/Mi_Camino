@@ -65,14 +65,12 @@
             "id": "e73482901dcdb770",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Hacking/Herramientas/Linux/Docker.md",
-                "mode": "source",
-                "source": false
+                "file": "Imagenes/Pasted image 20251016175652.png"
               },
-              "icon": "lucide-file",
-              "title": "Docker"
+              "icon": "lucide-image",
+              "title": "Pasted image 20251016175652"
             }
           }
         ],
@@ -118,8 +116,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "docker",
-                "matchingCase": false,
+                "query": "",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
                 "extraContext": false,
@@ -129,8 +127,7 @@
               "title": "Search"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -225,53 +222,53 @@
       "bases:Create new base": false
     }
   },
-  "active": "e73482901dcdb770",
+  "active": "49965c113fffc8d9",
   "lastOpenFiles": [
-    "Hacking/post-explotacion/Privilege-escalation/Linux/3. Enumeracion del usuario.md",
-    "Hacking/post-explotacion/Privilege-escalation/Linux/2. Enumeracion de red.md",
+    "Maquinas/Hack The Box/Voleur.md",
+    "Maquinas/Hack The Box/CodePartTwo.md",
+    "Maquinas/Hack The Box/Mailing.md",
+    "Imagenes/Pasted image 20251018151910.png",
+    "Imagenes/Pasted image 20251018123732.png",
+    "Imagenes/Pasted image 20251018123418.png",
+    "Imagenes/Pasted image 20251018123319.png",
+    "Imagenes/Pasted image 20251018121522.png",
+    "Imagenes/Pasted image 20251018115214.png",
+    "Imagenes/Pasted image 20251018114643.png",
+    "Imagenes/Pasted image 20251018112453.png",
+    "Imagenes/Pasted image 20251018112256.png",
+    "Imagenes/Pasted image 20251018112234.png",
+    "Pendiente.md",
+    "Hacking/Explotación/Active Directory/5- Mimikatz/1- Golden Ticket Attack.md",
+    "Hacking/Explotación/Active Directory/4- Kerberos/3- Realizando un AS-REP Roasting.md",
+    "Hacking/Explotación/Active Directory/4- Kerberos/2- Realizando un Kerberoasting.md",
+    "Hacking/Explotación/Active Directory/4- Kerberos/1- Funcionamiento Kerberos.md",
+    "Hacking/Explotación/Active Directory/3- Al conseguir hashes o credenciales/3- Que hacer con credenciales del administrador de dominio.md",
+    "Hacking/Explotación/Active Directory/3- Al conseguir hashes o credenciales/1- Que hacer con los Hashes NTLMv2.md",
+    "Hacking/Explotación/Active Directory/3- Al conseguir hashes o credenciales/2- Que Hacer con la SAM dumpeada.md",
+    "Hacking/Explotación/Active Directory/2- SMB Relay/3- SMB Relay IPv6 attack.md",
+    "Hacking/Explotación/Active Directory/2- SMB Relay/2- SMB Relay Attack Avanzado.md",
+    "Hacking/Explotación/Active Directory/1- Enumeracion/2- Enumeración de recursos smb.md",
+    "Hacking/Explotación/Active Directory/1- Enumeracion/1- enumeracion de equipos en el Active Directory.md",
+    "Hacking/Evasion de Firewalls/Untitled.md",
+    "Hacking/Evasion de Antivirus/1- Como funciona un Antivirus.md",
+    "README.md",
     "Hacking/post-explotacion/Privilege-escalation/Linux/1. Reconocimiento en el sistema.md",
-    "Hacking/Herramientas/Linux/Docker.md",
-    "Errores/bloodhound-python.md",
-    "Hacking/Explotación/Puertos Y Servicios/Puerto 500 UDP e  ISAKMP.md",
-    "Hacking/Crakeo/Archivo aes.md",
-    "Hacking/Crakeo/Hashes/Hashes Salted.md",
-    "Hacking/Crakeo/Archivos kdbx/2- Crackear directamente el archivo.md",
-    "Hacking/Crakeo/Archivos kdbx/1- Extraer el Hash crackeable.md",
-    "Hacking/Crakeo/Archivos kbdx.md",
-    "Hacking/post-explotacion/Privilege-escalation/Linux/Enumeracion/Herramientas automatizadas/linux-exploit-suggester.md",
-    "Hacking/post-explotacion/Privilege-escalation/Linux/Explotación/Accediendo a commits antiguos en un repositorio Git.md",
-    "Hacking/post-explotacion/Privilege-escalation/Linux/Enumeracion/Enumeracion del sistema/Ver procesos.md",
-    "Hacking/post-explotacion/Privilege-escalation/Linux/Enumeracion/Enumeracion del sistema/Ver la version del sistema.md",
-    "Hacking/post-explotacion/Privilege-escalation/Linux/Enumeracion/Enumeracion de usuario/Registros de contraseñas de cada usuario.md",
-    "Hacking/post-explotacion/Privilege-escalation/Linux/Enumeracion/Enumeracion de usuario/Permisos y identificador de usuario.md",
-    "Hacking/post-explotacion/Privilege-escalation/Linux/Enumeracion/Enumeracion de usuario/Historial de los usuarios.md",
-    "Hacking/post-explotacion/Privilege-escalation/Linux/Enumeracion/Enumeracion de usuario/Encontrando aplicaciones con permisos sudo.md",
-    "Hacking/post-explotacion/Privilege-escalation/Linux/Enumeracion/Enumeracion de usuario/Archivo con las variables de entorno de linux.md",
-    "Hacking/post-explotacion/Privilege-escalation/Linux/Enumeracion/Enumeración de red/Conocer la IP de la maquina local.md",
-    "Hacking/post-explotacion/Privilege-escalation/Linux/Enumeracion/Enumeracion de Contraseñas/Buscando nombres de archivo que contengan palabras clave.md",
-    "Hacking/post-explotacion/Privilege-escalation/Linux/Enumeracion/Enumeracion de Contraseñas/Buscando la palabra password en todos los archivos.md",
-    "Hacking/Herramientas/Linux/grep.md",
-    "Hacking/post-explotacion/Privilege-escalation/Linux/Enumeracion/Enumeracion de Contraseñas/Archivo history.md",
-    "Hacking/post-explotacion/Tratamiento de la TTY.md",
+    "Hacking/post-explotacion/Privilege-escalation/Linux/3. Enumeracion del usuario.md",
+    "Ejemplos/Ejemplo busqueda SUID's.md",
+    "Ejemplos/Ejemplo busqueda de contraseñas.md",
+    "cosas para anotar.md",
+    "Ejemplos",
+    "Untitled 1.md",
+    "Hacking/post-explotacion/Privilege-escalation/Linux/Explotación/Explotando visualizacion de archivos privilegiados con sudo.md",
+    "Hacking/post-explotacion/Privilege-escalation/Linux/Explotación/Explotacion de contraseñas privadas SSH.md",
+    "Hacking/Explotación/Hacking Web/API Testing/clase.py",
+    "Hacking/Explotación/Hacking Web/SSTI (Server Side Template Injection)",
     "Hacking/Explotación/Hacking Web/Path traversal/Archivos interesantes/Lenguajes y Frameworks",
-    "Imagenes/Resolución Maquinas-9.jpg",
     "Hacking/Explotación/Hacking Web/Path traversal/Archivos interesantes/Linux",
     "Hacking/Explotación/Hacking Web/Path traversal/Archivos interesantes",
     "Hacking/Explotación/Hacking Web/Path traversal",
     "Hacking/Explotación/Hacking Web/XXE (XML External  Entity)",
     "Hacking/Metodologia/Input Checklist",
-    "Imagenes/Pasted image 20251002141007.png",
-    "Imagenes/Pasted image 20251002140932.png",
-    "Hacking/Metodologia",
-    "Imagenes/Pasted image 20250927110844.png",
-    "Hacking/Explotación/Puertos Y Servicios",
-    "Aprendizaje/Recursos",
-    "Aprendizaje",
-    "Imagenes/Pasted image 20250927113301.png",
-    "Imagenes/Pasted image 20250927110850.png",
-    "Imagenes/Pasted image 20250902225544.png",
-    "Imagenes/Pasted image 20250916064806.png",
-    "Imagenes/Pasted image 20250916061518.png",
-    "Imagenes/Pasted image 20250915190712.png"
+    "Hacking/Metodologia"
   ]
 }
