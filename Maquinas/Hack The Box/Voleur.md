@@ -1,3 +1,0 @@
-
-OS: Windows 
-Nivel: Medium

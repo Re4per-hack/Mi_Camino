@@ -65,16 +65,32 @@
             "id": "e73482901dcdb770",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Imagenes/Pasted image 20251016175652.png"
+                "file": "Maquinas/Hack The Box/Windows/Voleur.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20251016175652"
+              "icon": "lucide-file",
+              "title": "Voleur"
+            }
+          },
+          {
+            "id": "03ab2586248e806d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maquinas/Hack The Box/Windows/Voleur.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Voleur"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -116,7 +132,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "netexec",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -222,53 +238,53 @@
       "bases:Create new base": false
     }
   },
-  "active": "49965c113fffc8d9",
+  "active": "03ab2586248e806d",
   "lastOpenFiles": [
-    "Maquinas/Hack The Box/Voleur.md",
-    "Maquinas/Hack The Box/CodePartTwo.md",
-    "Maquinas/Hack The Box/Mailing.md",
-    "Imagenes/Pasted image 20251018151910.png",
-    "Imagenes/Pasted image 20251018123732.png",
-    "Imagenes/Pasted image 20251018123418.png",
-    "Imagenes/Pasted image 20251018123319.png",
-    "Imagenes/Pasted image 20251018121522.png",
-    "Imagenes/Pasted image 20251018115214.png",
-    "Imagenes/Pasted image 20251018114643.png",
-    "Imagenes/Pasted image 20251018112453.png",
-    "Imagenes/Pasted image 20251018112256.png",
-    "Imagenes/Pasted image 20251018112234.png",
-    "Pendiente.md",
-    "Hacking/Explotación/Active Directory/5- Mimikatz/1- Golden Ticket Attack.md",
-    "Hacking/Explotación/Active Directory/4- Kerberos/3- Realizando un AS-REP Roasting.md",
-    "Hacking/Explotación/Active Directory/4- Kerberos/2- Realizando un Kerberoasting.md",
-    "Hacking/Explotación/Active Directory/4- Kerberos/1- Funcionamiento Kerberos.md",
-    "Hacking/Explotación/Active Directory/3- Al conseguir hashes o credenciales/3- Que hacer con credenciales del administrador de dominio.md",
-    "Hacking/Explotación/Active Directory/3- Al conseguir hashes o credenciales/1- Que hacer con los Hashes NTLMv2.md",
-    "Hacking/Explotación/Active Directory/3- Al conseguir hashes o credenciales/2- Que Hacer con la SAM dumpeada.md",
-    "Hacking/Explotación/Active Directory/2- SMB Relay/3- SMB Relay IPv6 attack.md",
-    "Hacking/Explotación/Active Directory/2- SMB Relay/2- SMB Relay Attack Avanzado.md",
-    "Hacking/Explotación/Active Directory/1- Enumeracion/2- Enumeración de recursos smb.md",
-    "Hacking/Explotación/Active Directory/1- Enumeracion/1- enumeracion de equipos en el Active Directory.md",
-    "Hacking/Evasion de Firewalls/Untitled.md",
-    "Hacking/Evasion de Antivirus/1- Como funciona un Antivirus.md",
-    "README.md",
-    "Hacking/post-explotacion/Privilege-escalation/Linux/1. Reconocimiento en el sistema.md",
-    "Hacking/post-explotacion/Privilege-escalation/Linux/3. Enumeracion del usuario.md",
-    "Ejemplos/Ejemplo busqueda SUID's.md",
-    "Ejemplos/Ejemplo busqueda de contraseñas.md",
-    "cosas para anotar.md",
-    "Ejemplos",
-    "Untitled 1.md",
-    "Hacking/post-explotacion/Privilege-escalation/Linux/Explotación/Explotando visualizacion de archivos privilegiados con sudo.md",
-    "Hacking/post-explotacion/Privilege-escalation/Linux/Explotación/Explotacion de contraseñas privadas SSH.md",
-    "Hacking/Explotación/Hacking Web/API Testing/clase.py",
-    "Hacking/Explotación/Hacking Web/SSTI (Server Side Template Injection)",
-    "Hacking/Explotación/Hacking Web/Path traversal/Archivos interesantes/Lenguajes y Frameworks",
-    "Hacking/Explotación/Hacking Web/Path traversal/Archivos interesantes/Linux",
-    "Hacking/Explotación/Hacking Web/Path traversal/Archivos interesantes",
-    "Hacking/Explotación/Hacking Web/Path traversal",
-    "Hacking/Explotación/Hacking Web/XXE (XML External  Entity)",
-    "Hacking/Metodologia/Input Checklist",
-    "Hacking/Metodologia"
+    "Errores/Windows/Autenticación.md",
+    "Maquinas/Hack The Box/Windows/Voleur.md",
+    "Hacking/Herramientas/Linux/netexec.md",
+    "Hacking/Explotación/Active Directory/Ataques/3- Al conseguir hashes o credenciales/3- Que hacer con credenciales del administrador de dominio.md",
+    "Hacking/Explotación/Active Directory/Ataques/3- Al conseguir hashes o credenciales/4-  Spraying.md",
+    "Hacking/Explotación/Active Directory/Ataques/3- Al conseguir hashes o credenciales/1- Que hacer con los Hashes NTLMv2.md",
+    "Hacking/Explotación/Active Directory/Ataques/3- Al conseguir hashes o credenciales/2- Que Hacer con la SAM dumpeada.md",
+    "Hacking/Explotación/Active Directory/Ataques/2- SMB Relay/3- SMB Relay IPv6 attack.md",
+    "Hacking/Explotación/Active Directory/Ataques/1- Enumeracion/1- enumeracion de equipos en el Active Directory.md",
+    "Hacking/Explotación/Active Directory/Ataques/2- SMB Relay/2- SMB Relay Attack Avanzado.md",
+    "Hacking/Explotación/Active Directory/Ataques/2- SMB Relay/1- SMB Relay Attack Simple.md",
+    "Hacking/Explotación/Active Directory/Ataques/1- Enumeracion/5- Enumeración con ldap.md",
+    "Hacking/Explotación/Active Directory/Ataques/1- Enumeracion/4- Enumeración con RPC Client.md",
+    "Hacking/Explotación/Active Directory/Ataques/1- Enumeracion/3- Enumeracion de usuarios validos.md",
+    "Hacking/Explotación/Active Directory/Ataques/1- Enumeracion/2- Enumeración de recursos smb.md",
+    "Hacking/Explotación/Active Directory/Ataques/6- Archivo SCF Malicioso/1- Obtener el NTLMv2 del usuario Administrador.md",
+    "Hacking/Explotación/Active Directory/Herramientas/1. Netexec.md",
+    "Hacking/Explotación/Active Directory/Herramientas",
+    "Hacking/Explotación/Active Directory/Ataques",
+    "Hacking/Explotación/Active Directory/Control de objetos/Desde Windows/Restaurar un usuario eliminado.md",
+    "Pasted image 20251022074119.png",
+    "Hacking/Explotación/Active Directory/Control de objetos/Desde Linux/Agregar usuario a un grupo.md",
+    "Hacking/Explotación/Active Directory/Control de objetos/Desde Windows",
+    "Hacking/Explotación/Active Directory/Control de objetos/Desde Linux/Ver miembros de un grupo.md",
+    "Hacking/Explotación/Active Directory/Control de objetos/Desde Linux",
+    "Hacking/Explotación/Active Directory/Control de objetos/Desde Linux/Habilitar usuario deshabilitado o disabled.md",
+    "Hacking/Explotación/Active Directory/Control de objetos/Desde Linux/Cambiar contraseña de un usuario.md",
+    "Hacking/Explotación/Active Directory/Ataques/3- Al conseguir hashes o credenciales/5- Que hacer con credenciales de cualquier usuario.md",
+    "Imagenes/Pasted image 20251019132159.png",
+    "Imagenes/Pasted image 20251021124936.png",
+    "Imagenes/Pasted image 20251021124359.png",
+    "Imagenes/Pasted image 20251021124255.png",
+    "Imagenes/Pasted image 20251021110821.png",
+    "Hacking/post-explotacion/Privilege-escalation/Windows/DPAPI & BLOBS.md",
+    "Imagenes/Pasted image 20251021110756.png",
+    "Hacking/Explotación/Active Directory/Ataques/4- Kerberos/4- Obtener un TGT para el usuario actual.md",
+    "Hacking/Explotación/Active Directory/General/rol de servidor de Windows.md",
+    "Imagenes/Pasted image 20251021094622.png",
+    "Imagenes/Pasted image 20251020163441.png",
+    "Imagenes/Pasted image 20251020085634.png",
+    "Untitled",
+    "nomina",
+    "nomina.cpp",
+    "Errores/Windows",
+    "Maquinas/Hack The Box/Windows",
+    "Ejemplos"
   ]
 }

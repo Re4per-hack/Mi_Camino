@@ -4,12 +4,12 @@ Esta herramienta nos permite actuar como clientes SAMBA (SMB) y listar diferente
 Como dije antes esta o es la mejor opcion pero por cualquier documentaré el uso por aquí 
 
 ```python
-smbmap -L {IP_DC} -N
+smbclient -L {IP_DC} -N
 ```
 
-### Autenticación con smbclient
+### Autenticación normal
 
 ```python
-smbmap -L {IP_DC} -U [DOMINIO]/[USUARIO]%[CONTRASEÑA]
+smbclient -L {IP_DC} -U [DOMINIO]/[USUARIO]%[CONTRASEÑA]
 ```
 
