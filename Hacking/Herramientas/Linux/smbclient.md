@@ -13,3 +13,8 @@ smbclient -L {IP_DC} -N
 smbclient -L {IP_DC} -U [DOMINIO]/[USUARIO]%[CONTRASEÑA]
 ```
 
+### Autenticación con kerberos
+
+
+
+

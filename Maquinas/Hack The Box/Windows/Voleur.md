@@ -190,9 +190,83 @@ Es posible que te salga un error como este:
 
 ![[Pasted image 20251021124359.png]]
 
-
 En este caso visitar [[Autenticación#Cannot find KDC for REALM "{domain}.example"]]
 
+No vemos nada interesante en este usuario svc_winrm, en bloodhound, si le echamos un ojo a svc_ldap, vemos que está en el grupo RESTORE USERS, lo que nos puede dar una idea de que los pertenecientes a este grupo, pueden restaurar objetos eliminados, recordemos que tenemos al contraseña de un usuario eliminado llamado Todd
 
-Ahora podemos usar 
+![[Pasted image 20251023123212.png]]
+
+y tambien nos dice que tiene acceso a Second-Line  Support, el problema es que para restaurar objetos, necesitamos acceso remoto a el dominio, pero svc_ldap no tiene permisos winrm, entonces, Que podemos usar? RunasCS!! con esto podemos hacer una reverse shell que es ejecutada por svc_ldap, por ende, tenemos acceso remoto como ese usuario:
+
+![[Pasted image 20251023224701.png]]
+
+Reverse Shell:
+![[Pasted image 20251023224745.png]]
+
+Ahora podemos intentar restaurar al usuario Todd.wolfe, y como el Esxcel que habiamos encontrado, sabemos que este usuario tiene acceso a Second-Line Support, para restaurar objetos usar [[Restaurar un usuario eliminado]]:
+
+```shell
+Get-ADObject -Filter 'isDeleted -eq $true -and objectClass -eq "user"' -IncludeDeletedObjects | Restore-ADObject 
+```
+
+Ahora podemos ver los recursos dentro de IT, vemos que ahora hay una carpeta diferente llamada Second-Line Support
+
+![[Pasted image 20251024114147.png]]
+
+Vemos que tenemos un backup que se hizo de los archivos de Todd.Wolfe, por lo que podemos buscar blobs y masterkeys que nos puedan dar algunas credenciales que nos sean utiles [[DPAPI & BLOBS]]: 
+
+- La masterkey la podemos obtener en:
+
+`C:/Users/Todd.Wolfe/AppData/Roaming/Microsoft/Protect/{SID}/{MasterKey}`
+
+- El blob lo podemos encontrar en:
+
+`C:/Users/Todd.Wolfe/AppData/Roaming/Microsoft/Credentials/{BLOB}`
+
+
+Primero tenemos que desencriptar la masterkey:
+
+##### Desencriptando  MasterKey usando credenciales
+
+```ruby
+impacket-dpapi masterkey -file {MASTERKEY_FILE} -password '{Password}' -sid {SID-TODD} 
+```
+
+##### Desencriptando BLOB con masterkey
+
+```ruby
+impacket-dpapi credential -file {BLOB ARCHIVO} -key { MasterKey (OBTENIDA ANTERIORMENTE)}   
+```
+
+![[Pasted image 20251024200827.png]]
+
+### Vamos a ver a que recursos tenemos acceso
+
+![[Pasted image 20251024201725.png]]
+
+Ya descargados este par de archivos los podemos revisar, ya con el nombre de id_rsa nos podemos hacer una idea de que esto puede ser una llave privada de ssh:
+
+![[Pasted image 20251025114151.png]]
+
+Recordemos que en la hoja de excel que obtuvimos nos decian que consultaramos con jeremy para el acceso a svc_backups, por lo que podemos intuir que esta clave privada es para conectarnos a svc_backups:
+
+![[Pasted image 20251025120235.png]]
+
+La nota nos hace saber que  cuando accedemos por ssh, en realidad estamos accediendo un WSL, lo cual es una especie de entorno de linux dentro de windows, y como la nota tambien nos hacia saber, seguramente se esté usando este WSL para hacer backups del sistema, por lo que siguiente ese orden de ideas, la maquina linux tiene que tener algún acceso a los recursos en windows, si buscamos en internet "WSL acces to windows files"  encontraremos la siguiente pagina:
+ 
+![[Pasted image 20251025160523.png]]
+
+Vemos que en `/mnt/c` vamos a encontrar todos los archivos en windows, entonces vamos a esa ruta:
+
+![[Pasted image 20251025160631.png]]
+
+Vemos varios archivos y carpetas, entre las carpetas encontramos IT, el recurso compartido, vamos a ver si encontramos algo de interés:
+
+![[Pasted image 20251025163246.png]]
+
+Vemos una carpeta llamada  Backups:
+
+![[Pasted image 20251025165725.png]]
+
+teniendo acceso a estos dos archivos podemos extraer las credenciales usando impacket-secretsdump:
 

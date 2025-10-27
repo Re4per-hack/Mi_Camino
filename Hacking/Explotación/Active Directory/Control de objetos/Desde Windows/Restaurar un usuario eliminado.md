@@ -16,6 +16,5 @@ Solo hay un Objeto que es el del usuario Todd Wolfe, esto es justo lo que necesi
 
 ```shell
 Get-ADObject -Filter 'isDeleted -eq $true -and objectClass -eq "user"' -IncludeDeletedObjects | Restore-ADObject 
-
 ```
  

