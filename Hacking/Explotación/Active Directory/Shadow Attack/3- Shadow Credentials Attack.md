@@ -88,7 +88,9 @@ Utilize **getnthash.py** to retrieve the machine account’s NTLM hash
 
 The getnthash.py tool utilizes Kerberos U2U (User-to-User) to submit a TGS (Ticket Granting Service) request for the attacker, which includes the PAC (Privilege Attribute Certificate). The PAC contains the NT hash for the targeted account, and the tool decrypts it using the AS-REP key that was used to obtain the TGT (Ticket Granting Ticket). This allows the attacker to extract the NTLM hash for further exploitation, such as Pass-the-Hash attacks.
 
+```python
 python getnthash.py -key 86b989daa8099f4f9f04f14be14b33556f043c56b48b4d3c36ef030a65c9b3a0 ignite.local/dc$
+```
 
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhC5IGw_0A70sqHG8_Y2x2cYo7KamewlOrIS1DslfnQS9xl8_mTwHDOlQlaYXxMIkRh2YfPkIun22X2iqzvJJM4gd9D2EpXKr2AqAVKLrpxOsexhywlq4Zx7K6b7ABEgXSoYkC2I8NhqaZ0XXtyIMpOqQFVwPgZD6bWqEUUVjAe3Ghc7rj19EGTpR2yDWjU/s16000/12.png)
 
