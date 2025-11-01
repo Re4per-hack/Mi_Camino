@@ -81,12 +81,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hacking/Herramientas/Linux/openssl.md",
+                "file": "Hacking/Explotación/Hacking Web/LFI (Local File Inclusion)/5- LFI a RCE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "openssl"
+              "title": "5- LFI a RCE"
             }
           }
         ],
@@ -132,7 +132,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "wrapper",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -143,7 +143,8 @@
               "title": "Search"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -238,8 +239,24 @@
       "bases:Create new base": false
     }
   },
-  "active": "49965c113fffc8d9",
+  "active": "03ab2586248e806d",
   "lastOpenFiles": [
+    "Hacking/Explotación/Hacking Web/LFI (Local File Inclusion)/4- Relevando codigo fuente usando Wrappers php.md",
+    "Hacking/Explotación/Hacking Web/LFI (Local File Inclusion)/1- Que es una vulnerabilidad LFI.md",
+    "Hacking/Explotación/Hacking Web/LFI (Local File Inclusion)/RCE_usando_PHP_wrappers.md",
+    "Hacking/Explotación/Hacking Web/LFI (Local File Inclusion)/PHP_Wrappers.md",
+    "Hacking/Explotación/Hacking Web/LFI (Local File Inclusion)/5- LFI a RCE.md",
+    "PHP Wrappers.md",
+    "Maquinas/Hack The Box/Linux/Conversor.md",
+    "Pasted image 20251030183722.png",
+    "Pasted image 20251030174534.png",
+    "Pasted image 20251030174419.png",
+    "Pasted image 20251030174112.png",
+    "Pasted image 20251030173352.png",
+    "Maquinas/Hack The Box/Linux/CodePartTwo.md",
+    "Imagenes/Pasted image 20251022074119.png",
+    "Hacking/Herramientas/Linux/git.md",
+    "Hacking/Herramientas/Linux/openssl.md",
     "Hacking/Evasion de Antivirus/SafetyKatz y SharpLoader.md",
     "Hacking/Herramientas/Windows/Rubeus.md",
     "Hacking/Herramientas/Windows/Mimikatz.md",
@@ -256,26 +273,10 @@
     "Hacking/Explotación/Active Directory/Ataques/3- Al conseguir hashes o credenciales/5- Que hacer con credenciales de cualquier usuario.md",
     "Hacking/Explotación/Active Directory/Ataques/3- Al conseguir hashes o credenciales/4-  Spraying.md",
     "Hacking/Explotación/Active Directory/Ataques/3- Al conseguir hashes o credenciales/3- Que hacer con credenciales del administrador de dominio.md",
-    "Hacking/Explotación/Active Directory/Ataques/3- Al conseguir hashes o credenciales/2- Que Hacer con la SAM dumpeada.md",
-    "Hacking/Explotación/Active Directory/Ataques/3- Al conseguir hashes o credenciales/1- Que hacer con los Hashes NTLMv2.md",
-    "Hacking/Explotación/Active Directory/Ataques/2- SMB Relay/3- SMB Relay IPv6 attack.md",
-    "Hacking/Explotación/Active Directory/Ataques/2- SMB Relay/2- SMB Relay Attack Avanzado.md",
-    "Hacking/Explotación/Active Directory/Ataques/2- SMB Relay/1- SMB Relay Attack Simple.md",
-    "Hacking/Explotación/Active Directory/Ataques/1- Enumeracion/4- Enumeración con RPC Client.md",
-    "Hacking/Explotación/Active Directory/Ataques/1- Enumeracion/3- Enumeracion de usuarios validos.md",
-    "Hacking/Explotación/Active Directory/Ataques/1- Enumeracion/2- Enumeración de recursos smb.md",
-    "Hacking/Explotación/Active Directory/Ataques/1- Enumeracion/1- enumeracion de equipos en el Active Directory.md",
-    "Maquinas/Hack The Box/Windows/Voleur.md",
-    "Pasted image 20251025165725.png",
-    "Pasted image 20251025165708.png",
-    "Pasted image 20251025165426.png",
-    "Pasted image 20251025163246.png",
-    "Pasted image 20251025160631.png",
-    "Pasted image 20251025160523.png",
-    "Pasted image 20251025160356.png",
-    "Pasted image 20251025120235.png",
-    "Pasted image 20251025114151.png",
-    "Pasted image 20251024201725.png",
+    "Imagenes/Pasted image 20251025165725.png",
+    "Imagenes/Pasted image 20251025165708.png",
+    "Imagenes/Pasted image 20251025165426.png",
+    "Imagenes/Pasted image 20251025163246.png",
     "Maquinas/Hack The Box/Linux",
     "Hacking/Explotación/Active Directory/Herramientas",
     "Hacking/Explotación/Active Directory/Ataques",
