@@ -2,7 +2,7 @@ A continuación están los comandos necesarios para la sanitización la TTY (arr
 
 - script /dev/null -c bash
 - Ctrl+z: Suspendemos el proceso
-- stty raw -echo; fg
+- stty rawx -echo; fg
 - export TERM=xterm
 - export SHELL=bash
 - reset xterm: Reseteamos la terminal

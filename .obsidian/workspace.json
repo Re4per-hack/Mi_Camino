@@ -81,16 +81,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hacking/Explotación/Hacking Web/LFI (Local File Inclusion)/5- LFI a RCE.md",
+                "file": "Hacking/Herramientas/Linux/mysql.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5- LFI a RCE"
+              "title": "mysql"
+            }
+          },
+          {
+            "id": "a019626cbea3cae8",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Imagenes/Pasted image 20251030173352.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20251030173352"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -132,7 +144,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "wrapper",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -143,8 +155,7 @@
               "title": "Search"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -239,44 +250,44 @@
       "bases:Create new base": false
     }
   },
-  "active": "03ab2586248e806d",
+  "active": "49965c113fffc8d9",
   "lastOpenFiles": [
-    "Hacking/Explotación/Hacking Web/LFI (Local File Inclusion)/4- Relevando codigo fuente usando Wrappers php.md",
-    "Hacking/Explotación/Hacking Web/LFI (Local File Inclusion)/1- Que es una vulnerabilidad LFI.md",
+    "Imagenes/Pasted image 20251106145050.png",
+    "Hacking/Explotación/Hacking Web/Wordpress Hacking/Plugins vulnerables.md",
+    "Imagenes/Pasted image 20251106145034.png",
+    "PHP Wrappers.md",
+    "Hacking/Explotación/Hacking Web/Wordpress Hacking",
+    "Hacking/Explotación/Hacking Web/Wordpre.md",
     "Hacking/Explotación/Hacking Web/LFI (Local File Inclusion)/RCE_usando_PHP_wrappers.md",
+    "Hacking/Explotación/Hacking Web/LFI (Local File Inclusion)/4- Relevando codigo fuente usando Wrappers php.md",
     "Hacking/Explotación/Hacking Web/LFI (Local File Inclusion)/PHP_Wrappers.md",
     "Hacking/Explotación/Hacking Web/LFI (Local File Inclusion)/5- LFI a RCE.md",
-    "PHP Wrappers.md",
+    "Hacking/Herramientas/Linux/openssl.md",
+    "Hacking/Herramientas/Linux/git.md",
+    "Hacking/Explotación/Hacking Web/SQLI (SQL Injection)/Hoja de trucos SQLi.md",
+    "Hacking/post-explotacion/Privilege-escalation/Linux/3. Enumeracion del usuario.md",
+    "Hacking/post-explotacion/Privilege-escalation/Linux/1. Reconocimiento en el sistema.md",
+    "Hacking/post-explotacion/Privilege-escalation/Linux/2. Enumeracion de red.md",
+    "Hacking/post-explotacion/Tratamiento de la TTY.md",
+    "Hacking/Explotación/Hacking Web/Cypher Injection/1- Que es cypher (Neo4j).md",
+    "Hacking/Explotación/Hacking Web/DOTGIT Exposed/Que es una carpeta .git (DOTGIT) y explotación.md",
+    "Hacking/Explotación/Hacking Web/Clickjacking/1. Clickjacking sin protecciones.md",
+    "Untitled.md",
+    "Hacking/Herramientas/Linux/mysql.md",
+    "Hacking/Explotación/Active Directory/Ataques/2- SMB Relay/2- SMB Relay Attack Avanzado.md",
+    "Hacking/Explotación/Hacking wifi/Sacar a todos los dispositivos de la red.md",
+    "Hacking/Explotación/Hacking Web/LFI (Local File Inclusion)/1- Que es una vulnerabilidad LFI.md",
     "Maquinas/Hack The Box/Linux/Conversor.md",
-    "Pasted image 20251030183722.png",
-    "Pasted image 20251030174534.png",
-    "Pasted image 20251030174419.png",
-    "Pasted image 20251030174112.png",
-    "Pasted image 20251030173352.png",
+    "Imagenes/Pasted image 20251030183722.png",
+    "Imagenes/Pasted image 20251030174534.png",
+    "Imagenes/Pasted image 20251030174419.png",
+    "Imagenes/Pasted image 20251030174112.png",
+    "Imagenes/Pasted image 20251030173352.png",
     "Maquinas/Hack The Box/Linux/CodePartTwo.md",
     "Imagenes/Pasted image 20251022074119.png",
-    "Hacking/Herramientas/Linux/git.md",
-    "Hacking/Herramientas/Linux/openssl.md",
     "Hacking/Evasion de Antivirus/SafetyKatz y SharpLoader.md",
-    "Hacking/Herramientas/Windows/Rubeus.md",
-    "Hacking/Herramientas/Windows/Mimikatz.md",
-    "Hacking/Evasion de Antivirus/4- Conexiones remotas sin levantar sospechas.md",
-    "Hacking/Evasion de Antivirus/Anti-Malware Scan Interface (AMSI).md",
-    "Hacking/Evasion de Antivirus/Ejecuciones fileless.md",
-    "Hacking/Evasion de Antivirus/3- Deshabilitar windows defender.md",
-    "Hacking/Evasion de Antivirus/2- Anti-Malware Scan Interface (AMSI).md",
-    "Hacking/Evasion de Antivirus/1- Como funciona un Antivirus.md",
-    "Hacking/Explotación/Active Directory/Ataques/5- Mimikatz/1- Golden Ticket Attack.md",
-    "Hacking/Explotación/Active Directory/Shadow Attack/3- Shadow Credentials Attack.md",
-    "Hacking/Explotación/Active Directory/Shadow Attack/1- Active Directory CS & CA.md",
-    "Ejemplos/Ejemplo busqueda de contraseñas.md",
-    "Hacking/Explotación/Active Directory/Ataques/3- Al conseguir hashes o credenciales/5- Que hacer con credenciales de cualquier usuario.md",
-    "Hacking/Explotación/Active Directory/Ataques/3- Al conseguir hashes o credenciales/4-  Spraying.md",
-    "Hacking/Explotación/Active Directory/Ataques/3- Al conseguir hashes o credenciales/3- Que hacer con credenciales del administrador de dominio.md",
     "Imagenes/Pasted image 20251025165725.png",
     "Imagenes/Pasted image 20251025165708.png",
-    "Imagenes/Pasted image 20251025165426.png",
-    "Imagenes/Pasted image 20251025163246.png",
     "Maquinas/Hack The Box/Linux",
     "Hacking/Explotación/Active Directory/Herramientas",
     "Hacking/Explotación/Active Directory/Ataques",
@@ -285,7 +296,6 @@
     "Untitled",
     "nomina",
     "nomina.cpp",
-    "Errores/Windows",
-    "Maquinas/Hack The Box/Windows"
+    "Errores/Windows"
   ]
 }
