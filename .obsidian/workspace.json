@@ -8,57 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b97b2766ab24f360",
+            "id": "123d6f2c201c0eb3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hacking/Herramientas/Linux/pspy.md",
+                "file": "Hacking/Forense/Discos o Particiones/Listar directorios y archivos sin montar.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "pspy"
+              "title": "Listar directorios y archivos sin montar"
             }
           },
           {
-            "id": "1334f31d3341dc3f",
+            "id": "3d2bd1ea3fff517e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hacking/post-explotacion/Privilege-escalation/Windows/DPAPI & BLOBS.md",
+                "file": "Hacking/Forense/Discos o Particiones/Listar informacion de discos o particiones.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DPAPI & BLOBS"
-            }
-          },
-          {
-            "id": "ffd13e1c0329a7e4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hacking/Explotación/Active Directory/2- SMB Relay/2- SMB Relay Attack Avanzado.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2- SMB Relay Attack Avanzado"
-            }
-          },
-          {
-            "id": "4aaae2e7943485f5",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Imagenes/Pasted image 20250927110844.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250927110844"
+              "title": "Listar informacion de discos o particiones"
             }
           },
           {
@@ -102,9 +76,49 @@
               "icon": "lucide-file",
               "title": "Interactuando con API REST"
             }
+          },
+          {
+            "id": "59efe2030f52de35",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.3"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.3"
+            }
+          },
+          {
+            "id": "346d0413f12194c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hacking/Explotación/Buffer Overflow/4- Como funciona una explotación Buffer Overflow.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "4- Como funciona una explotación Buffer Overflow"
+            }
+          },
+          {
+            "id": "84b88ddad2382558",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hacking/Explotación/Active Directory/Ataques/2- SMB Relay/3- SMB Relay IPv6 attack.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "3- SMB Relay IPv6 attack"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -252,53 +266,53 @@
       "bases:Create new base": false
     }
   },
-  "active": "a019626cbea3cae8",
+  "active": "3d2bd1ea3fff517e",
   "lastOpenFiles": [
-    "Hacking/Tecnologias/Kubernetes/Encontrar credenciales.md",
-    "Hacking/Tecnologias/Kubernetes/Interactuando con API REST.md",
-    "Hacking/Tecnologias/Kubernetes/Kubernetes.md",
-    "Hacking/Tecnologias/PHP-CGI/PHP-CGI Explotacion.md",
-    "Hacking/Tecnologias/PHP-CGI/PHP-CGI (Obsoleto).md",
-    "Imagenes/Pasted image 20251109180926.png",
-    "Imagenes/Pasted image 20251112132943.png",
-    "Imagenes/Pasted image 20251112132855.png",
+    "Hacking/Forense/Discos o Particiones/Listar directorios y archivos sin montar.md",
+    "Hacking/Forense/Discos o Particiones/Listar informacion de discos o particiones.md",
+    "Hacking/Explotación/Active Directory/Ataques/4- Kerberos/2- Realizando un Kerberoasting.md",
+    "Hacking/Explotación/Active Directory/Ataques/4- Kerberos/1- Funcionamiento Kerberos.md",
+    "Hacking/Explotación/Buffer Overflow/2- Como los programas usan la memoria.md",
     "Hacking/Explotación/Buffer Overflow/1- Que es un Buffer OverFlow.md",
     "Hacking/Explotación/Buffer Overflow/3- Introduccion al Stack.md",
-    "Hacking/Explotación/Buffer Overflow/5- DoS con Buffer Overflow.md",
-    "Hacking/Explotación/Buffer Overflow/4- Como funciona una explotación Buffer Overflow.md",
-    "Hacking/Explotación/Buffer Overflow/2- Como los programas usan la memoria.md",
-    "Imagenes/Pasted image 20251110094416.png",
+    "roadmap.png",
+    "Pasted image 20260318102930.png",
+    "Pasted image 20260318103804.png",
+    "Pasted image 20260321165825.png",
+    "cosas para anotar.md",
+    "Redes/Modelo OSI.md",
+    "Hacking/Explotación/Active Directory/Ataques/2- SMB Relay/2- SMB Relay Attack Avanzado.md",
+    "Hacking/Herramientas/Linux/rdesktop (RDP).md",
+    "Hacking/Post-Explotacion/Pivoting/Chisel y socat (Enrutamiento parcial y total).md",
+    "Hacking/Forense/Discos o Particiones",
+    "Hacking/Forense",
+    "Hacking/Explotación/Active Directory/Ataques/1- Enumeracion/5- Enumeración con ldap.md",
+    "Hacking/Explotación/Active Directory/Ataques/3- Al conseguir hashes o credenciales/5- Que hacer con credenciales de cualquier usuario.md",
+    "Informe.md",
+    "README.md",
+    "Pendiente.md",
+    "Errores/Windows/Autenticación.md",
     "Maquinas/Hack The Box/Linux/Giveback.md",
-    "Imagenes/Pasted image 20251109192604.png",
-    "Imagenes/Pasted image 20251109183019.png",
-    "Imagenes/Pasted image 20251109183008.png",
-    "Maquinas/Hack The Box/Linux/Conversor.md",
-    "Imagenes/Pasted image 20251109112746.png",
+    "Hacking/Herramientas/Linux/sed.md",
+    "Hacking/Herramientas/Linux/proxychains.md",
+    "Hacking/Explotación/Active Directory/Ataques/2- SMB Relay/3- SMB Relay IPv6 attack.md",
+    "Información Acortada/Active Directory/3- NTLM Relay Attack IPv6.md",
+    "Hacking/Herramientas/Linux/xfreerdp.md",
+    "Hacking/Herramientas/Linux/remmina.md",
+    "Hacking/Herramientas/Linux/ssh.md",
+    "Imagenes/Buffer_Overflow1.png",
+    "Imagenes/Pasted image 20250927110844.png",
+    "OSINT/Definiendo objetivo/Periodismo",
+    "OSINT/Definiendo objetivo/Investigador",
+    "OSINT/Definiendo objetivo/CyberDefender",
+    "OSINT/Definiendo objetivo",
+    "OSINT",
+    "Imagenes/Pasted image 20260103124230.png",
+    "Imagenes/Buffer_Overflow3.png",
+    "Imagenes/Pasted image 20260103144453.png",
+    "Imagenes/Pasted image 20260103144119.png",
     "Hacking/Tecnologias/PHP-CGI",
-    "Imagenes/Pasted image 20251109173947.png",
-    "Imagenes/Pasted image 20251109173810.png",
-    "Hacking/Explotación/Hacking Web/Wordpress Hacking/Plugins vulnerables.md",
-    "Hacking/Post-Explotacion/Pivoting/Chisel (Enrutamiento parcial y total).md",
     "Hacking/Tecnologias/Kubernetes",
-    "Hacking/Tecnologias",
-    "Hacking/Pivoting",
-    "Hacking/Reverse shell/ReverseShell sin bash.md",
-    "Hacking/Reverse shell/ReverseShell con bash.md",
-    "Hacking/Herramientas/Linux/curl.md",
-    "Hacking/Reverse shell",
-    "Hacking/Untitled.md",
-    "Hacking/Post-Explotacion/Pivoting",
-    "Maquinas/Hack The Box/Linux/CodePartTwo.md",
-    "PHP Wrappers.md",
-    "Hacking/Explotación/Hacking Web/Wordpress Hacking",
-    "Hacking/Explotación/Hacking Web/Wordpre.md",
-    "Hacking/Explotación/Hacking Web/LFI (Local File Inclusion)/RCE_usando_PHP_wrappers.md",
-    "Hacking/Explotación/Hacking Web/LFI (Local File Inclusion)/4- Relevando codigo fuente usando Wrappers php.md",
-    "Hacking/Explotación/Hacking Web/LFI (Local File Inclusion)/PHP_Wrappers.md",
-    "Hacking/Explotación/Hacking Web/LFI (Local File Inclusion)/5- LFI a RCE.md",
-    "Hacking/Herramientas/Linux/openssl.md",
-    "Maquinas/Hack The Box/Linux",
-    "Hacking/Explotación/Active Directory/Herramientas",
-    "Hacking/Explotación/Active Directory/Ataques"
+    "Hacking/Tecnologias"
   ]
 }

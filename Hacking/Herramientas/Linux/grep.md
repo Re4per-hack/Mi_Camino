@@ -165,7 +165,7 @@ grep -rnw / -ie "PASSWORD"
 
 - -r: IMPORTANTE, para que busque dentro de carpetas de forma recursiva
 
-- -n: Para que muestre la linea en la uqe se encuentra esa coincidencia 
+- -n: Para que muestre la linea en la quee se encuentra esa coincidencia 
 
 - -w: Para que solo Matchee con palabras es decir, PASSWORDXD no lo va a agarrar, en cambio PASSWORD si 
 

@@ -33,7 +33,7 @@ int main(int argc, char* argv[])
 
 ```
 
-Explicare este codigo para que sea mucho ams facil de entender:
+Explicare este codigo para que sea mucho mas facil de entender:
 
 1. El codigo llama a la función vuln y le pasa el argumento 1, los argumentos en este contexto son cuando iniciamos un programa desde terminal:
 
@@ -61,3 +61,5 @@ El momento del desbordamiento realmente ocurre cuando usamos la función strcpy(
 
 
 Ahora, a pesar de que ya explique como y porque surge una Denegación de servicio, quiero dejarlo bien claro, y lo explicaré en [5- DoS con Buffer Overflow](5-%20DoS%20con%20Buffer%20Overflow.md)
+
+

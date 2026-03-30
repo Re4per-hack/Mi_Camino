@@ -22,11 +22,19 @@ docker run -d -p 8000:8000 nombre-de-tu-imagen
 docker run -it --entrypoint nombre-de-tu-imagen
 ```
 
-# Ver los contenedores activos 
+# Ver los contenedores activos  (Y sus IDs)
 
 ```ruby
 docker ps
 ```
 
+
+# Meter archivos de la maquina al contenedor 
+
+Esto es necesario ahcerlo **FUERA DEL CONTENEDOR**, tambien tenemos que saber el ID del contenedor que queremos meterle el archivo, despues de eso ejecutar el siguiente comando:
+
+```ruby
+docker cp /archivo/para/mover {ID_CONTENEDOR}:/ruta/destino
+```
 
 
