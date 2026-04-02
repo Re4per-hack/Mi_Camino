@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hacking/Forense/Discos o Particiones/Listar informacion de discos o particiones.md",
+                "file": "Hacking/Herramientas/Linux/subfinder.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Listar informacion de discos o particiones"
+              "title": "subfinder"
             }
           },
           {
@@ -266,10 +266,18 @@
       "bases:Create new base": false
     }
   },
-  "active": "3d2bd1ea3fff517e",
+  "active": "49965c113fffc8d9",
   "lastOpenFiles": [
-    "Hacking/Forense/Discos o Particiones/Listar directorios y archivos sin montar.md",
+    "Hacking/BugBounty/Enumeración/1. Scopes con wildcard.md",
+    "Hacking/Herramientas/Linux/subfinder.md",
+    "Hacking/Malware/Ocultar Malware/En imagenes.md",
+    "Pasted image 20260401070909.png",
     "Hacking/Forense/Discos o Particiones/Listar informacion de discos o particiones.md",
+    "Hacking/Malware/Ocultar Malware",
+    "Hacking/Malware/Esconder malware en imagenes.md",
+    "Hacking/Malware/Evasion",
+    "Hacking/Malware",
+    "Hacking/Forense/Discos o Particiones/Listar directorios y archivos sin montar.md",
     "Hacking/Explotación/Active Directory/Ataques/4- Kerberos/2- Realizando un Kerberoasting.md",
     "Hacking/Explotación/Active Directory/Ataques/4- Kerberos/1- Funcionamiento Kerberos.md",
     "Hacking/Explotación/Buffer Overflow/2- Como los programas usan la memoria.md",
@@ -296,10 +304,6 @@
     "Hacking/Herramientas/Linux/sed.md",
     "Hacking/Herramientas/Linux/proxychains.md",
     "Hacking/Explotación/Active Directory/Ataques/2- SMB Relay/3- SMB Relay IPv6 attack.md",
-    "Información Acortada/Active Directory/3- NTLM Relay Attack IPv6.md",
-    "Hacking/Herramientas/Linux/xfreerdp.md",
-    "Hacking/Herramientas/Linux/remmina.md",
-    "Hacking/Herramientas/Linux/ssh.md",
     "Imagenes/Buffer_Overflow1.png",
     "Imagenes/Pasted image 20250927110844.png",
     "OSINT/Definiendo objetivo/Periodismo",
@@ -309,10 +313,6 @@
     "OSINT",
     "Imagenes/Pasted image 20260103124230.png",
     "Imagenes/Buffer_Overflow3.png",
-    "Imagenes/Pasted image 20260103144453.png",
-    "Imagenes/Pasted image 20260103144119.png",
-    "Hacking/Tecnologias/PHP-CGI",
-    "Hacking/Tecnologias/Kubernetes",
-    "Hacking/Tecnologias"
+    "Imagenes/Pasted image 20260103144453.png"
   ]
 }
