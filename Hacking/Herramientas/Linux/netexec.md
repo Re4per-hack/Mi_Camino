@@ -49,7 +49,13 @@ La opción `-L`  es la que se encarga de listar los diferentes modulos, ahora ve
 sudo netexec mssql 10.10.11.12 -u 'kevin' -p 'pasas' -M mssql_priv
 ```
 
+
 ![[Pasted image 20260411165602.png]]
+
+Podemos ver que el usuario tiene permisos para impersonar (hacerse pasar) a el usuario appdev.
+
+
+
 
 
 

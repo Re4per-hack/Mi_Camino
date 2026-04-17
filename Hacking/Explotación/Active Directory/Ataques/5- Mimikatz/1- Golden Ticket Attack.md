@@ -47,7 +47,7 @@ Ahora tenemos dos opciones:
 Para esto vamos a crear un archivo golden.kirbi, luego, este lo vamos a injectar en la memoria, permitiendo que cuando esta maquina solicite un recurso privilegiado se envie el Golden ticket, permitiendo así el acceso:
 
 ```Python
-kerberos::golden /domain:\[Dominio] /sid:\[SID del usuario krbtgt] /rc4:\[Hash NT] /user:Administrador /ticket:golden.kirbi
+kerberos::golden /domain:[Dominio] /sid:[SID del usuario krbtgt] /rc4:\[Hash NT] /user:Administrador /ticket:golden.kirbi
 ```
 
 Ahora tenemos que mover este golden.kirbi a la maquina desde la cual queramos tener privilegios elevados, o lo que conoceremos como PTT (Pass-The-Ticket)

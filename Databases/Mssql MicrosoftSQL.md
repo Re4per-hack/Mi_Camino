@@ -35,14 +35,45 @@ Bases de datos por defecto:
 
 Con impacket-mssql:
 
-```shell
+```ruby
 (mssql)> enum_logins
 ```
 
 o, con syntaxis mysql:
 
-```
-(mssql)> 
+```ruby
+(mssql)> SELECT name, type_desc, is_disabled FROM sys.server_principals WHERE type_desc IN ('SQL_LOGIN', 'WINDOWS_LOGIN');
 ```
 
 # Mirar usuarios de base de datos (Database Principals)
+
+con impacket-mssql:
+
+```ruby
+(mssql)> enum_users
+```
+
+o, con syntaxis-mssql:
+
+```ruby
+SELECT name FROM sys.database_principals WHERE type_desc IN ('SQL_USER', 'WINDOWS_USER');
+```
+
+
+# Ejecutar comandos como otro usuario (si tenemos permisos impersonate)
+
+
+con impacket-mssql:
+
+```ruby
+(mssql)> exec_as_login {usuario_para_hacerse_pasar}
+```
+
+o, con syntaxis-mssql:
+
+```ruby
+execute as login = 'appdev'
+```
+
+
+
