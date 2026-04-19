@@ -20,8 +20,10 @@ Para una mayor explicación revisar [[Ejecuciones fileless]]
 Ahora ejecutaremos el siguiente comando
 
 ```python
-Invoke-BloodHound -CollectionMethod All
+Invoke-BloodHound -CollectionMethod All -OutputDirectory C:\Users\adam.scott\Documents\
 ```
+
+![[Pasted image 20260416204415.png]]
 
 Esto nos deberia dejar un archivo .zip en el directorio actual, nos lo moveremos a nuestra maquina de atacantes y se lo pasaremos a BloodHound
 

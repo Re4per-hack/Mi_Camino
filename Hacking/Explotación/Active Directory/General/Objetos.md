@@ -1,1 +1,0 @@
-Los objetos en AD se refiere a cualquier cosa en el dominio, como, un usuario, un grupo, un equipo, etc, cada objeto puede tener diferentes atributos, hay muchos muy interesantes

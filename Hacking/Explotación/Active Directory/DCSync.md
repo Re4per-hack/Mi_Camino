@@ -26,3 +26,12 @@ Podemos usar el ataque de diferentes formas:
 impacket-secretsdump '{DOMINIO}/{USUARIO_ADMIN}:{CONTRASEÑ}'@10.10.11.70
 ```
 
+
+# Conseguir DCsync  hacia un dominio B siendo admin de dominio A
+
+
+Para este caso somos administradores en el dominio hijo *north.kingdoms.local*, pero queremos hacer un DCsync a el dominio padre, para esto hay varios ataques que podemos usar:
+
+## SID Spoofing 
+
+
