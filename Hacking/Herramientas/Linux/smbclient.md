@@ -12,8 +12,14 @@ smbclient -L {IP_DC} -N
 ```python
 smbclient -L {IP_DC} -U [DOMINIO]/[USUARIO]%[CONTRASEÑA]
 ```
+# Conectarse a un recurso compartido
 
+```python
+smbclient  //{IP_DC}/{SHARENAME} -U [DOMINIO]/[USUARIO]%[CONTRASEÑA]
+```
 ### Autenticación con kerberos
+
+
 
 
 

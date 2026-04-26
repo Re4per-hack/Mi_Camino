@@ -41,3 +41,6 @@ ssh {USUARIO}@IP {COMANDO}
 ```shell
 ssh -L [PUERTO_LOCAL]:[DESTINO_REMOTO]:[PUERTO_DESTINO] usuario@maquina_intermedia
 ```
+
+## Pasar Archivos 
+

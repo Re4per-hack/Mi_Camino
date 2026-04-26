@@ -108,5 +108,3 @@ Antes
 ![[Pasted image 20260318103804.png]]
 
 
-
-
