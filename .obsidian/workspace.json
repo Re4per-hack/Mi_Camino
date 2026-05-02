@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hacking/Herramientas/Linux/ldapsearch.md",
+                "file": "Hacking/Herramientas/Linux/smbmap.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ldapsearch"
+              "title": "smbmap"
             }
           },
           {
@@ -170,7 +170,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ldapsea",
+                "query": "smbmap",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -181,7 +181,8 @@
               "title": "Search"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -278,21 +279,27 @@
   },
   "active": "a019626cbea3cae8",
   "lastOpenFiles": [
+    "Información Acortada/Active Directory/2- NTLM Relay Attack IPv4.md",
+    "Hacking/Explotación/Active Directory/Ataques/SMB Relay/1- SMB Relay Attack Simple.md",
+    "Hacking/Herramientas/Linux/smbclient.md",
+    "Hacking/Herramientas/Linux/smbmap.md",
+    "Hacking/Explotación/Active Directory/Ataques/SMB Relay/2- SMB Relay Attack Avanzado.md",
+    "Información Acortada/Active Directory/1- Captura de Hashes Net-NTLMv2 IPv4.md",
     "Hacking/Metodologia/Check lists/Checklist Windows Enum.md",
+    "Hacking/Metodologia/Check lists/Checklist Priv-Esc Linux.md",
+    "Hacking/Metodologia/File uploads checklist.md",
+    "Hacking/Post-Explotacion/Privilege-escalation/Linux/Explotación/Explotando visualizacion de archivos privilegiados con sudo.md",
+    "Hacking/Post-Explotacion/Privilege-escalation/Linux/Explotación/Explotacion abusando de la variable de entorno LD_PRELOAD.md",
     "Hacking/Herramientas/Linux/ldapsearch.md",
     "Hacking/Explotación/Active Directory/Ataques/Enumeracion/4- Enumeración con RPC Client.md",
     "Hacking/Explotación/Active Directory/Ataques/Kerberos/3- Realizando un AS-REP Roasting.md",
-    "Hacking/Metodologia/Check lists/Checklist Priv-Esc Linux.md",
     "Hacking/Metodologia/Metodologia.md",
     "Hacking/Metodologia/Check lists",
-    "Hacking/Metodologia/File uploads checklist.md",
     "Hacking/Metodologia/Input Checklist/Se refleja (XSS, SSTI).md",
     "Hacking/Metodologia/Input Checklist/Se envian datos en XML (XXE).md",
     "Hacking/Metodologia/Input Checklist/Login (SQLI).md",
     "Hacking/Metodologia/Input Checklist/Formularios (XSS + Python).md",
     "Hacking/Metodologia/Input Checklist/Descargas de archivos (Path traversal).md",
-    "Hacking/Herramientas/Linux/smbclient.md",
-    "Hacking/Herramientas/Linux/smbmap.md",
     "Imagenes/Pasted image 20260419115246.png",
     "Imagenes/Pasted image 20260425213435.png",
     "Maquinas/Hack The Box/Linux/Giveback.md",
@@ -302,12 +309,6 @@
     "Hacking/Post-Explotacion/Pivoting/Chisel y socat (Enrutamiento parcial y total).md",
     "Hacking/Evasion de Antivirus/1- Como funciona un Antivirus.md",
     "Hacking/Herramientas/Linux/ssh.md",
-    "Hacking/Crakeo/Hashes/Crear hash NTLMv1.md",
-    "Hacking/Crakeo/Hashes/Hashes Salted.md",
-    "Hacking/Explotación/Active Directory/Ataques/Kerberos/1- Funcionamiento Kerberos.md",
-    "Hacking/Explotación/Active Directory/Bloodhound/1- Instalación y uso/3- Recoleccion de informacion.md",
-    "Hacking/Post-Explotacion/Privilege-escalation/Linux/2. Enumeracion de red.md",
-    "Hacking/Post-Explotacion/Privilege-escalation/Linux/3. Enumeracion del usuario.md",
     "Defensa/Wordpress",
     "Defensa",
     "Imagenes/Pasted image 20260419130611.png",

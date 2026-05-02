@@ -30,3 +30,14 @@ rpcclient -U "" {IP_DC} -N
 ```python
 ldapsearch -h {DOMINIO} -x -s base namingcontexts
 ```
+
+### Enumerar recursos SMB
+
+```python
+smbmap -H {IP_DC} -u 'cualquiercosa'
+```
+
+```python
+smbmap -H {IP_DC} -u 'cualquiercosa' -r 'recurso'
+```
+
