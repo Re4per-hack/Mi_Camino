@@ -8,127 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "123d6f2c201c0eb3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hacking/Forense/Discos o Particiones/Listar directorios y archivos sin montar.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Listar directorios y archivos sin montar"
-            }
-          },
-          {
-            "id": "3d2bd1ea3fff517e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
-            "id": "eb1797d4a9bb2cfa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lenguajes/Python/Programación/Uso de with.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Uso de with"
-            }
-          },
-          {
-            "id": "e73482901dcdb770",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hacking/Explotación/Active Directory/SID Spoofing.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "SID Spoofing"
-            }
-          },
-          {
-            "id": "03ab2586248e806d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hacking/Herramientas/Linux/mysql.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "mysql"
-            }
-          },
-          {
             "id": "a019626cbea3cae8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hacking/Herramientas/Linux/smbmap.md",
+                "file": "Hacking/Herramientas/Windows/Rubeus.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "smbmap"
-            }
-          },
-          {
-            "id": "59efe2030f52de35",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.10.3"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.10.3"
-            }
-          },
-          {
-            "id": "346d0413f12194c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hacking/Explotación/Buffer Overflow/4- Como funciona una explotación Buffer Overflow.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "4- Como funciona una explotación Buffer Overflow"
-            }
-          },
-          {
-            "id": "84b88ddad2382558",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Rubeus"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -170,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "smbmap",
+                "query": "rubeus",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -279,49 +172,49 @@
   },
   "active": "a019626cbea3cae8",
   "lastOpenFiles": [
-    "Información Acortada/Active Directory/2- NTLM Relay Attack IPv4.md",
-    "Hacking/Explotación/Active Directory/Ataques/SMB Relay/1- SMB Relay Attack Simple.md",
-    "Hacking/Herramientas/Linux/smbclient.md",
-    "Hacking/Herramientas/Linux/smbmap.md",
-    "Hacking/Explotación/Active Directory/Ataques/SMB Relay/2- SMB Relay Attack Avanzado.md",
-    "Información Acortada/Active Directory/1- Captura de Hashes Net-NTLMv2 IPv4.md",
-    "Hacking/Metodologia/Check lists/Checklist Windows Enum.md",
-    "Hacking/Metodologia/Check lists/Checklist Priv-Esc Linux.md",
-    "Hacking/Metodologia/File uploads checklist.md",
-    "Hacking/Post-Explotacion/Privilege-escalation/Linux/Explotación/Explotando visualizacion de archivos privilegiados con sudo.md",
-    "Hacking/Post-Explotacion/Privilege-escalation/Linux/Explotación/Explotacion abusando de la variable de entorno LD_PRELOAD.md",
+    "Errores/Windows/Autenticación.md",
+    "Hacking/Herramientas/Windows/Rubeus.md",
+    "Hacking/Herramientas/Linux/Impacket-ticketConverter.md",
+    "Hacking/Herramientas/Linux/Impacket-psexec.md",
     "Hacking/Herramientas/Linux/ldapsearch.md",
-    "Hacking/Explotación/Active Directory/Ataques/Enumeracion/4- Enumeración con RPC Client.md",
-    "Hacking/Explotación/Active Directory/Ataques/Kerberos/3- Realizando un AS-REP Roasting.md",
-    "Hacking/Metodologia/Metodologia.md",
+    "Hacking/Herramientas/Linux/kerbrute.md",
+    "Hacking/Herramientas/Linux/John The Ripper.md",
+    "Hacking/Herramientas/Linux/Impacket-getST.md",
+    "Hacking/Herramientas/Linux/hashid.md",
+    "Imagenes/Pasted image 20260510143020.png",
+    "Imagenes/Pasted image 20260512081056.png",
+    "Hacking/Explotación/Active Directory/S4U2Self y S4U2Proxy.md",
+    "Hacking/Explotación/Active Directory/Delegation Attacks.md",
+    "Hacking/Explotación/Active Directory/DCSync.md",
+    "Imagenes/Pasted image 20260512081051.png",
+    "Hacking/Explotación/Active Directory/BadSuccesor.md",
+    "Imagenes/Pasted image 20260510172521.png",
+    "README.md",
+    "Hacking/Herramientas/Windows/PowerMad.md",
+    "Hacking/Herramientas/Windows/PowerView.md",
+    "Hacking/Herramientas/Windows/Mimikatz.md",
+    "Hacking/Herramientas/Windows/Invoke-Expression (IEX).md",
+    "Hacking/Explotación/Buffer Overflow/4- Como funciona una explotación Buffer Overflow.md",
+    "Hacking/Forense/Discos o Particiones/Listar directorios y archivos sin montar.md",
+    "Hacking/Explotación/Active Directory/SID Spoofing.md",
+    "Hacking/Explotación/Active Directory/Bloodhound/1- Instalación y uso/3- Recoleccion de informacion.md",
+    "Hacking/Explotación/Active Directory/Bloodhound/1- Instalación y uso/2- Inicio y uso de bloodhound.md",
+    "Hacking/Explotación/Active Directory/Bloodhound/1- Instalación y uso/1- Instalación de bloodhound.md",
+    "Hacking/Post-Explotacion/Privilege-escalation/Windows/DPAPI & BLOBS.md",
+    "Hacking/Explotación/Active Directory/Ataques/SMB Relay/3- SMB Relay IPv6 attack.md",
     "Hacking/Metodologia/Check lists",
-    "Hacking/Metodologia/Input Checklist/Se refleja (XSS, SSTI).md",
-    "Hacking/Metodologia/Input Checklist/Se envian datos en XML (XXE).md",
-    "Hacking/Metodologia/Input Checklist/Login (SQLI).md",
-    "Hacking/Metodologia/Input Checklist/Formularios (XSS + Python).md",
-    "Hacking/Metodologia/Input Checklist/Descargas de archivos (Path traversal).md",
     "Imagenes/Pasted image 20260419115246.png",
     "Imagenes/Pasted image 20260425213435.png",
-    "Maquinas/Hack The Box/Linux/Giveback.md",
-    "Hacking/Explotación/Hacking Web/LFI (Local File Inclusion)/3- Filtros contra Path-Traversal.md",
-    "Hacking/Herramientas/Linux/Firefox.md",
     "Imagenes/Pasted image 20260425213903.png",
-    "Hacking/Post-Explotacion/Pivoting/Chisel y socat (Enrutamiento parcial y total).md",
-    "Hacking/Evasion de Antivirus/1- Como funciona un Antivirus.md",
-    "Hacking/Herramientas/Linux/ssh.md",
     "Defensa/Wordpress",
     "Defensa",
     "Imagenes/Pasted image 20260419130611.png",
     "Imagenes/Pasted image 20260411165322.png",
     "Imagenes/Pasted image 20260417081521.png",
     "Errores/Bloodhound",
-    "Imagenes/Pasted image 20260416204415.png",
     "Hacking/Explotación/Active Directory/Ataques/Untitled/Untitled",
     "Hacking/Explotación/Active Directory/Relations Explotacion",
     "Lenguajes/Python/Proyectos",
-    "Imagenes/Pasted image 20260411165602.png",
-    "Imagenes/Pasted image 20260411165325.png",
-    "Imagenes/Notsorted/Pasted image 20250423105234.png",
     "Databases/Untitled",
     "Databases",
     "Hacking/Explotación/Hacking Web/XXE (XML External  Entity)/Entidad externa para leer archivos"

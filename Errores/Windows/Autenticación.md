@@ -1,5 +1,15 @@
 # Kerberos
 
+#### STATUS_MORE_PROCESSING_REQUIRED
+
+Error: \[-\] SMB SessionError: code: 0xc0000016 - STATUS_MORE_PROCESSING_REQUIRED - {Still Busy} The specified I/O request packet (IRP) cannot be disposed of because the I/O operation is not complete.
+
+```ruby
+timedatectl set-ntp off  
+rdate -n <IP_DC>
+```
+
+
 #### KRB_AP_ERR_SKEW
 
 Error: \[\-\] Got error while trying to request TGT: Kerberos SessionError: KRB_AP_ERR_SKEW(Clock skew too great)
@@ -46,4 +56,4 @@ Para arreglar el problema crear un archivo con el siguiente contenido :
 ```
 
 
-
+msDS-AllowedAoActABehalfOfOtherIdentity 

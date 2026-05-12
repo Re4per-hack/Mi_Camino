@@ -1,4 +1,19 @@
 
+
+# Explotación
+
+Este ataque se puede explotar dentro de una maquina windows del propio dominio:
+### Explotar S4U2Self y S4U2Proxy con Rubeus.exe:
+
+- [[Rubeus#Explotación de S4U2Self y S4U2Proxy]]
+
+
+O, alternativamente desde Linux:
+
+### Explotar S4U2Self y S4U2Proxy con getST.py (de impacket):
+
+- [[Impacket-getST#Explotar S4U2Self y S4U2Proxy]]
+
 # S4U2Self
 
 El ataque **S4U2Self** (Service-for-User-to-Self) no es un ataque en sí mismo, sino una extensión del protocolo Kerberos que, cuando se abusa, permite a un atacante obtener un TGS (Ticket Granting Service) para un usuario arbitrario hacia un servicio que el atacante controla.
@@ -44,3 +59,7 @@ Para que esto funcione, el servicio solicitante (llamémoslo **Servicio A**) ya 
     
 
 ---
+
+
+
+
