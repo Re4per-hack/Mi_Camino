@@ -32,6 +32,9 @@ impacket-secretsdump '{DOMINIO}/{USUARIO_ADMIN}:{CONTRASEÑ}'@10.10.11.70
 
 Para este caso somos administradores en el dominio hijo *north.kingdoms.local*, pero queremos hacer un DCsync a el dominio padre, para esto hay varios ataques que podemos usar:
 
-## SID Spoofing 
+## SID Spoofing
+
+
+
 
 

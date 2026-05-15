@@ -46,17 +46,16 @@ Es la segunda parte de la extensión **S4U** (Service-for-User) y es la que real
 Para que esto funcione, el servicio solicitante (llamémoslo **Servicio A**) ya debe tener en su poder un ticket de servicio ($ST$) de un usuario (ej. **Admin**) hacia sí mismo.
 
 1. **La Petición:** El **Servicio A** envía una solicitud `TGS_REQ` al KDC.
-    
+
 2. **La "Prueba":** En esa solicitud, incluye el ticket del **Admin** que obtuvo previamente (normalmente vía **S4U2Self**). Este ticket actúa como "evidencia" de autenticación.
-    
+
 3. **La Validación:** El KDC verifica dos cosas:
-    
-    - Que el ticket presentado sea **Forwardable** (reenviable).
-        
-    - Que el **Servicio A** tenga permisos de delegación hacia el **Servicio B** (el objetivo final).
-        
+
+- Que el ticket presentado sea **Forwardable** (reenviable).
+
+	- Que el **Servicio A** tenga permisos de delegación hacia el **Servicio B** (el objetivo final).
+
 4. **La Entrega:** Si todo es correcto, el KDC responde con un nuevo ticket de servicio ($ST$) que permite al **Servicio A** acceder al **Servicio B** con la identidad y privilegios del **Admin**.
-    
 
 ---
 
