@@ -4,7 +4,7 @@
 #### Extraer puertos nmap
 
 ```shell
-
+for 
 ```
 
 # Busqueda hosts

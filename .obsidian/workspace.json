@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hacking/OneLiners/Linux/Enumeración.md",
+                "file": "Hacking/Crakeo/Archivos kbdx.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Enumeración"
+              "title": "Archivos kbdx"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "net",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -171,35 +171,37 @@
   },
   "active": "a019626cbea3cae8",
   "lastOpenFiles": [
-    "Hacking/Herramientas/Windows/net.md",
-    "Hacking/OneLiners/Linux/Enumeración.md",
+    "Hacking/Crakeo/ssh2john.md",
+    "Hacking/Crakeo/Archivo aes.md",
+    "Hacking/Crakeo/Archivos kbdx.md",
+    "Hacking/Crakeo/Hashes/Hashes Salted.md",
+    "Hacking/Crakeo/Hashes/Crear hash NTLMv1.md",
+    "Hacking/Herramientas/Linux/ssh2jhon.md",
+    "Hacking/Herramientas/Linux/aws.md",
+    "Hacking/Herramientas/Linux/awk.md",
+    "Hacking/Herramientas/Linux/7z.md",
+    "Hacking/Cloud Hacking/AWS/S3 - Contenedor de archivos.md",
+    "Hacking/Cloud Hacking/AWS/Configurar Keys.md",
+    "Sistemas Operativos/Linux/Permisos en Linux.md",
+    "Sistemas Operativos/Linux/3- Expresiones regulares.md",
+    "Sistemas Operativos/Linux/2- Manejo de texto.md",
+    "Sistemas Operativos/Linux/1- Permisos en Linux.md",
+    "Lenguajes/Bash/1- Variables.md",
+    "Maquinas/Hack The Box/Linux/TwoMillion.md",
+    "Maquinas/Hack The Box/Linux/Giveback.md",
+    "Maquinas/Hack The Box/Linux/CodePartTwo.md",
+    "Maquinas/Hack The Box/Linux/Conversor.md",
+    "Hacking/Explotación/Active Directory/BadSuccesor.md",
+    "Hacking/Explotación/Active Directory/DCSync.md",
+    "Hacking/Explotación/Active Directory/Delegation Attacks.md",
+    "Hacking/Evasion de Firewalls/Untitled.md",
+    "Hacking/Evasion de Antivirus/SafetyKatz y SharpLoader.md",
+    "Hacking/Evasion de Antivirus/Ejecuciones fileless.md",
+    "Hacking/Cloud Hacking/AWS",
+    "Hacking/Cloud Hacking",
     "Hacking/OneLiners/Windows",
     "Hacking/OneLiners/Linux",
     "Hacking/OneLiners",
-    "Hacking/Explotación/Active Directory/Ataques/Archivo SCF Malicioso/1- Obtener el NTLMv2 del usuario Administrador.md",
-    "Hacking/Herramientas/Linux/smbserver.md",
-    "Hacking/Explotación/Active Directory/Control de objetos/Desde Linux/Cambiar contraseña de un usuario.md",
-    "Hacking/Explotación/Active Directory/Ataques/SMB Relay/3- SMB Relay IPv6 attack.md",
-    "Hacking/Explotación/Active Directory/Bloodhound/1- Instalación y uso/3- Recoleccion de informacion.md",
-    "Hacking/Explotación/Hacking Web/API Testing/2. SSPP alterando comportamiento de API interna.md",
-    "Hacking/Herramientas/Linux/netexec.md",
-    "Hacking/Post-Explotacion/Privilege-escalation/Linux/2. Enumeracion de red.md",
-    "Errores/Windows/Autenticación.md",
-    "Hacking/Explotación/Active Directory/Shadow Attack/3- Shadow Credentials Attack.md",
-    "Hacking/Explotación/Active Directory/Shadow Attack/1- Active Directory CS & CA.md",
-    "Hacking/Explotación/Active Directory/Shadow Attack/2- PKINIT (Public Key Cryptography for Initial Authentication in Kerberos).md",
-    "Hacking/Explotación/Active Directory/BadSuccesor.md",
-    "Hacking/Explotación/Active Directory/DCSync.md",
-    "Hacking/Explotación/Active Directory/S4U2Self y S4U2Proxy.md",
-    "Hacking/Herramientas/Linux/smbmap.md",
-    "Hacking/Herramientas/Linux/smbclient.md",
-    "Hacking/Explotación/Active Directory/Delegation Attacks.md",
-    "Hacking/Herramientas/Windows/Rubeus.md",
-    "Hacking/Herramientas/Linux/Impacket-ticketConverter.md",
-    "Hacking/Herramientas/Linux/Impacket-psexec.md",
-    "Hacking/Herramientas/Linux/ldapsearch.md",
-    "Hacking/Herramientas/Linux/kerbrute.md",
-    "Hacking/Herramientas/Linux/John The Ripper.md",
     "Imagenes/Pasted image 20260510143020.png",
     "Imagenes/Pasted image 20260512081056.png",
     "Imagenes/Pasted image 20260512081051.png",
@@ -214,8 +216,6 @@
     "Imagenes/Pasted image 20260411165322.png",
     "Imagenes/Pasted image 20260417081521.png",
     "Errores/Bloodhound",
-    "Hacking/Explotación/Active Directory/Ataques/Untitled/Untitled",
-    "Hacking/Explotación/Active Directory/Relations Explotacion",
-    "Lenguajes/Python/Proyectos"
+    "Hacking/Explotación/Active Directory/Ataques/Untitled/Untitled"
   ]
 }
