@@ -4,3 +4,4 @@ Cuando creamos pares de llaves de ssh (privada/publicas), podemos proteger cada 
 python3 ssh2john.py {llave privada} 
 ```
 
+![[Pasted image 20260524190919.png]]

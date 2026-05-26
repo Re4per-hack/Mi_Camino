@@ -1,4 +1,5 @@
 
+- [ ] Checkear si es un docker
 - [ ] Instalamos Chisel e iniciamos la configuración
 - [ ] Vemos los grupos a los que pertenecemos (id)
 - [ ] Buscamos los archivos que podemos ejecutar como root (sudo -l)
