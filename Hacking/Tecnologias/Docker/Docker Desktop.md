@@ -7,9 +7,17 @@ Cuando usamos docker en windows, ya sea usando la GUI o CLI los contenedores cor
 #### Obtener archivos internos del host
 
 ```python
-/home/tuusuario/proyectos/miapp ← dentro de WSL /mnt/c/Users/tuusuario/miapp ← es tu C:\
+/home/tuusuario/proyectos/miapp ← dentro de WSL 
+
+/mnt/c/Users/tuusuario/miapp ← es tu C:\
+
+o Tambien:
+
+/mnt/host/c/Users/tuusuario/miapp ← es tu C:\
 ```
 
 #### Docker Desktop API interaction CVE-2025-9074
+
+
 
 
