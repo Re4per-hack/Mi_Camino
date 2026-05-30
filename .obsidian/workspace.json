@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hacking/Explotación/Active Directory/Ataques/Al conseguir hashes o credenciales/5- Que hacer con credenciales de cualquier usuario.md",
+                "file": "Hacking/Herramientas/Linux/ldapsearch.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5- Que hacer con credenciales de cualquier usuario"
+              "title": "ldapsearch"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "evil-win",
+                "query": "ldapsearch",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -79,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 399.5
   },
   "right": {
     "id": "64d18d6a79dabac7",
@@ -172,17 +172,34 @@
   },
   "active": "a019626cbea3cae8",
   "lastOpenFiles": [
-    "Maquinas/Hack The Box/Windows/Forest.md",
+    "Hacking/Metodologia/Check lists/Checklist Active Directory.md",
+    "Hacking/Herramientas/Linux/ldapsearch.md",
+    "Hacking/Herramientas/Linux/ffuf.md",
+    "Lenguajes/Bash/1- Variables.md",
+    "Lenguajes/Bash/2- Condicionales.md",
+    "Lenguajes/Bash/4- Argumentos.md",
+    "Databases/Mssql MicrosoftSQL.md",
+    "Hacking/Metodologia/Check lists/Checklist LFI o Path Traversal.md",
+    "().md",
+    "Hacking/Metodologia/Check lists/Checklist Escape de contenedores.md",
+    "Hacking/Herramientas/Linux/smbclient.md",
+    "Hacking/Metodologia/File uploads checklist.md",
+    "Hacking/Metodologia/Check lists/Check list Hacking Web.md",
+    "Hacking/Post-Explotacion/Privilege-escalation/Linux/Explotación/Explotación de permisos sudo de un usuario.md",
+    "Hacking/Metodologia/Metodologia.md",
+    "Hacking/Metodologia/Input Checklist/Se refleja (XSS, SSTI).md",
+    "Hacking/Metodologia/Input Checklist/Descargas de archivos (Path traversal).md",
+    "Hacking/Metodologia/Input Checklist/Se envian datos en XML (XXE).md",
+    "Hacking/Metodologia/Input Checklist/Login (SQLI).md",
+    "Hacking/Metodologia/Input Checklist/Formularios (XSS + Python).md",
+    "Hacking/Explotación/Hacking Web/LFI (Local File Inclusion)/RCE_usando_PHP_wrappers.md",
+    "Hacking/Explotación/Hacking Web/LFI (Local File Inclusion)/PHP_Wrappers.md",
+    "Hacking/Explotación/Hacking Web/LFI (Local File Inclusion)/5- LFI a RCE.md",
+    "Hacking/Explotación/Hacking Web/LFI (Local File Inclusion)/4- Relevando codigo fuente usando Wrappers php.md",
+    "Hacking/Explotación/Hacking Web/LFI (Local File Inclusion)/Hoja de funciones LFI.md",
+    "Hacking/Explotación/Hacking Web/LFI (Local File Inclusion)/Rutas_para_LFI.md",
+    "Pasted image 20260529095355.png",
     "Imagenes/Pasted image 20260524190900.png",
-    "Hacking/Herramientas/Linux/smbmap.md",
-    "Hacking/Tecnologias/Docker/Docker API Interactions.md",
-    "Hacking/Tecnologias/Docker/Docker Command Line.md",
-    "Hacking/Herramientas/Linux/Docker.md",
-    "Hacking/Tecnologias/Docker/Docker Desktop.md",
-    "Hacking/Tecnologias/WSL2/WSL2.md",
-    "Maquinas/Hack The Box/Windows/Voleur.md",
-    "Maquinas/Hack The Box/Linux/Giveback.md",
-    "Hacking/Post-Explotacion/Pivoting/Chisel y socat (Enrutamiento parcial y total).md",
     "Imagenes/Pasted image 20260525231149.png",
     "Imagenes/Pasted image 20260525223306.png",
     "Imagenes/Pasted image 20260525223052.png",
@@ -191,24 +208,8 @@
     "Imagenes/Pasted image 20260525172103.png",
     "Imagenes/Pasted image 20260525165305.png",
     "Imagenes/Pasted image 20260525123452.png",
-    "Hacking/Herramientas/Linux/Firefox.md",
     "Hacking/Tecnologias/WSL2",
-    "Hacking/Tecnologias/Kubernetes/Kubernetes.md",
     "Hacking/Tecnologias/Docker",
-    "Hacking/Tecnologias/Docker.md",
-    "Hacking/Tecnologias/Kubernetes/Interactuando con API REST.md",
-    "Hacking/Tecnologias/Kubernetes/Encontrar credenciales.md",
-    "Hacking/Metodologia/Check lists/Checklist Priv-Esc Linux.md",
-    "Hacking/Post-Explotacion/Privilege-escalation/Linux/3. Enumeracion del usuario.md",
-    "Hacking/Post-Explotacion/Privilege-escalation/Linux/1. Reconocimiento en el sistema.md",
-    "Hacking/Post-Explotacion/Privilege-escalation/Linux/2. Enumeracion de red.md",
-    "Hacking/Metodologia/File uploads checklist.md",
-    "Hacking/Metodologia/Check lists/Checklist Windows Enum.md",
-    "Hacking/Reverse shell/Reverse shell ruby.md",
-    "Hacking/Reverse shell/ReverseShell sin bash.md",
-    "Hacking/Reverse shell/ReverseShell con bash.md",
-    "Recursos/Wordlist/Paginas utiles.md",
-    "Imagenes/Pasted image 20260524190919.png",
     "Hacking/Cloud Hacking/AWS",
     "Hacking/Cloud Hacking",
     "Hacking/OneLiners/Windows",

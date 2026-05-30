@@ -38,7 +38,7 @@ smbmap -H {IP_DC} -u '{USUARIO}' -p '{CONTRASEÑA}' --download '{PATH}'
 Como dije antes esta o es la mejor opcion pero por cualquier documentaré el uso por aquí 
 
 ```python
-smbmap -L {IP_DC} -N
+smbclient -L {IP_DC} -N
 ```
 
 ### Autenticación con smbclient

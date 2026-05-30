@@ -1,9 +1,9 @@
 
-# Enumeración 
+# Null Session 
 
 
 ```python
-ldapsearch -h {DOMINIO} -x -x base namingcontexts 
+ldapsearch -H ldap://{DOMINIO} -x  base namingcontexts 
 ```
 
 
@@ -20,3 +20,9 @@ ldapsearch -h {DOMINIO} -x -x base namingcontexts
 
 
 
+#  Enumerar password in attributes (Info, Description, Comment)
+
+
+```python
+sudo ldapsearch -H ldap://10.129.51.75 -D '{User}@{Domain}'-w '{PASSWORD}' -b "DC=support,DC=htb" | grep -E "info|description|comment"
+```
