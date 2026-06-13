@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hacking/Herramientas/Linux/subfinder.md",
+                "file": "Hacking/Explotación/Hacking Web/JWT token.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "subfinder"
+              "title": "JWT token"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "jwt",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -74,7 +74,8 @@
               "title": "Search"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -171,6 +172,22 @@
   },
   "active": "a019626cbea3cae8",
   "lastOpenFiles": [
+    "Hacking/Herramientas/Linux/jwt_tool.md",
+    "Hacking/Explotación/Hacking Web/JWT token.md",
+    "Hacking/Explotación/Hacking Web/JWT Attacks (JSON Web Token)/1. El servidor no comprueba la firma.md",
+    "Hacking/Explotación/Hacking Web/JWT Attacks (JSON Web Token)/2. El servidor admite none en alg.md",
+    "Hacking/Explotación/Hacking Web/JWT Attacks (JSON Web Token)/3. Crakeo y firma de JWT's.md",
+    "Hacking/Explotación/Hacking Web/JWT Attacks (JSON Web Token)/5. Parametro jku admitido.md",
+    "Hacking/Explotación/Hacking Web/JWT Attacks (JSON Web Token)/4. Parametro jwk admitido.md",
+    "Hacking/Explotación/Hacking Web/API Testing/5. Asignación masiva vulnerable.md",
+    "Hacking/Explotación/Hacking Web/API Testing/6. SSPP en una RESP API.md",
+    "Hacking/Explotación/Hacking Web/API Testing/1. Busqueda de documentación de una API.md",
+    "Hacking/Explotación/Hacking Web/DOTGIT Exposed/Que es una carpeta .git (DOTGIT) y explotación.md",
+    "Hacking/Explotación/Hacking Web/HTTP Smuggling/Que es y en qué consiste HTTP Smuggling.md",
+    "Hacking/Herramientas/Linux/sed.md",
+    "Hacking/Herramientas/Linux/subfinder.md",
+    "Screenshot 2026-05-28 at 12.53.35 PM.png",
+    "Hacking/Explotación/Active Directory/robar Hashes NTLM.md",
     "Pasted image 20260529095355.png",
     "PHP Wrappers.md",
     "Maquinas/Hack The Box/Windows/Forest.md",
@@ -188,31 +205,15 @@
     "Imagenes/Pasted image 20260525172103.png",
     "Imagenes/Pasted image 20260525165305.png",
     "Imagenes/Pasted image 20260525123452.png",
-    "Imagenes/Pasted image 20260524190919.png",
-    "Imagenes/Pasted image 20260524190900.png",
     "Hacking/Tecnologias/WSL2/WSL2.md",
     "Hacking/Tecnologias/WSL2",
     "Hacking/Tecnologias/Docker/Docker Desktop.md",
     "Hacking/Tecnologias/Docker/Docker Command Line.md",
     "Hacking/Tecnologias/Docker/Docker API Interactions.md",
     "Hacking/Tecnologias/Docker",
-    "Hacking/Reverse shell/Reverse shell ruby.md",
-    "Hacking/Metodologia/Check lists/Checklist LFI o Path Traversal.md",
-    "Hacking/Metodologia/Check lists/Checklist Escape de contenedores.md",
-    "Hacking/Metodologia/Check lists/Checklist Active Directory.md",
-    "Hacking/Metodologia/Check lists/Check list Hacking Web.md",
-    "Hacking/Herramientas/Linux/ssh2jhon.md",
-    "Hacking/Herramientas/Linux/aws.md",
-    "Hacking/Crakeo/ssh2john.md",
-    "Hacking/Cloud Hacking/AWS/S3 - Contenedor de archivos.md",
-    "Hacking/Cloud Hacking/AWS/Configurar Keys.md",
     "Hacking/Cloud Hacking/AWS",
     "Hacking/Cloud Hacking",
-    "Hacking/Explotación/Active Directory/Ataques/Archivo SCF Malicioso/1- Obtener el NTLMv2 del usuario Administrador.md",
     "Hacking/Explotación/Active Directory/Ataques/Archivo SCF Malicioso",
-    "Hacking/Herramientas/Linux/smbclient.md",
-    "Hacking/Herramientas/Linux/Firefox.md",
-    "Maquinas/Hack The Box/Linux/Giveback.md",
     "Hacking/OneLiners/Windows",
     "Hacking/OneLiners/Linux",
     "Hacking/OneLiners",
