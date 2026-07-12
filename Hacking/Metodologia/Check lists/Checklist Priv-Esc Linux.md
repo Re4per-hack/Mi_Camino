@@ -1,7 +1,7 @@
 
-- [ ] Checkear si es un docker
-- [ ] Instalamos Chisel e iniciamos la configuración
-- [ ] Vemos los grupos a los que pertenecemos (id)
+- [x] Checkear si es un docker
+- [x] Instalamos Chisel e iniciamos la configuración
+- [x] Vemos los grupos a los que pertenecemos (id)
 ### Si pertenecemos a algun grupo
 
 ```ruby
@@ -12,8 +12,8 @@ find / -group users 2>/dev/null | grep -v proc | grep -v sys
 find / -group users -writable 2>/dev/null | grep -v proc | grep -v sys
 ```
 
-- [ ] Buscamos los archivos que podemos ejecutar como root (sudo -l)
-- [ ] Miramos la versión del kernel
+- [x] Buscamos los archivos que podemos ejecutar como root (sudo -l)
+- [x] Miramos la versión del kernel
 - [ ] Miramos los servicios que están corriendo internamente  (netstat [[2. Enumeracion de red]])
 - [ ] Buscamos SUIDs (find [[3. Enumeracion del usuario]])
 - [ ] Usar pspy
