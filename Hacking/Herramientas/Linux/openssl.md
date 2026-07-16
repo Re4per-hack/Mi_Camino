@@ -37,7 +37,7 @@ openssl pkcs12 -in archivo.pfx -out todo.pem -nodes
 ### Extraer solo la clave privada:
 
 ```bash
-openssl pkcs12 -in archivo.pfx -nocerts -out clave.pem -nodes
+openssl pkcs12 -in archivo.pfx -nocerts -out clave.key -nodes
 ```
 
 #### Extraer solo el certificado (sin la clave):

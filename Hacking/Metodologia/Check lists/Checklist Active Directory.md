@@ -1,10 +1,11 @@
 
 # Sin Credenciales
 
+
 ### Buscar  SMB Null Session
 
 ```python
-netexec smb {IP}
+netexec smb {IP} --shares
 ```
 
 ### RPC client Null session
