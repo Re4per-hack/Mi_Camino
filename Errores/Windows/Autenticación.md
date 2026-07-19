@@ -5,8 +5,8 @@
 Error: \[-\] SMB SessionError: code: 0xc0000016 - STATUS_MORE_PROCESSING_REQUIRED - {Still Busy} The specified I/O request packet (IRP) cannot be disposed of because the I/O operation is not complete.
 
 ```ruby
-timedatectl set-ntp off  
-rdate -n <IP_DC>
+sudo timedatectl set-ntp off  
+sudo rdate -n 
 ```
 
 

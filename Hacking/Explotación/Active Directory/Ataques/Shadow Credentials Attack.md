@@ -1,6 +1,13 @@
+
+## Descripción
+
 El Ataque Shadow Credentials Attack ocurre como una metodología de persistencia, o (como lo veremos en este caso), obtención de acceso.
 
 Cada objeto en AD (Active directory), tiene diferentes atributos, entre ellos hay uno llamado msDS-KeyCredentialLink, almacena diferentes claves publicas para la autenticación, un mismo objeto puede almacenar varias claves publicas al mismo tiempo, cada una de estas claves publicas tiene su respectiva clave privada la cual está siendo guardada en cada dispositivo de los que pueden tener acceso a el objeto. 
+
+------
+
+## Requisitos
 
 Para poder realizar el ataque hay que cumplirse ciertos requisitos:
 
@@ -16,15 +23,28 @@ Para poder realizar el ataque hay que cumplirse ciertos requisitos:
 
 - Tener privilegios GenericWrite o la opcion de editar el atributo msDS-KeyCredentialLink sobre la cuenta objetivo.
 
-
+-------
 
 # Explotacion
 
 ### Method for Exploitation
 
-los atacantes puede modificar el atributo  **msDS-KeyCredentialLink** inyectando una calve publica maliciosa en la cuenta del usuario. Una de las mayores causas de **Shadow Credentials attack** es la posibilidad de edicion del atributo  **msDS-KeyCredentialLink**, lo que permite al atacante inyectar una clave publica maliciosa para su posterior autenticacion.  
+Los atacantes puede modificar el atributo  **msDS-KeyCredentialLink** inyectando una calve publica maliciosa en la cuenta del usuario. Una de las mayores causas de **Shadow Credentials attack** es la posibilidad de edicion del atributo  **msDS-KeyCredentialLink**, lo que permite al atacante inyectar una clave publica maliciosa para su posterior autenticacion.  
 
-#### PyWhisker
+## Certipy-ad (Automatico)
+
+As an alternative, [**Certipy**](https://github.com/ly4k/Certipy) can automate these steps in a single command, streamlining the exploitation process.
+
+Certipy’s shadow command has an auto action, which will add a new Key Credential to the target account, authenticate with the Key Credential to retrieve the NT hash and a TGT for the target, and finally restore the old Key Credential attribute.
+
+```ruby
+certipy-ad shadow auto -u krishna@ignite.local -p Password@1 -account dc$
+```
+
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEit3TZGvCE9qFoUPERC8UusyDnJRw8VtW2KsJePGhSrk9qeN6jRCj0rskkpXWoOsbxMn1W9HivtGKDz1Gj5qwqXms0y_VBLE49dqBj6i4O8_CKa3x53sHs4xBjfuABsubI94ffHVzVQLF9aezz0jo2wis8zeCUfzFZqUVZJH33gbYquUEwxfXRE6JaaKptC/s16000/20.png)
+
+
+### PyWhisker (MANUAL)
 
 Desde sistemas de tipo UNIX, el atributo  **msDS-KeyCredentialLink** de un usuario puede ser manipulado usando la herramienta [**pyWhisker**](https://github.com/ShutdownRepo/pywhisker).
 
@@ -104,21 +124,6 @@ python getnthash.py -key 86b989daa8099f4f9f04f14be14b33556f043c56b48b4d3c36ef030
 ```
 
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhC5IGw_0A70sqHG8_Y2x2cYo7KamewlOrIS1DslfnQS9xl8_mTwHDOlQlaYXxMIkRh2YfPkIun22X2iqzvJJM4gd9D2EpXKr2AqAVKLrpxOsexhywlq4Zx7K6b7ABEgXSoYkC2I8NhqaZ0XXtyIMpOqQFVwPgZD6bWqEUUVjAe3Ghc7rj19EGTpR2yDWjU/s16000/12.png)
-
-#### Certipy-ad
-
-As an alternative, [**Certipy**](https://github.com/ly4k/Certipy) can automate these steps in a single command, streamlining the exploitation process.
-
-Certipy’s shadow command has an auto action, which will add a new Key Credential to the target account, authenticate with the Key Credential to retrieve the NT hash and a TGT for the target, and finally restore the old Key Credential attribute.
-
-```ruby
-certipy-ad shadow auto -u krishna@ignite.local -p Password@1 -account dc$
-```
-
-![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEit3TZGvCE9qFoUPERC8UusyDnJRw8VtW2KsJePGhSrk9qeN6jRCj0rskkpXWoOsbxMn1W9HivtGKDz1Gj5qwqXms0y_VBLE49dqBj6i4O8_CKa3x53sHs4xBjfuABsubI94ffHVzVQLF9aezz0jo2wis8zeCUfzFZqUVZJH33gbYquUEwxfXRE6JaaKptC/s16000/20.png)
-
-
-
 
 
 

@@ -3,21 +3,18 @@ PKINIT no es mas que una pequeña extension para el servicio de kerberos, la cua
 
 Lo único que cambia PKINIT con respecto a la autenticación Kerberos de toda la vida, es la autenticación inicial, es decir, en donde se usa la contraseña, ya que con PKINIT, la autenticacion sigue el siguiente protocolo: 
 
-
 1. **AS-REQ with PKINIT:** The client sends a request to the KDC, including a timestamp signed with the client’s private key and the corresponding public key.
 
 2. **Public Key Validation:** The KDC checks the client’s public key against the **msDS-KeyCredentialLink** attribute in Active Directory. Means, instead of directly using the certificate for authentication, the KDC is validating if any of the public keys in the **msDS-KeyCredentialLink** attribute of the user matches the one used in the AS-REQ. If the key is valid, the KDC decrypts the timestamp and verifies the signature.
 
-
 3. **AS-REP:** If validation is successful, the KDC issues a TGT to the client.
-
 
 PKINIT tiene dos formas diferentes de funcionar, dependiendo de si se usa el atributo msDS-KeyCredentialLink o no, en caso de que sea usado el proceso es igual a como se presentó arriba, en caso de que no sea así, la autenticación varia un poco
 
 
-## 🧩 Fases del proceso PKINIT
+##  Fases del proceso PKINIT
 
-### 🔐 1. El cliente genera el AS-REQ con PKINIT
+###  1. El cliente genera el AS-REQ con PKINIT
 
 En lugar de enviar un AS-REQ clásico basado en una clave derivada de la contraseña del usuario, el cliente:
 
