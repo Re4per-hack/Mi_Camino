@@ -15,4 +15,7 @@ curl --path-as-is {URL}
 ```
 
 
+## Subir archivos con curl / Indicar archivos con curl
+
+
 

@@ -10,3 +10,15 @@ Ahora hay restablecer los archivos usando el siguiente comando ():
 sudo git restore . 
 ```
 
+##  IMPORTANTE: Si no funciona es recomendable usar:
+
+```python
+pip install git-dumper
+git-dumper http://updown.htb/dev/.git/ ./updown-repo
+
+
+## En caso de un error 
+git status
+```
+
+

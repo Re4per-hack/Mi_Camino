@@ -3,7 +3,7 @@ pspy es una herramienta que (al igual que el comando ps) nos permite ver proceso
 
 https://github.com/DominicBreuker/pspy
 
-Solo lo tienes que [[Compilar]] usando Go
+Solo lo tienes que [[Compilar o ejecutar archivos]] usando Go
 
 
 ahora solo tienes que ejecutarlo:

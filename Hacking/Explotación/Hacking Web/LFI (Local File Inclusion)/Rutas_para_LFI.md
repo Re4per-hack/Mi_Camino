@@ -1,3 +1,0 @@
-- /var/lib/php/sessions/sess_{codigo phpssid}
-- /var/log/apache2/acces.log
-- /etc/php/{version}/apache2/php.ini

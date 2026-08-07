@@ -1,7 +1,6 @@
 
 # Sin Credenciales
 
-
 ### Buscar  SMB Null Session
 
 ```python
