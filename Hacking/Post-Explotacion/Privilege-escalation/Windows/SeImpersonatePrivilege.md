@@ -17,6 +17,13 @@ Para explotar esto usaremos , pero tenemos que saber cual es el binario Potato q
 
 ***Toda la informacion de los potatoes (Juicy, Hoten, Rotten, etc):*** https://jlajara.gitlab.io/Potatoes_Windows_Privesc#juicyPotato
 
+
+
+# Godpotato
+
+
+
+
 # JuicyPotato
 
 - ***x64 Arquitectura:*** https://github.com/ohpe/juicy-potato/releases/tag/v0.1

