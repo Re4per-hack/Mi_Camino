@@ -1,4 +1,38 @@
-### [Puertos abiertos](https://hacktricks.wiki/es/windows-hardening/windows-local-privilege-escalation/index.html?highlight=windows%20local%20priv#puertos-abiertos)
+
+
+# Windows Registers
+#### VNC
+
+```ruby
+reg query "HKCU\Software\ORL\WinVNC3\Password"
+```
+
+#### Windows autologin
+
+```ruby
+reg query "HKLM\SOFTWARE\Microsoft\Windows NT\Currentversion\Winlogon"
+```
+
+#### SNMP Paramters
+
+```ruby
+reg query "HKLM\SYSTEM\Current\ControlSet\Services\SNMP"
+```
+
+#### Putty
+
+```ruby
+reg query "HKCU\Software\SimonTatham\PuTTY\Sessions"
+```
+
+#### Search for password in registry
+
+```ruby
+reg query HKLM /f password /t REG_SZ /s
+reg query HKCU /f password /t REG_SZ /s
+```
+
+# [Puertos abiertos](https://hacktricks.wiki/es/windows-hardening/windows-local-privilege-escalation/index.html?highlight=windows%20local%20priv#puertos-abiertos)
 
 Comprueba los **restricted services** desde el exterior
 

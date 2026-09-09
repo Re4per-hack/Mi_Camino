@@ -54,7 +54,17 @@ sudo netexec mssql 10.10.11.12 -u 'kevin' -p 'pasas' -M mssql_priv
 
 Podemos ver que el usuario tiene permisos para impersonar (hacerse pasar) a el usuario appdev.
 
+# Probar credenciales reutilizadas 
 
+```ruby
+sudo netexec smb {IP} -u usuarios.txt -p {PASSWORD} --continue-on-success
+```
+
+# Crear/Generar archivo krb5.conf
+
+```python
+sudo netexec smb 10.10.11.12 -u 'kevin' -p 'pasas' --generate-krb5-file sequel.conf
+```
 
 
 

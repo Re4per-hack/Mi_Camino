@@ -1,4 +1,17 @@
 
+# Microsoft SQL
+
+Información general [[Mssql MicrosoftSQL]]
+
+### Ejecución de comandos
+
+Para esto podemos usar xp_cmdshell (Permiso RARO)
+
+```ruby
+xp_cmdshell whoami
+```
+
+
 # Sin Credenciales
 
 ### Buscar  SMB Null Session
@@ -36,6 +49,10 @@ smbmap -H {IP_DC} -u 'cualquiercosa' -r 'recurso'
 
 
 # Con Credenciales
+
+### Service Accounts
+
+***svc_sql***: Buscar credenciales en registros de errores de SQL `C:\Program Files\Microsoft SQL Server\MSSQL<NN>.<INSTANCIA>\MSSQL\`.
 
 ### Credenciales reutilizadas
 
